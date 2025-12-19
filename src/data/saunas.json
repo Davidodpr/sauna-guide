@@ -1,0 +1,37 @@
+{
+  "saunas": [
+    {
+      "id": "loyly-helsinki",
+      "name": "Löyly",
+      "location": {
+        "city": "Helsinki",
+        "country": "Finland",
+        "coordinates": { "lat": 60.1539, "lng": 24.9156 }
+      },
+      "type": "public",
+      "features": ["traditional", "smoke sauna", "sea swimming", "restaurant"],
+      "priceRange": "$$",
+      "website": "https://www.loylyhelsinki.fi",
+      "description": "Iconic Helsinki public sauna with stunning architecture and Baltic Sea views. Features both traditional and smoke saunas.",
+      "images": ["loyly-1.jpg"],
+      "rating": 4.8
+    },
+    {
+      "id": "allas-sea-pool",
+      "name": "Allas Sea Pool",
+      "location": {
+        "city": "Helsinki",
+        "country": "Finland",
+        "coordinates": { "lat": 60.1675, "lng": 24.9575 }
+      },
+      "type": "public",
+      "features": ["traditional", "sea pool", "cold plunge", "rooftop"],
+      "priceRange": "$$",
+      "website": "https://www.allasseapool.fi",
+      "description": "Urban oasis in Helsinki's harbor featuring saunas, heated sea pool, and cold plunge options year-round.",
+      "images": ["allas-1.jpg"],
+      "rating": 4.6
+    }
+  ],
+  "lastUpdated": "2024-01-01"
+}

@@ -1,0 +1,655 @@
+{
+  "weekOf": "2024-12-19",
+  "weekEnd": "2024-12-25",
+  "phase": "foundation",
+  "urgency": "CRITICAL - Peak Season Week",
+  "context": "This is the most important week of the year for sauna content. Winter search volume 50% higher, holiday gift-buying peaks Dec 24, and New Year resolution planning begins.",
+
+  "topThreePriorities": [
+    {
+      "rank": 1,
+      "priority": "Launch 30-Day Sauna Challenge Landing Page",
+      "why": "Capture New Year resolution traffic - signups for Jan 1 start must happen NOW",
+      "deadline": "Dec 21 (Saturday)",
+      "successMetric": "100 email signups by Dec 25",
+      "owner": "content-writer + growth-hacker"
+    },
+    {
+      "rank": 2,
+      "priority": "Publish Sauna Blanket Gift Guide",
+      "why": "33K monthly searches, trending +350%, last-minute gift buyers shopping through Dec 24",
+      "deadline": "Dec 20 (Friday) - URGENT",
+      "successMetric": "Rank page 1 for 'sauna blanket gift'",
+      "owner": "seo-strategist + content-writer"
+    },
+    {
+      "rank": 3,
+      "priority": "Contrast Therapy Protocol Article",
+      "why": "280% trending, Huberman effect, viral TikTok topic - positions us as authority",
+      "deadline": "Dec 22 (Sunday)",
+      "successMetric": "500 organic visits in first week",
+      "owner": "content-writer + image-creator"
+    }
+  ],
+
+  "goals": {
+    "subscribers": {
+      "start": 0,
+      "target": 100,
+      "stretch": 200,
+      "note": "Aggressive but achievable with 30-day challenge + gift guide combo"
+    },
+    "content": {
+      "articles": 3,
+      "landingPages": 1,
+      "newsletterEditions": 1,
+      "targets": [
+        "Sauna Blanket Gift Guide (Dec 20)",
+        "Contrast Therapy Protocol (Dec 22)",
+        "Sauna Benefits Ultimate Guide (Dec 24)",
+        "30-Day Challenge Landing Page (Dec 21)"
+      ]
+    },
+    "social": {
+      "tiktokVideos": 4,
+      "redditPosts": 10,
+      "redditComments": 30,
+      "note": "Focus on contrast therapy clips and helpful Reddit comments"
+    }
+  },
+
+  "dailyBreakdown": {
+    "thursday_dec19": {
+      "theme": "Research & Foundation Day",
+      "criticalTasks": [
+        {
+          "task": "Finalize keyword targets for all 3 articles",
+          "agent": "seo-strategist",
+          "output": "src/data/seo-strategy.json",
+          "timeEstimate": "2 hours"
+        },
+        {
+          "task": "Create content briefs for all 3 articles",
+          "agent": "content-writer",
+          "output": "src/data/content-briefs.json",
+          "timeEstimate": "2 hours"
+        },
+        {
+          "task": "Draft 30-Day Sauna Challenge structure and email sequence outline",
+          "agent": "newsletter-strategist",
+          "output": "src/data/challenge-plan.json",
+          "timeEstimate": "3 hours"
+        }
+      ],
+      "founderTasks": [
+        "Confirm Beehiiv account is set up and API keys configured",
+        "Review and approve challenge structure",
+        "Set up Google Analytics and Search Console if not done"
+      ]
+    },
+    "friday_dec20": {
+      "theme": "Sauna Blanket Gift Guide PUBLISH DAY",
+      "criticalTasks": [
+        {
+          "task": "Write complete Sauna Blanket Gift Guide (2000+ words)",
+          "agent": "content-writer",
+          "output": "src/content/guides/sauna-blanket-gift-guide.mdx",
+          "timeEstimate": "4 hours",
+          "priority": "CRITICAL"
+        },
+        {
+          "task": "Create 3 image prompts for gift guide",
+          "agent": "image-creator",
+          "output": "src/data/image-prompts.json",
+          "timeEstimate": "1 hour"
+        },
+        {
+          "task": "Optimize page SEO and add structured data",
+          "agent": "seo-strategist",
+          "timeEstimate": "1 hour"
+        },
+        {
+          "task": "Create social share assets",
+          "agent": "social-manager",
+          "timeEstimate": "1 hour"
+        }
+      ],
+      "founderTasks": [
+        "Review and publish gift guide article",
+        "Share to personal social accounts",
+        "Submit to Google Search Console for indexing"
+      ]
+    },
+    "saturday_dec21": {
+      "theme": "30-Day Challenge Launch",
+      "criticalTasks": [
+        {
+          "task": "Build 30-Day Challenge landing page",
+          "agent": "growth-hacker",
+          "output": "src/app/challenge/page.tsx",
+          "timeEstimate": "3 hours"
+        },
+        {
+          "task": "Write challenge welcome email sequence (5 emails)",
+          "agent": "newsletter-strategist",
+          "output": "src/data/challenge-emails.json",
+          "timeEstimate": "3 hours"
+        },
+        {
+          "task": "Create challenge social promotion content",
+          "agent": "social-manager",
+          "output": "src/data/social-calendar.json",
+          "timeEstimate": "2 hours"
+        },
+        {
+          "task": "Reddit value bombing - post helpful sauna tips in relevant subreddits",
+          "agent": "reddit-scout",
+          "timeEstimate": "1 hour"
+        }
+      ],
+      "founderTasks": [
+        "Set up Beehiiv automation for challenge sequence",
+        "Test signup flow end-to-end",
+        "Post challenge announcement to personal Reddit account"
+      ]
+    },
+    "sunday_dec22": {
+      "theme": "Contrast Therapy Content Day",
+      "criticalTasks": [
+        {
+          "task": "Write Contrast Therapy Protocol guide (2500+ words)",
+          "agent": "content-writer",
+          "output": "src/content/guides/contrast-therapy-protocol.mdx",
+          "timeEstimate": "5 hours"
+        },
+        {
+          "task": "Create Huberman/Attia protocol infographic prompts",
+          "agent": "image-creator",
+          "timeEstimate": "2 hours"
+        },
+        {
+          "task": "Draft TikTok script for contrast therapy explainer",
+          "agent": "social-manager",
+          "timeEstimate": "1 hour"
+        }
+      ],
+      "founderTasks": [
+        "Review and publish contrast therapy article",
+        "Record TikTok video if possible (huge opportunity)"
+      ]
+    },
+    "monday_dec23": {
+      "theme": "Benefits Guide + Social Push",
+      "criticalTasks": [
+        {
+          "task": "Write Sauna Benefits Ultimate Guide (3000+ words) - target 90.5K/mo keyword",
+          "agent": "content-writer",
+          "output": "src/content/guides/sauna-benefits.mdx",
+          "timeEstimate": "6 hours"
+        },
+        {
+          "task": "Create social content blitz for Christmas Eve",
+          "agent": "social-manager",
+          "timeEstimate": "2 hours"
+        },
+        {
+          "task": "Reddit engagement - answer questions, provide value",
+          "agent": "reddit-scout",
+          "timeEstimate": "1 hour"
+        }
+      ],
+      "founderTasks": [
+        "Engage with any comments/questions on published content",
+        "Prepare Christmas newsletter if sending"
+      ]
+    },
+    "tuesday_dec24": {
+      "theme": "Christmas Eve - Light Touch Day",
+      "criticalTasks": [
+        {
+          "task": "Publish Sauna Benefits guide",
+          "agent": "seo-strategist",
+          "timeEstimate": "1 hour"
+        },
+        {
+          "task": "Schedule social posts for Dec 25-26",
+          "agent": "social-manager",
+          "timeEstimate": "1 hour"
+        },
+        {
+          "task": "Send 'Last chance' email for 30-day challenge early bird",
+          "agent": "newsletter-strategist",
+          "timeEstimate": "30 min"
+        }
+      ],
+      "founderTasks": [
+        "Review week metrics",
+        "Enjoy Christmas Eve - content is scheduled"
+      ]
+    },
+    "wednesday_dec25": {
+      "theme": "Christmas Day - Automated Only",
+      "criticalTasks": [
+        {
+          "task": "Pre-scheduled social posts go live",
+          "agent": "social-manager",
+          "status": "automated"
+        }
+      ],
+      "founderTasks": [
+        "Day off - enjoy Christmas",
+        "Check metrics briefly if curious"
+      ],
+      "note": "All content should be pre-scheduled. This is a rest day."
+    }
+  },
+
+  "agentTasks": [
+    {
+      "id": "seo-001",
+      "agent": "seo-strategist",
+      "task": "Create comprehensive keyword strategy for all 3 articles plus challenge page",
+      "priority": 1,
+      "dueBy": "Thursday Dec 19",
+      "status": "pending",
+      "output": "src/data/seo-strategy.json",
+      "details": {
+        "articles": [
+          { "topic": "sauna blanket gift guide", "primaryKW": "sauna blanket gift", "volume": "2.4K" },
+          { "topic": "contrast therapy protocol", "primaryKW": "contrast therapy", "volume": "8.1K" },
+          { "topic": "sauna benefits", "primaryKW": "sauna benefits", "volume": "90.5K" }
+        ]
+      }
+    },
+    {
+      "id": "cw-001",
+      "agent": "content-writer",
+      "task": "Write Sauna Blanket Gift Guide - 2000+ words, affiliate-ready",
+      "priority": 1,
+      "dueBy": "Friday Dec 20 EOD",
+      "status": "pending",
+      "output": "src/content/guides/sauna-blanket-gift-guide.mdx",
+      "requirements": [
+        "Target keyword: sauna blanket gift",
+        "Include top 5 sauna blanket recommendations",
+        "Price comparison table",
+        "Pros/cons for each",
+        "Newsletter CTA at end",
+        "FAQ section for featured snippets"
+      ]
+    },
+    {
+      "id": "cw-002",
+      "agent": "content-writer",
+      "task": "Write Contrast Therapy Protocol Guide - 2500+ words",
+      "priority": 2,
+      "dueBy": "Sunday Dec 22 EOD",
+      "status": "pending",
+      "output": "src/content/guides/contrast-therapy-protocol.mdx",
+      "requirements": [
+        "Huberman Lab protocol breakdown",
+        "Andrew Attia recommendations",
+        "Beginner-friendly progression",
+        "Safety warnings",
+        "Scientific citations",
+        "Newsletter CTA"
+      ]
+    },
+    {
+      "id": "cw-003",
+      "agent": "content-writer",
+      "task": "Write Sauna Benefits Ultimate Guide - 3000+ words cornerstone content",
+      "priority": 3,
+      "dueBy": "Monday Dec 23 EOD",
+      "status": "pending",
+      "output": "src/content/guides/sauna-benefits.mdx",
+      "requirements": [
+        "Target: 'sauna benefits' (90.5K/mo)",
+        "Comprehensive benefit categories",
+        "Scientific backing for each claim",
+        "Comparison chart by sauna type",
+        "Internal links to other guides",
+        "Strong newsletter CTA"
+      ]
+    },
+    {
+      "id": "gh-001",
+      "agent": "growth-hacker",
+      "task": "Build 30-Day Sauna Challenge landing page and signup flow",
+      "priority": 1,
+      "dueBy": "Saturday Dec 21 EOD",
+      "status": "pending",
+      "output": "src/app/challenge/page.tsx",
+      "requirements": [
+        "Compelling headline and value prop",
+        "Day-by-day challenge preview",
+        "Beehiiv signup form integration",
+        "Social proof section (add as we get signups)",
+        "Urgency: 'Starts Jan 1' countdown",
+        "Mobile-optimized"
+      ]
+    },
+    {
+      "id": "ns-001",
+      "agent": "newsletter-strategist",
+      "task": "Create 30-Day Challenge email sequence and structure",
+      "priority": 1,
+      "dueBy": "Saturday Dec 21 EOD",
+      "status": "pending",
+      "output": "src/data/challenge-plan.json",
+      "requirements": [
+        "30 daily emails with progressive difficulty",
+        "Week 1: Foundation (basic sauna sessions)",
+        "Week 2: Technique (breathing, temperature)",
+        "Week 3: Enhancement (cold plunge, contrast)",
+        "Week 4: Lifestyle integration",
+        "Bonus content for completion"
+      ]
+    },
+    {
+      "id": "ic-001",
+      "agent": "image-creator",
+      "task": "Create NanoBanana prompts for all content pieces",
+      "priority": 2,
+      "dueBy": "Friday Dec 20",
+      "status": "pending",
+      "output": "src/data/image-prompts.json",
+      "requirements": [
+        "Gift guide hero image",
+        "Sauna blanket product-style images",
+        "Contrast therapy infographic",
+        "Benefits guide hero",
+        "Challenge landing page hero"
+      ]
+    },
+    {
+      "id": "sm-001",
+      "agent": "social-manager",
+      "task": "Create full week social content calendar",
+      "priority": 2,
+      "dueBy": "Friday Dec 20",
+      "status": "pending",
+      "output": "src/data/social-calendar.json",
+      "requirements": [
+        "4 TikTok video concepts",
+        "Daily Instagram/Twitter posts",
+        "Challenge promotion content",
+        "Christmas-themed sauna content",
+        "New Year preview posts"
+      ]
+    },
+    {
+      "id": "rs-001",
+      "agent": "reddit-scout",
+      "task": "Daily Reddit value bombing - 30 min/day",
+      "priority": 3,
+      "dueBy": "Daily",
+      "status": "ongoing",
+      "output": "src/data/reddit-insights.json",
+      "subreddits": [
+        "r/Sauna",
+        "r/BecomingTheIceman",
+        "r/Biohackers",
+        "r/coldshowers",
+        "r/hubermanlab"
+      ],
+      "approach": "Provide genuine value first, subtle mention of guide only when truly helpful"
+    },
+    {
+      "id": "ta-001",
+      "agent": "trend-analyst",
+      "task": "Monitor trends for rapid response opportunities",
+      "priority": 3,
+      "dueBy": "Ongoing",
+      "status": "ongoing",
+      "output": "src/data/trend-report.json",
+      "watchItems": [
+        "Celebrity sauna mentions",
+        "Viral sauna TikToks",
+        "Health podcast episodes on sauna",
+        "News about sauna studies"
+      ]
+    }
+  ],
+
+  "founderTasks": [
+    {
+      "id": "f-001",
+      "task": "Verify Beehiiv setup is complete with API integration",
+      "priority": 1,
+      "dueBy": "Thursday Dec 19",
+      "context": "Challenge signups cannot work without this. Check .env has BEEHIIV_API_KEY and BEEHIIV_PUBLICATION_ID",
+      "timeEstimate": "30 min"
+    },
+    {
+      "id": "f-002",
+      "task": "Set up Google Analytics 4 and Search Console",
+      "priority": 1,
+      "dueBy": "Thursday Dec 19",
+      "context": "Need tracking before we publish content to measure success",
+      "timeEstimate": "1 hour"
+    },
+    {
+      "id": "f-003",
+      "task": "Review and approve 30-Day Challenge structure",
+      "priority": 1,
+      "dueBy": "Friday Dec 20",
+      "context": "Newsletter strategist will prepare plan - you need to approve before we build landing page",
+      "timeEstimate": "30 min"
+    },
+    {
+      "id": "f-004",
+      "task": "Final review and publish gift guide article",
+      "priority": 1,
+      "dueBy": "Friday Dec 20 EOD",
+      "context": "Time-sensitive for holiday shoppers. Quick review, then publish.",
+      "timeEstimate": "30 min"
+    },
+    {
+      "id": "f-005",
+      "task": "Decision: Will you record TikTok videos?",
+      "priority": 2,
+      "dueBy": "Friday Dec 20",
+      "context": "Contrast therapy is viral on TikTok (50M+ views). Personal videos perform 10x better than generic content. This could be a growth accelerator.",
+      "options": [
+        "Yes - record 1-2 min explainer videos",
+        "No - focus on written content only",
+        "Maybe later - revisit in January"
+      ]
+    },
+    {
+      "id": "f-006",
+      "task": "Test challenge signup flow end-to-end",
+      "priority": 1,
+      "dueBy": "Saturday Dec 21",
+      "context": "Sign up yourself, verify email arrives, check automation triggers",
+      "timeEstimate": "15 min"
+    },
+    {
+      "id": "f-007",
+      "task": "Post challenge announcement to Reddit (personal account)",
+      "priority": 2,
+      "dueBy": "Saturday Dec 21",
+      "context": "r/Sauna allows self-promotion if you're an active community member. Frame as 'free challenge I'm running' not 'sign up for my newsletter'",
+      "timeEstimate": "20 min"
+    },
+    {
+      "id": "f-008",
+      "task": "Share gift guide to personal social networks",
+      "priority": 2,
+      "dueBy": "Friday Dec 20",
+      "context": "First content needs initial boost. Personal shares drive early traffic and social signals.",
+      "timeEstimate": "15 min"
+    }
+  ],
+
+  "contentCalendar": {
+    "week1": [
+      {
+        "date": "2024-12-20",
+        "type": "article",
+        "title": "The Ultimate Sauna Blanket Gift Guide 2024",
+        "status": "scheduled",
+        "primaryKeyword": "sauna blanket gift",
+        "targetWordCount": 2000,
+        "newsletterCTA": true
+      },
+      {
+        "date": "2024-12-21",
+        "type": "landing-page",
+        "title": "30-Day Sauna Challenge - Transform Your Health in 2025",
+        "status": "scheduled",
+        "goal": "email-signups"
+      },
+      {
+        "date": "2024-12-22",
+        "type": "article",
+        "title": "The Complete Contrast Therapy Protocol: Sauna + Cold Plunge Guide",
+        "status": "scheduled",
+        "primaryKeyword": "contrast therapy protocol",
+        "targetWordCount": 2500,
+        "newsletterCTA": true
+      },
+      {
+        "date": "2024-12-23",
+        "type": "article",
+        "title": "21 Science-Backed Sauna Benefits (Complete Guide)",
+        "status": "scheduled",
+        "primaryKeyword": "sauna benefits",
+        "targetWordCount": 3000,
+        "newsletterCTA": true
+      }
+    ]
+  },
+
+  "kpis": {
+    "primary": [
+      {
+        "metric": "Newsletter Signups",
+        "target": 100,
+        "stretch": 200,
+        "tracking": "Beehiiv dashboard",
+        "checkFrequency": "daily"
+      },
+      {
+        "metric": "30-Day Challenge Signups",
+        "target": 50,
+        "stretch": 100,
+        "tracking": "Beehiiv segment",
+        "checkFrequency": "daily"
+      }
+    ],
+    "secondary": [
+      {
+        "metric": "Organic Traffic",
+        "target": 500,
+        "tracking": "Google Analytics",
+        "checkFrequency": "daily"
+      },
+      {
+        "metric": "Article Pageviews",
+        "target": 1000,
+        "tracking": "Google Analytics",
+        "checkFrequency": "daily"
+      },
+      {
+        "metric": "Reddit Upvotes/Engagement",
+        "target": "50 upvotes across posts",
+        "tracking": "Manual",
+        "checkFrequency": "daily"
+      }
+    ],
+    "lagging": [
+      {
+        "metric": "Search Rankings",
+        "target": "Page 1 for 'sauna blanket gift'",
+        "tracking": "Google Search Console",
+        "checkFrequency": "weekly",
+        "note": "May take 1-2 weeks to see movement"
+      }
+    ]
+  },
+
+  "criticalPath": [
+    {
+      "blocker": "Beehiiv not configured",
+      "impact": "Cannot collect any email signups",
+      "resolution": "Founder must set up Beehiiv and add API keys to .env",
+      "owner": "Founder",
+      "deadline": "Dec 19 EOD"
+    },
+    {
+      "blocker": "No analytics tracking",
+      "impact": "Cannot measure content performance or optimize",
+      "resolution": "Set up GA4 and Search Console",
+      "owner": "Founder",
+      "deadline": "Dec 19 EOD"
+    },
+    {
+      "blocker": "Gift guide not published by Dec 20",
+      "impact": "Miss peak holiday shopping window",
+      "resolution": "Prioritize above all else - this is time-sensitive",
+      "owner": "content-writer + Founder",
+      "deadline": "Dec 20 EOD"
+    },
+    {
+      "blocker": "Challenge page not live by Dec 21",
+      "impact": "Lose 4 days of signup momentum before Jan 1",
+      "resolution": "Keep scope minimal - landing page + signup form only",
+      "owner": "growth-hacker + Founder",
+      "deadline": "Dec 21 EOD"
+    }
+  ],
+
+  "riskMitigation": {
+    "lowContentQuality": {
+      "risk": "Rushing content leads to thin, unhelpful articles",
+      "mitigation": "Focus on depth over breadth. 3 great articles > 5 mediocre ones."
+    },
+    "technicalIssues": {
+      "risk": "Beehiiv integration fails, forms don't work",
+      "mitigation": "Test early, have backup plan (simple Typeform or Google Form)"
+    },
+    "burnout": {
+      "risk": "Holiday week is exhausting, momentum dies",
+      "mitigation": "Front-load work Thu-Sat, light touch Sun-Tue, rest Wed"
+    }
+  },
+
+  "metrics": {
+    "subscribersAdded": 0,
+    "challengeSignups": 0,
+    "articleViews": 0,
+    "organicTraffic": 0,
+    "redditEngagement": 0,
+    "socialFollowers": 0
+  },
+
+  "blockers": [
+    {
+      "issue": "Beehiiv setup status unknown",
+      "severity": "critical",
+      "action": "Founder to verify API keys are configured"
+    },
+    {
+      "issue": "Analytics not confirmed",
+      "severity": "high",
+      "action": "Founder to set up GA4 + Search Console"
+    }
+  ],
+
+  "wins": [],
+
+  "learnings": [],
+
+  "nextWeekPreview": {
+    "dates": "Dec 26 - Jan 1",
+    "theme": "New Year Push",
+    "priorities": [
+      "Heavy promotion of 30-Day Challenge (peak signup window)",
+      "New Year resolution content blitz",
+      "Blue Monday (Jan 6) content prep",
+      "First newsletter edition to all subscribers"
+    ]
+  }
+}

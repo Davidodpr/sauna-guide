@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <!-- Warm side gradient -->
+    <linearGradient id="warmSide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8C42"/>
+      <stop offset="50%" stop-color="#D2691E"/>
+      <stop offset="100%" stop-color="#B87333"/>
+    </linearGradient>
+
+    <!-- Cool side gradient -->
+    <linearGradient id="coolSide" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="50%" stop-color="#4A90B8"/>
+      <stop offset="100%" stop-color="#2C5F7C"/>
+    </linearGradient>
+
+    <!-- Center blend -->
+    <linearGradient id="centerBlend" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D2691E"/>
+      <stop offset="50%" stop-color="#8B7355"/>
+      <stop offset="100%" stop-color="#4A90B8"/>
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="warmGlow">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="coolGlow">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#1A1A1A"/>
+
+  <!-- Warm side (left) -->
+  <path d="M0 0 L540 0 Q600 540 540 1080 L0 1080 Z" fill="url(#warmSide)" opacity="0.9"/>
+
+  <!-- Cool side (right) -->
+  <path d="M1080 0 L540 0 Q480 540 540 1080 L1080 1080 Z" fill="url(#coolSide)" opacity="0.9"/>
+
+  <!-- Center wave blend -->
+  <path d="M520 0 Q560 270 500 540 Q440 810 520 1080 L560 1080 Q480 810 540 540 Q600 270 560 0 Z"
+        fill="url(#centerBlend)" opacity="0.8"/>
+
+  <!-- Warm elements - Fire/heat circles -->
+  <g filter="url(#warmGlow)">
+    <circle cx="200" cy="300" r="80" fill="#FF6B35" opacity="0.6"/>
+    <circle cx="150" cy="500" r="60" fill="#FF8C42" opacity="0.5"/>
+    <circle cx="280" cy="700" r="70" fill="#FFB366" opacity="0.4"/>
+    <circle cx="100" cy="800" r="50" fill="#D2691E" opacity="0.5"/>
+  </g>
+
+  <!-- Cool elements - Ice crystals -->
+  <g filter="url(#coolGlow)">
+    <polygon points="880,280 920,350 880,420 840,350" fill="#B0E0E6" opacity="0.7"/>
+    <polygon points="800,500 850,560 820,630 770,580" fill="#87CEEB" opacity="0.6"/>
+    <polygon points="920,650 960,720 920,790 880,720" fill="#ADD8E6" opacity="0.5"/>
+    <polygon points="980,400 1010,450 980,500 950,450" fill="#B0E0E6" opacity="0.6"/>
+  </g>
+
+  <!-- Steam/mist in center -->
+  <ellipse cx="540" cy="400" rx="100" ry="60" fill="#FAF7F4" opacity="0.15"/>
+  <ellipse cx="540" cy="600" rx="80" ry="50" fill="#FAF7F4" opacity="0.1"/>
+
+  <!-- Temperature indicators -->
+  <g font-family="Georgia, serif" font-size="48" font-weight="bold">
+    <text x="150" y="200" fill="#FFE4C4" opacity="0.8">HOT</text>
+    <text x="850" y="200" fill="#E0FFFF" opacity="0.8">COLD</text>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="540" cy="540" r="200" stroke="#FAF7F4" stroke-width="2" fill="none" opacity="0.2"/>
+  <circle cx="540" cy="540" r="280" stroke="#FAF7F4" stroke-width="1" fill="none" opacity="0.1"/>
+
+  <!-- Center yin-yang inspired symbol -->
+  <g transform="translate(540, 540)">
+    <circle r="60" fill="none" stroke="#FAF7F4" stroke-width="3" opacity="0.5"/>
+    <path d="M0 -60 A60 60 0 0 1 0 60 A30 30 0 0 1 0 0 A30 30 0 0 0 0 -60" fill="#FF8C42" opacity="0.7"/>
+    <path d="M0 60 A60 60 0 0 1 0 -60 A30 30 0 0 1 0 0 A30 30 0 0 0 0 60" fill="#87CEEB" opacity="0.7"/>
+    <circle cy="-30" r="10" fill="#87CEEB" opacity="0.8"/>
+    <circle cy="30" r="10" fill="#FF8C42" opacity="0.8"/>
+  </g>
+
+  <!-- Subtle vignette -->
+  <radialGradient id="vignette2" cx="50%" cy="50%" r="70%">
+    <stop offset="60%" stop-color="transparent"/>
+    <stop offset="100%" stop-color="#0D0705" stop-opacity="0.5"/>
+  </radialGradient>
+  <rect width="1080" height="1080" fill="url(#vignette2)"/>
+</svg>
