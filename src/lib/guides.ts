@@ -11,6 +11,7 @@ export interface GuideMeta {
   date: string
   author: string
   tags?: string[]
+  image?: string
 }
 
 export interface GuidePost {
@@ -40,6 +41,7 @@ export function getAllGuides(): GuideMeta[] {
         date: data.date,
         author: data.author,
         tags: data.tags,
+        image: data.image,
       } as GuideMeta
     })
 

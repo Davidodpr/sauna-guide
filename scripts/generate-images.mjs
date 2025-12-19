@@ -10,21 +10,41 @@ if (!GEMINI_API_KEY) {
 
 const images = [
   {
-    name: "hero-sauna.png",
-    prompt: "Luxurious Finnish sauna interior with warm cedar wood walls and benches, soft steam rising gently, ambient warm lighting from hidden sources, traditional wooden bucket and ladle visible, no people, professional architectural photography, minimalist Scandinavian design, warm copper and honey color palette, ultra high quality, 2K resolution",
+    name: "guides/longevity-protocol.jpg",
+    prompt: "Serene Finnish lakeside sauna at golden hour, gentle steam rising from chimney, silhouette of elderly person visible through window suggesting longevity and wisdom, warm amber and honey tones, peaceful Nordic landscape, pine trees and calm lake water, symbol of health and long life, premium wellness photography, Scandinavian minimalist aesthetic, 16:9 aspect ratio, ultra high quality, 2K resolution",
   },
   {
-    name: "contrast-therapy.png",
-    prompt: "Beautiful outdoor Nordic scene showing a wooden barrel sauna next to a cold plunge pool surrounded by snow, steam rising from the sauna, frozen lake in background, golden hour lighting, no people visible, premium wellness photography, Scandinavian minimalist aesthetic, muted earth tones with warm wood accents, 2K resolution",
+    name: "guides/contrast-therapy.jpg",
+    prompt: "Dramatic split composition showing contrast therapy concept: left half features hot Finnish sauna interior with warm orange steam and glowing wood, right half shows icy cold plunge pool with cool blue water and ice crystals, artistic color gradient transition in the middle, no people visible, scientific wellness illustration style, professional photography, high contrast between warm and cool tones, 16:9 aspect ratio, 2K resolution",
   },
   {
-    name: "sauna-protocols.png",
-    prompt: "Modern home sauna space with infrared panels and traditional Finnish sauna bench, clean minimalist design, warm ambient lighting, no people, premium architectural interior photography, Scandinavian Japanese fusion aesthetic, charcoal and warm wood tones, 2K resolution",
+    name: "guides/male-fertility.jpg",
+    prompt: "Abstract minimalist wellness concept for male fertility, artistic composition featuring a medical thermometer and ice cube motif, warm amber cedar sauna wood texture on one side transitioning to cool blue ice elements on the other, scientific medical illustration style, tasteful and professional healthcare aesthetic, no people, subtle symbols of health and vitality, clean modern design, earth tones with blue accents, 16:9 aspect ratio, 2K resolution",
   },
   {
-    name: "newsletter-preview.png",
-    prompt: "Aesthetic flat lay of a premium newsletter on tablet device next to a cup of herbal tea and eucalyptus branches, warm morning light streaming through window, cozy wellness atmosphere, no people visible, premium lifestyle photography, muted earth tones and warm neutrals, 2K resolution",
-  }
+    name: "guides/sauna-for-women.jpg",
+    prompt: "Elegant spa sauna interior with feminine wellness aesthetic, fresh eucalyptus branches hanging from cedar wood walls, rose quartz healing stones arranged on bench, soft blush pink and warm cedar wood color palette, Scandinavian minimalist design with Japanese spa influences, ambient warm lighting, no people visible, premium women's wellness photography, peaceful and serene atmosphere, 16:9 aspect ratio, ultra high quality, 2K resolution",
+  },
+  {
+    name: "guides/infrared-vs-traditional.jpg",
+    prompt: "Educational side-by-side comparison image split down the middle: left side shows traditional Finnish wood-burning sauna with glowing hot rocks (kiuas) and visible steam, warm orange glow; right side shows modern infrared sauna with sleek red heating panels and clean contemporary design, both interiors empty with no people, informative comparison photography, professional architectural style, 16:9 aspect ratio, 2K resolution",
+  },
+  {
+    name: "guides/sauna-safety.jpg",
+    prompt: "Clean and inviting sauna interior focused on safety, prominent wooden thermometer on wall showing safe temperature, clear glass of water on bench, subtle heart rate or health monitoring symbol integrated tastefully, calming earth tones with soft green accents for healthcare feel, no people visible, professional medical wellness photography, reassuring and informative aesthetic, Scandinavian minimalist design, 16:9 aspect ratio, 2K resolution",
+  },
+  {
+    name: "guides/sauna-mistakes.jpg",
+    prompt: "Humorous editorial illustration showing common sauna mistakes in a playful artistic style: smartphone appearing to melt from heat, inappropriate gym clothes draped on bench, wall clock showing excessively long duration, perhaps a forgotten plastic water bottle warping, warm amber and honey color palette, lighthearted but informative wellness illustration, no people visible, editorial magazine style, Scandinavian aesthetic with playful elements, 16:9 aspect ratio, 2K resolution",
+  },
+  {
+    name: "guides/sauna-etiquette.jpg",
+    prompt: "Elegant authentic Finnish sauna interior showcasing proper etiquette, traditional wooden sauna bucket (kiulu) and ladle prominently displayed, bundle of birch vihta (whisk) branches resting on bench, soft gentle steam rising, warm cedar wood walls, no people visible, authentic Nordic cultural aesthetic, premium lifestyle photography, respectful and traditional atmosphere, warm amber and honey tones, 16:9 aspect ratio, ultra high quality, 2K resolution",
+  },
+  {
+    name: "guides/world-sauna-cultures.jpg",
+    prompt: "Artistic travel magazine collage showcasing world sauna cultures: Finnish lakeside smoke sauna with steam, Russian banya with traditional felt hats visible, Japanese onsen with stone bath and bamboo, Turkish hammam with ornate dome architecture, Korean jjimjilbang with jade stones, all seamlessly blended in a multicultural composition, rich diverse color palette, premium travel photography style, educational and inspiring, no people or only distant silhouettes, 16:9 aspect ratio, 2K resolution",
+  },
 ];
 
 async function generateImage(imageConfig) {
@@ -50,7 +70,7 @@ async function generateImage(imageConfig) {
     );
 
     const data = await response.json();
-    
+
     if (data.error) {
       console.error(`✗ API Error for ${imageConfig.name}:`, data.error.message);
       return false;
@@ -62,6 +82,13 @@ async function generateImage(imageConfig) {
           const imageData = part.inlineData.data;
           const buffer = Buffer.from(imageData, "base64");
           const outputPath = path.join("public", "images", imageConfig.name);
+
+          // Ensure directory exists
+          const dir = path.dirname(outputPath);
+          if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, { recursive: true });
+          }
+
           fs.writeFileSync(outputPath, buffer);
           console.log(`✓ Saved: ${outputPath}`);
           return true;
@@ -82,20 +109,29 @@ async function generateImage(imageConfig) {
 
 async function main() {
   console.log("Starting image generation with Gemini 3 Pro (Nano Banana Pro)...\n");
+  console.log("Generating 9 guide images for sauna articles\n");
 
   const outputDir = path.join("public", "images");
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  const guidesDir = path.join("public", "images", "guides");
+  if (!fs.existsSync(guidesDir)) {
+    fs.mkdirSync(guidesDir, { recursive: true });
+    console.log(`Created directory: ${guidesDir}\n`);
+  }
+
   let successCount = 0;
   for (const imageConfig of images) {
     const success = await generateImage(imageConfig);
     if (success) successCount++;
+    // Wait 3 seconds between requests to avoid rate limiting
     await new Promise(r => setTimeout(r, 3000));
   }
 
   console.log(`\nCompleted: ${successCount}/${images.length} images generated`);
+  console.log(`\nAll images saved to: public/images/guides/`);
 }
 
 main();

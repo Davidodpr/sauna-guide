@@ -27,7 +27,7 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
 
       if (response.ok) {
         setStatus('success')
-        setMessage('Welcome! Check your inbox.')
+        setMessage('The door is open. Check your inbox.')
         setEmail('')
       } else {
         setStatus('error')
@@ -103,7 +103,7 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
                        hover:bg-sauna-charcoal transition-colors duration-300
                        disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
+            {status === 'loading' ? 'Opening...' : 'Step inside →'}
           </button>
         </div>
         {message && (
@@ -146,9 +146,9 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
               </svg>
-              Joining...
+              Opening...
             </span>
-          ) : 'Join Free'}
+          ) : 'Step inside →'}
         </button>
       </div>
 
@@ -158,19 +158,8 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
         </p>
       )}
 
-      <p className="mt-5 text-sm text-sauna-birch/70 flex items-center justify-center gap-4">
-        <span className="flex items-center gap-1.5">
-          <svg className="w-4 h-4 text-sauna-sand" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-          </svg>
-          Free weekly
-        </span>
-        <span className="flex items-center gap-1.5">
-          <svg className="w-4 h-4 text-sauna-sand" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-          </svg>
-          Unsubscribe anytime
-        </span>
+      <p className="mt-5 text-sm text-sauna-birch/60 text-center">
+        One letter a week. No spam. Just warmth.
       </p>
     </form>
   )

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { getAllGuides } from '@/lib/guides'
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 
@@ -42,13 +43,26 @@ export default function GuidesIndexPage() {
           </p>
         </header>
 
-        <div className="space-y-12">
+        <div className="space-y-10">
           {guides.map((guide) => (
-            <article key={guide.slug} className="group relative grid md:grid-cols-4 gap-6 items-start border-b border-sauna-ash/50 pb-12 last:border-0">
-              <div className="md:col-span-1 text-sm text-sauna-oak font-medium pt-1">
-                {guide.date}
-              </div>
-              <div className="md:col-span-3">
+            <article key={guide.slug} className="group relative grid md:grid-cols-12 gap-6 items-start border-b border-sauna-ash/50 pb-10 last:border-0">
+              {guide.image && (
+                <Link href={`/guides/${guide.slug}`} className="md:col-span-3">
+                  <div className="aspect-[16/10] rounded-lg overflow-hidden bg-sauna-linen">
+                    <Image
+                      src={guide.image}
+                      alt={guide.title}
+                      width={300}
+                      height={188}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                </Link>
+              )}
+              <div className={guide.image ? "md:col-span-9" : "md:col-span-12"}>
+                <div className="text-sm text-sauna-oak font-medium mb-2 uppercase tracking-wider">
+                  {guide.date}
+                </div>
                 <Link href={`/guides/${guide.slug}`}>
                   <h2 className="text-2xl font-display font-medium text-sauna-ink mb-3 group-hover:text-sauna-heat transition-colors">
                     {guide.title}

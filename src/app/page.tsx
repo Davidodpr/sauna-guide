@@ -23,25 +23,24 @@ export default function HomePage() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <div className="animate-fade-up">
-            <span className="inline-block px-4 py-1.5 bg-sauna-paper/15 border border-sauna-paper/30 rounded-full
-                            text-sauna-paper text-sm font-medium mb-8 backdrop-blur-sm tracking-wide">
-              Every Thursday · 5 min read · Free forever
-            </span>
-          </div>
-
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-sauna-paper mb-6
-                        leading-[1.1] tracking-tight animate-fade-up"
-              style={{ animationDelay: '0.1s' }}>
-            Master the Science of Heat<br />
-            <span className="text-sauna-sand">in 5 Minutes a Week</span>
+        <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-sauna-paper mb-8
+                        leading-[1.1] tracking-tight animate-fade-up">
+            Close the door.<br />
+            <span className="text-sauna-sand">Let everything go.</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-sauna-paper/80 mb-10 max-w-2xl mx-auto leading-relaxed animate-fade-up"
+          <div className="space-y-4 text-lg md:text-xl text-sauna-paper/85 mb-10 max-w-2xl mx-auto leading-relaxed animate-fade-up"
+             style={{ animationDelay: '0.1s' }}>
+            <p>There&apos;s a room with no notifications.</p>
+            <p>Where you can&apos;t scroll. Can&apos;t be reached. Don&apos;t need to perform.</p>
+            <p className="text-sauna-sand/90">Just heat. Silence. Breath.</p>
+          </div>
+
+          <p className="text-base text-sauna-paper/60 mb-8 max-w-xl mx-auto animate-fade-up"
              style={{ animationDelay: '0.2s' }}>
-            Join 10,000+ founders, executives, and high performers who get weekly
-            protocols, research breakdowns, and equipment insights. No fluff. Just what works.
+            Once a week, we send a letter from that room. Not tips. Not hacks.<br />
+            Just a reminder that there&apos;s another way to live.
           </p>
 
           <div className="animate-fade-up" style={{ animationDelay: '0.3s' }}>
@@ -57,85 +56,45 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Social Proof Bar */}
-      <section className="bg-sauna-linen py-6 border-b border-sauna-ash/50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-12 text-sm">
-            <div className="flex items-center gap-3">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <div key={i}
-                       className="w-8 h-8 rounded-full bg-sauna-oak/20
-                                  border-2 border-sauna-linen flex items-center justify-center
-                                  text-sauna-walnut text-xs font-medium">
-                    {String.fromCharCode(64 + i)}
-                  </div>
-                ))}
-              </div>
-              <div className="text-sauna-ink">
-                <span className="font-semibold">10,000+</span>
-                <span className="text-sauna-slate ml-1">high performers</span>
-              </div>
-            </div>
 
-            <div className="h-5 w-px bg-sauna-ash hidden md:block" />
-
-            <div className="text-sauna-ink">
-              <span className="font-semibold">Every Thursday</span>
-              <span className="text-sauna-slate ml-1">at 7am</span>
-            </div>
-
-            <div className="h-5 w-px bg-sauna-ash hidden md:block" />
-
-            <div className="flex items-center gap-1.5 text-sauna-ink">
-              <svg className="w-4 h-4 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-              <span className="font-semibold">4.9/5</span>
-              <span className="text-sauna-slate">reader rating</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What You Get Section */}
+      {/* What's Inside Section */}
       <section className="py-20 md:py-28 bg-sauna-paper relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
             <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-4">
-              What you&apos;ll get every Thursday
+              What&apos;s inside each letter
             </h2>
             <p className="text-lg text-sauna-slate max-w-2xl mx-auto">
-              No 3-hour podcasts. No bro-science. Just the research-backed practices that actually move the needle.
+              A few minutes of reading. A week of warmth.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <ValueCard
-              icon="🔬"
-              title="The Research Brief"
-              description="One breakthrough finding from peer-reviewed journals, explained in plain language"
+              icon="◈"
+              title="One Thing That Works"
+              description="A practice worth trying. Tested by time, backed by research."
             />
             <ValueCard
-              icon="📋"
-              title="Protocol of the Week"
-              description="An actionable practice you can implement immediately, with exact parameters"
+              icon="◉"
+              title="A Place Worth Visiting"
+              description="Saunas around the world that understand what this is really about."
             />
             <ValueCard
-              icon="🎯"
-              title="Equipment Intel"
-              description="Unbiased analysis of saunas and gear. What's worth the investment, what's marketing"
+              icon="◇"
+              title="Something to Consider"
+              description="The science, the history, the philosophy. Context that deepens the practice."
             />
             <ValueCard
-              icon="🌍"
-              title="Global Discoveries"
-              description="Hidden gems, new openings, and destination-worthy thermal experiences worldwide"
+              icon="○"
+              title="The Quiet Part"
+              description="Reflections on slowing down. Permission to take time for yourself."
             />
           </div>
         </div>
       </section>
 
-      {/* Image + Benefits Section */}
+      {/* Image + Philosophy Section */}
       <section className="py-20 md:py-28 bg-sauna-linen relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -147,35 +106,29 @@ export default function HomePage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              {/* Floating stat card */}
-              <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-sauna-paper rounded-xl p-4 md:p-5 shadow-lg border border-sauna-ash/50">
-                <div className="text-2xl font-semibold text-sauna-ink">40+ hrs</div>
-                <div className="text-sm text-sauna-slate">of research, distilled<br/>into 5 minutes</div>
-              </div>
             </div>
 
             <div>
-              <span className="inline-block px-3 py-1 bg-sauna-oak/10 text-sauna-walnut text-sm font-medium mb-5 rounded">
-                Why 10,000+ subscribe
-              </span>
               <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-6 leading-tight">
-                Stop guessing.<br/>Start optimizing.
+                Not a hack.<br/>A practice.
               </h2>
               <p className="text-lg text-sauna-slate mb-8 leading-relaxed">
-                Most people use saunas wrong. Wrong temperature. Wrong duration. Wrong timing.
-                We translate the latest research into protocols you can actually use.
+                The Finns don&apos;t &ldquo;optimize&rdquo; their sauna sessions. They don&apos;t track HRV or count minutes.
+                They sit. They breathe. They&apos;ve done this for a thousand years.
+              </p>
+              <p className="text-lg text-sauna-slate mb-8 leading-relaxed">
+                We believe the research matters — but so does the ritual. This newsletter holds both.
               </p>
 
-              <div className="space-y-4">
-                <BenefitRow text="Optimal protocols for longevity, recovery, and cognitive performance" />
-                <BenefitRow text="Equipment reviews that save you from expensive mistakes" />
-                <BenefitRow text="The science behind heat shock proteins, explained simply" />
-                <BenefitRow text="Contrast therapy sequences for maximum hormetic benefit" />
+              <div className="space-y-4 text-sauna-slate">
+                <BenefitRow text="Protocols that work, without losing the soul of the practice" />
+                <BenefitRow text="Places where they still do it right" />
+                <BenefitRow text="The why behind the heat" />
               </div>
 
               <Link href="#newsletter" className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-sauna-ink text-sauna-paper rounded-lg
                                                    font-medium hover:bg-sauna-charcoal transition-colors">
-                Get The Thursday Briefing
+                Step inside
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -290,42 +243,21 @@ export default function HomePage() {
 
       {/* Final CTA Section */}
       <section id="newsletter" className="py-20 md:py-28 bg-sauna-paper relative">
-        <div className="max-w-3xl mx-auto px-6 text-center">
-          <span className="inline-block px-3 py-1 bg-sauna-oak/10 text-sauna-walnut text-sm font-medium mb-5 rounded">
-            Free forever · Unsubscribe anytime
-          </span>
-
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-medium text-sauna-ink mb-5 leading-tight">
-            Get smarter about heat<br/>in 5 minutes a week
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-medium text-sauna-ink mb-6 leading-tight">
+            Slower. Hotter. Older.
           </h2>
 
-          <p className="text-lg text-sauna-slate mb-8 max-w-xl mx-auto">
-            Every Thursday: one research breakthrough, one actionable protocol,
-            and the equipment intel you need. Join 10,000+ who already subscribe.
+          <div className="space-y-3 text-lg text-sauna-slate mb-10 max-w-xl mx-auto">
+            <p>Humans have gathered around hot stones for millennia.</p>
+            <p>The Finns call the steam <em>löyly</em> — it once meant &ldquo;spirit.&rdquo;</p>
+          </div>
+
+          <p className="text-base text-sauna-stone mb-8">
+            Once a week, a letter from the heat. Free forever.
           </p>
 
           <NewsletterSignup variant="inline" />
-
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-sauna-stone">
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              Takes 5 min to read
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              No spam, ever
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              One-click unsubscribe
-            </span>
-          </div>
         </div>
       </section>
 
@@ -344,8 +276,8 @@ export default function HomePage() {
                 <span className="font-display text-xl font-medium">Sauna Guide</span>
               </div>
               <p className="text-sauna-fog max-w-sm leading-relaxed">
-                The weekly briefing for people serious about heat therapy.
-                Research-backed protocols. Zero fluff.
+                A weekly letter from the heat. For those who understand
+                that the sauna is not a hack — it&apos;s a way to live.
               </p>
             </div>
 

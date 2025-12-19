@@ -85,7 +85,7 @@
       "features": ["Wood-Fired", "Community", "Affordable", "Authentic"],
       "priceRange": "$",
       "description": "A pioneer in the UK's Sauna Renaissance in Hackney Wick. Authentic, wood-fired, and community-focused.",
-      "images": ["https://images.unsplash.com/photo-1510443912648-4cb50b333423?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/community-sauna-london.jpg"],
       "rating": 4.8
     },
     {
@@ -96,7 +96,7 @@
       "features": ["Moorish Style", "Thermal Water", "Luxury", "Gardens"],
       "priceRange": "$$$",
       "description": "A piece of Marrakech in Germany. Stunning Moorish architecture and high-end sauna ceremonies.",
-      "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/mediterana.jpg"],
       "rating": 4.7
     },
     {
@@ -151,7 +151,7 @@
       "features": ["Built in Rock", "Thermal Water", "Waterfall", "Alpine"],
       "priceRange": "$$",
       "description": "Built directly into the rock face of the mountain. Swim in thermal water while looking at a natural waterfall.",
-      "images": ["https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/felsentherme.jpg"],
       "rating": 4.6
     },
     {
@@ -184,7 +184,7 @@
       "features": ["Private Suites", "Russian Banya", "Plunge", "Design"],
       "priceRange": "$$$",
       "description": "Bringing the Russian Banya tradition to a modern, design-forward setting in NYC.",
-      "images": ["https://images.unsplash.com/photo-1544367563-12123d832d34?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/archivolto.jpg"],
       "rating": 4.6
     },
     {
@@ -217,7 +217,7 @@
       "features": ["Theater Sauna", "Event Pouring", "Luxury", "Social"],
       "priceRange": "$$$",
       "description": "Bringing European-style sauna theater and Aufguss to the Las Vegas strip.",
-      "images": ["https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/awana-spa.jpg"],
       "rating": 4.7
     },
     {
@@ -272,7 +272,7 @@
       "features": ["Largest in NA", "Salt Pool", "Banya", "Nature"],
       "priceRange": "$$$",
       "description": "The largest spa in North America. Features a floating salt water pool and countless relaxation areas.",
-      "images": ["https://images.unsplash.com/photo-1560942485-b2a11cc13456?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/nordik-spa.jpg"],
       "rating": 4.8
     },
     {
@@ -294,7 +294,7 @@
       "features": ["Art Project", "Giant Sauna", "DJ Events", "Fjord"],
       "priceRange": "$$",
       "description": "A nomadic art project with massive pyramid-shaped saunas, often hosting DJs, talks, and concerts.",
-      "images": ["https://images.unsplash.com/photo-1534096210335-a3b9616d3bb5?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/salt-oslo.jpg"],
       "rating": 4.5
     },
     {
@@ -305,7 +305,7 @@
       "features": ["Floating", "Electric Boat", "Fjord Cruise", "Private"],
       "priceRange": "$$$",
       "description": "Floating sauna boats that can take you out on the fjord. Combine sightseeing with sweating.",
-      "images": ["https://images.unsplash.com/photo-1520116468816-95b69f847e44?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/kok-oslo.jpg"],
       "rating": 4.8
     },
     {
@@ -360,7 +360,7 @@
       "features": ["Mountain Side", "Architecture", "Silence", "Nature"],
       "priceRange": "$$",
       "description": "Carved into the side of a mountain, this spa uses modern architecture to frame the raw Canadian wilderness.",
-      "images": ["https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/la-source.jpg"],
       "rating": 4.8
     },
     {
@@ -382,7 +382,7 @@
       "features": ["Historic Spring", "Rooftop Pool", "City Views", "Modern"],
       "priceRange": "$$$",
       "description": "Britain's only natural thermal spa. The rooftop pool offers incredible views over the historic city of Bath.",
-      "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/thermae-bath-spa.jpg"],
       "rating": 4.6
     },
     {
@@ -470,7 +470,7 @@
       "features": ["Iglu Saunas", "Sea Views", "Design", "Bar"],
       "priceRange": "$$",
       "description": "A cool village of Iglucraft saunas right on the Baltic Sea in the Noblessner district.",
-      "images": ["https://images.unsplash.com/photo-1627429670014-998901eb47df?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/iglupark.jpg"],
       "rating": 4.8
     },
     {
@@ -481,7 +481,7 @@
       "features": ["Historic 1928", "Wood-Burning", "Authentic", "No Frills"],
       "priceRange": "$",
       "description": "One of Tallinn's oldest public saunas. A truly authentic experience with massive wood-burning ovens.",
-      "images": ["https://images.unsplash.com/photo-1549488359-57e33e143026?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/kalma-saun.jpg"],
       "rating": 4.6
     },
     {
@@ -492,7 +492,7 @@
       "features": ["Ocean Pool", "Sauna", "Iconic View", "Waves"],
       "priceRange": "$",
       "description": "The most famous pool in Australia. The sauna overlooks the pool where waves crash over the side.",
-      "images": ["https://images.unsplash.com/photo-1533604117861-1d5423c72d3f?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/icebergs-pool.jpg"],
       "rating": 4.8
     },
     {
@@ -503,7 +503,7 @@
       "features": ["Natural Springs", "Hilltop View", "Turkish Hamam", "Huge"],
       "priceRange": "$$$",
       "description": "Award-winning natural geothermal mineral springs and day spa. The hilltop pool offers 360-degree views.",
-      "images": ["https://images.unsplash.com/photo-1596178065887-1198b6148b2b?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/peninsula-hot-springs.jpg"],
       "rating": 4.7
     }
   ],

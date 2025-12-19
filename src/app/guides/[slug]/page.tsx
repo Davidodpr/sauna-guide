@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { getGuideBySlug, getAllGuides } from '@/lib/guides'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
@@ -69,6 +70,19 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                 {guide.meta.description}
             </p>
         </header>
+
+        {guide.meta.image && (
+          <div className="mb-12 -mx-6 md:mx-0 md:rounded-2xl overflow-hidden">
+            <Image
+              src={guide.meta.image}
+              alt={guide.meta.title}
+              width={1200}
+              height={675}
+              className="w-full h-auto object-cover"
+              priority
+            />
+          </div>
+        )}
 
         <div className="prose prose-lg prose-stone mx-auto 
                         prose-headings:font-display prose-headings:font-medium prose-headings:text-sauna-ink
