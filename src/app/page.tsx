@@ -10,15 +10,17 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-        {/* Background Image */}
+        {/* Background Image - Priority loading for LCP */}
         <div className="absolute inset-0">
-          <div className="relative w-full h-full">
-            <img
-              src="/images/hero-sauna.jpg"
-              alt="Authentic Finnish sauna interior with aged cedar wood"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <Image
+            src="/images/hero-sauna.jpg"
+            alt="Authentic Finnish sauna interior with aged cedar wood"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+            quality={85}
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-sauna-charcoal/70 via-sauna-bark/40 to-transparent" />
         </div>
 
@@ -382,10 +384,13 @@ function SaunaCard({
 }) {
   return (
     <div className="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer">
-      <img
+      <Image
         src={image}
         alt={`${name} in ${location}`}
-        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        fill
+        sizes="(max-width: 768px) 50vw, 25vw"
+        className="object-cover group-hover:scale-105 transition-transform duration-500"
+        loading="lazy"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-sauna-charcoal/80 via-sauna-charcoal/20 to-transparent" />
       <div className="absolute bottom-0 left-0 right-0 p-4">
@@ -396,15 +401,3 @@ function SaunaCard({
     </div>
   )
 }
-
-function BenefitRow({ text }: { text: string }) {
-  return (
-    <div className="flex gap-3 items-start">
-      <svg className="w-5 h-5 text-sauna-oak mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-      </svg>
-      <span className="text-sauna-slate">{text}</span>
-    </div>
-  )
-}
-

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     default: 'Sauna Guide - Discover the Art of Heat & Wellness',
     template: '%s | Sauna Guide',
   },
-  description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences, learn time-tested techniques, and join a community of 10,000+ wellness enthusiasts.',
+  description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols for longevity and performance.',
   keywords: ['sauna', 'sauna guide', 'sauna directory', 'Finnish sauna', 'contrast therapy', 'cold plunge', 'wellness', 'heat therapy'],
   openGraph: {
     type: 'website',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     url: 'https://sauna.guide',
     siteName: 'Sauna Guide',
     title: 'Sauna Guide - Discover the Art of Heat & Wellness',
-    description: 'Your complete guide to saunas worldwide. Join 10,000+ wellness enthusiasts.',
+    description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols.',
     images: [
       {
         url: '/og-image.jpg',

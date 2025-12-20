@@ -19,7 +19,7 @@
       "features": ["15 Saunas", "Japanese Onsen", "Aufguss", "Luxury"],
       "priceRange": "$$$",
       "description": "The largest spa in the Nordics. A massive playground for heat enthusiasts with distinct themed saunas and world-class Aufguss rituals.",
-      "images": ["https://images.unsplash.com/photo-1596178065887-1198b6148b2b?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/the-well-oslo.jpg"],
       "rating": 4.9
     },
     {
@@ -30,7 +30,7 @@
       "features": ["Ocean Swimming", "Wood-Burning", "Historic", "Nude Bathing"],
       "priceRange": "$",
       "description": "Iconic open-air bathhouse from 1898. Separate men's and women's sections with nude bathing and direct ocean access.",
-      "images": ["https://images.unsplash.com/photo-1549488359-57e33e143026?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/ribersborgs-kallbadhus.jpg"],
       "rating": 4.7
     },
     {
@@ -74,7 +74,7 @@
       "features": ["Urban", "Cryotherapy", "Social", "Design"],
       "priceRange": "$$$",
       "description": "A former soda factory turned high-performance bathhouse. Features starlight saunas and cold plunges for the modern biohacker.",
-      "images": ["https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/bathhouse-williamsburg.jpg"],
       "rating": 4.6
     },
     {
@@ -107,7 +107,7 @@
       "features": ["Lakeside", "Theater Sauna", "Show Aufguss", "Nature"],
       "priceRange": "$$",
       "description": "Famous for its massive 'Theater Sauna' where world-class Aufguss masters perform elaborate shows.",
-      "images": ["https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/satama-sauna.jpg"],
       "rating": 4.8
     },
     {
@@ -118,7 +118,7 @@
       "features": ["Lake Views", "Alpine", "Textile-Free", "Relaxed"],
       "priceRange": "$$",
       "description": "Offers stunning views of Lake Kochelsee and the Alps directly from the sauna benches.",
-      "images": ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/kristall-therme-kochel.jpg"],
       "rating": 4.6
     },
     {
@@ -129,7 +129,7 @@
       "features": ["Underwater Music", "Salt Water", "Dark Aesthetic", "Urban"],
       "priceRange": "$$",
       "description": "Known for its saltwater floating pool with underwater techno/classical music and dim, atmospheric lighting.",
-      "images": ["https://images.unsplash.com/photo-1515362778563-6a8d0e44bc0b?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/liquidrom-berlin.jpg"],
       "rating": 4.5
     },
     {
@@ -140,7 +140,7 @@
       "features": ["Historic", "Roman-Irish", "No Phones", "Tradition"],
       "priceRange": "$$",
       "description": "A temple of bathing culture since 1877. A strict 17-step ritual in a stunning historic building.",
-      "images": ["https://images.unsplash.com/photo-1555597986-25f05786878d?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/friedrichsbad.jpg"],
       "rating": 4.7
     },
     {
@@ -162,7 +162,7 @@
       "features": ["Architectural Icon", "Quartzite", "Luxury", "Silence"],
       "priceRange": "$$$$",
       "description": "Peter Zumthor's architectural masterpiece. 60,000 slabs of quartzite creating a mystical, cave-like atmosphere.",
-      "images": ["https://images.unsplash.com/photo-1628189689862-246d62680459?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/7132-therme.jpg"],
       "rating": 4.9
     },
     {
@@ -173,7 +173,7 @@
       "features": ["Tram Sauna", "Roman Ruins", "Aperitivo", "Urban"],
       "priceRange": "$$",
       "description": "A wellness oasis in the center of Milan, featuring a sauna built inside a vintage tram carriage.",
-      "images": ["https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/qc-terme-milano.jpg"],
       "rating": 4.5
     },
     {
@@ -228,7 +228,7 @@
       "features": ["Authentic Banya", "Parenie", "Vodka", "Food"],
       "priceRange": "$$",
       "description": "London's first authentic Russian Banya. Expect high heat, oak leaf beatings (Parenie), and cold plunges.",
-      "images": ["https://images.unsplash.com/photo-1583416750470-965b2707b355?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/banya-no-1-london.jpg"],
       "rating": 4.6
     },
     {
@@ -239,7 +239,7 @@
       "features": ["On The Beach", "Horsebox Saunas", "Sea Dip", "Quirky"],
       "priceRange": "$",
       "description": "Wood-fired saunas located directly on Brighton Beach. Run straight into the English Channel to cool off.",
-      "images": ["https://images.unsplash.com/photo-1533604117861-1d5423c72d3f?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/beach-box-brighton.jpg"],
       "rating": 4.8
     },
     {
@@ -250,7 +250,7 @@
       "features": ["Seaweed", "Design", "Thalassotherapy", "Boutique"],
       "priceRange": "$$",
       "description": "A design-forward spa focusing on locally harvested seaweed and thalassotherapy treatments.",
-      "images": ["https://images.unsplash.com/photo-1586798032488-0f7389148d42?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/haeckels-house.jpg"],
       "rating": 4.7
     },
     {
@@ -261,7 +261,7 @@
       "features": ["Rooftop", "Urban Views", "California Baths", "Social"],
       "priceRange": "$$",
       "description": "Open-air thermal baths located on the rooftop of a skyscraper, offering unique urban views.",
-      "images": ["https://images.unsplash.com/photo-1532347922424-c652d9b7208e?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/skyspa-quebec.jpg"],
       "rating": 4.4
     },
     {
@@ -283,7 +283,7 @@
       "features": ["Urban", "Hipster", "Cold Plunge", "Bar"],
       "priceRange": "$$",
       "description": "One of Oslo's trendiest spots. A former sex shop turned into a sleek, industrial-chic neighborhood sauna.",
-      "images": ["https://images.unsplash.com/photo-1570174006282-26192ce97275?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/hot-shop-oslo.jpg"],
       "rating": 4.6
     },
     {
@@ -327,7 +327,7 @@
       "features": ["Nature Reserve", "Lake", "Budget", "Traditional"],
       "priceRange": "$",
       "description": "Located in a nature reserve just 15 mins from Stockholm city. The go-to place for a lake dip after sauna.",
-      "images": ["https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/hellasgarden.jpg"],
       "rating": 4.4
     },
     {
@@ -349,7 +349,7 @@
       "features": ["Hot Tubs", "Harbor Views", "Social", "Outdoor"],
       "priceRange": "$$$",
       "description": "Wood-fired hot tubs and saunas right on the Copenhagen harbor front. Very social and lively.",
-      "images": ["https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/copenhot.jpg"],
       "rating": 4.5
     },
     {
@@ -371,7 +371,7 @@
       "features": ["Family Friendly", "Water Park", "Fitness", "Large"],
       "priceRange": "$",
       "description": "A massive aquatic centre that includes significant wellness facilities, making it accessible for families.",
-      "images": ["https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/h2o-adventure-spa.jpg"],
       "rating": 4.3
     },
     {
@@ -393,7 +393,7 @@
       "features": ["Luxury Hotel", "Roof Top", "Hydrotherapy", "Garden"],
       "priceRange": "$$$",
       "description": "Award-winning luxury spa with a focus on bringing the outdoors in. Known for its rooftop spa garden.",
-      "images": ["https://images.unsplash.com/photo-1620733723572-11c52f7c2d82?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/rudding-park.jpg"],
       "rating": 4.9
     },
     {
@@ -404,7 +404,7 @@
       "features": ["Urban", "Design", "Private Options", "Modern"],
       "priceRange": "$$",
       "description": "A hidden gem in Antwerp offering a sleek, modern take on the traditional bathhouse.",
-      "images": ["https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/sauna-dek.webp"],
       "rating": 4.5
     },
     {
@@ -415,7 +415,7 @@
       "features": ["Large Complex", "Textile-Free", "Hotel", "Forest"],
       "priceRange": "$$",
       "description": "A massive wellness complex on the edge of the Amsterdam forest. High standards and textile-free days.",
-      "images": ["https://images.unsplash.com/photo-1545262796-03c09b854a4f?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/zuiver.jpg"],
       "rating": 4.6
     },
     {
@@ -426,7 +426,7 @@
       "features": ["Sacred Water", "Pilgrimage Site", "High Heat", "Authentic"],
       "priceRange": "$",
       "description": "Known as the 'Holy Land' for saunners in Japan. Famous for its natural groundwater cold plunge which is drinkable.",
-      "images": ["https://images.unsplash.com/photo-1534096210335-a3b9616d3bb5?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/sauna-shikiji.jpg"],
       "rating": 4.9
     },
     {
@@ -437,7 +437,7 @@
       "features": ["Skyline View", "Aufguss", "Coworking", "Modern"],
       "priceRange": "$$",
       "description": "Located on the 14th floor with stunning views of Yokohama Bay. A hub for modern Japanese sauna culture.",
-      "images": ["https://images.unsplash.com/photo-1563851532432-8501256df259?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/skyspa-yokohama.webp"],
       "rating": 4.7
     },
     {
@@ -448,7 +448,7 @@
       "features": ["Geothermal", "Silica Mud", "Luxury", "Iconic"],
       "priceRange": "$$$",
       "description": "World-famous geothermal spa located in a lava field. The milky blue water is rich in minerals like silica and sulfur.",
-      "images": ["https://images.unsplash.com/photo-1519824145371-296894a0daa9?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/blue-lagoon.jpg"],
       "rating": 4.6
     },
     {
@@ -459,7 +459,7 @@
       "features": ["Oldest Pool", "Geysir", "Natural", "Relaxed"],
       "priceRange": "$$",
       "description": "Iceland's oldest swimming pool, made in 1891. A more authentic and less crowded alternative to the Blue Lagoon.",
-      "images": ["https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/secret-lagoon.webp"],
       "rating": 4.7
     },
     {
