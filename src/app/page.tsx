@@ -39,7 +39,7 @@ export default function HomePage() {
             <p className="text-sauna-sand/90">Just heat. Silence. Breath.</p>
           </div>
 
-          <p className="text-base text-sauna-paper/80 mb-8 max-w-xl mx-auto animate-fade-up"
+          <p className="text-base text-sauna-paper mb-8 max-w-xl mx-auto animate-fade-up"
              style={{ animationDelay: '0.2s' }}>
             Not a newsletter. A weekly pause.<br />
             Saunas to visit, practices to try, and a few minutes where nothing is optimized.
