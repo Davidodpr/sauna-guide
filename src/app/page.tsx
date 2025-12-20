@@ -37,10 +37,10 @@ export default function HomePage() {
             <p className="text-sauna-sand/90">Just heat. Silence. Breath.</p>
           </div>
 
-          <p className="text-base text-sauna-paper/60 mb-8 max-w-xl mx-auto animate-fade-up"
+          <p className="text-base text-sauna-paper/80 mb-8 max-w-xl mx-auto animate-fade-up"
              style={{ animationDelay: '0.2s' }}>
-            Once a week, we send a letter from that room. Not tips. Not hacks.<br />
-            Just a reminder that there&apos;s another way to live.
+            Not a newsletter. A weekly pause.<br />
+            Saunas to visit, practices to try, and a few minutes where nothing is optimized.
           </p>
 
           <div className="animate-fade-up" style={{ animationDelay: '0.3s' }}>
@@ -94,46 +94,55 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Image + Philosophy Section */}
+      {/* Places Worth The Journey - Visual Inspiration */}
       <section className="py-20 md:py-28 bg-sauna-linen relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="relative">
-              <div className="relative w-full rounded-2xl overflow-hidden shadow-xl" style={{ aspectRatio: '4/3' }}>
-                <img
-                  src="/images/contrast-therapy.jpg"
-                  alt="Traditional outdoor sauna by a Nordic lake"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+          <div className="text-center mb-12">
+            <p className="text-sm uppercase tracking-widest text-sauna-oak mb-3">From the archive</p>
+            <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-4">
+              Places worth the journey
+            </h2>
+            <p className="text-lg text-sauna-slate max-w-2xl mx-auto">
+              Every week, we uncover spaces that understand what this is really about.
+            </p>
+          </div>
 
-            <div>
-              <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-6 leading-tight">
-                Not a hack.<br/>A practice.
-              </h2>
-              <p className="text-lg text-sauna-slate mb-8 leading-relaxed">
-                The Finns don&apos;t &ldquo;optimize&rdquo; their sauna sessions. They don&apos;t track HRV or count minutes.
-                They sit. They breathe. They&apos;ve done this for a thousand years.
-              </p>
-              <p className="text-lg text-sauna-slate mb-8 leading-relaxed">
-                We believe the research matters — but so does the ritual. This newsletter holds both.
-              </p>
+          {/* Inspiring sauna grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+            <SaunaCard
+              image="/images/saunas-photos/loyly-helsinki.jpg"
+              name="Löyly"
+              location="Helsinki"
+              feature="Architectural icon on the Baltic"
+            />
+            <SaunaCard
+              image="/images/saunas-photos/kok-oslo.jpg"
+              name="KOK"
+              location="Oslo"
+              feature="Floating saunas on the fjord"
+            />
+            <SaunaCard
+              image="/images/saunas-photos/icebergs-pool.jpg"
+              name="Icebergs"
+              location="Sydney"
+              feature="Waves crash over the pool"
+            />
+            <SaunaCard
+              image="/images/saunas-photos/aqua-dome.jpg"
+              name="Aqua Dome"
+              location="Austria"
+              feature="Floating bowls in the Alps"
+            />
+          </div>
 
-              <div className="space-y-4 text-sauna-slate">
-                <BenefitRow text="Protocols that work, without losing the soul of the practice" />
-                <BenefitRow text="Places where they still do it right" />
-                <BenefitRow text="The why behind the heat" />
-              </div>
-
-              <Link href="#newsletter" className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-sauna-ink text-sauna-paper rounded-lg
-                                                   font-medium hover:bg-sauna-charcoal transition-colors">
-                Step inside
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
+          <div className="text-center">
+            <Link href="/saunas" className="inline-flex items-center gap-2 px-6 py-3 bg-sauna-ink text-sauna-paper rounded-lg
+                                                     font-medium hover:bg-sauna-charcoal transition-colors group">
+              Explore all locations
+              <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
@@ -229,8 +238,9 @@ export default function HomePage() {
             <p>The Finns call the steam <em>löyly</em> — it once meant &ldquo;spirit.&rdquo;</p>
           </div>
 
-          <p className="text-base text-sauna-stone mb-8">
-            Once a week, a letter from the heat. Free forever.
+          <p className="text-base text-sauna-slate mb-8">
+            Once a week, we send a letter from that room. Not tips. Not hacks.<br />
+            Just a reminder that there&apos;s another way to live.
           </p>
 
           <NewsletterSignup variant="inline" />
@@ -261,7 +271,7 @@ export default function HomePage() {
               <h4 className="font-medium mb-4 text-sauna-sand">Explore</h4>
               <ul className="space-y-2 text-sauna-fog">
                 <li><Link href="/saunas" className="hover:text-sauna-paper transition-colors">Sauna Directory</Link></li>
-                <li><Link href="/guides" className="hover:text-sauna-paper transition-colors">Protocol Library</Link></li>
+                <li><Link href="/guides" className="hover:text-sauna-paper transition-colors">Guides & Rituals</Link></li>
                 <li><Link href="/guides/contrast-therapy" className="hover:text-sauna-paper transition-colors">Contrast Therapy</Link></li>
               </ul>
             </div>
@@ -356,6 +366,34 @@ function FeatureCard({
         </svg>
       </div>
     </Link>
+  )
+}
+
+function SaunaCard({
+  image,
+  name,
+  location,
+  feature,
+}: {
+  image: string
+  name: string
+  location: string
+  feature: string
+}) {
+  return (
+    <div className="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer">
+      <img
+        src={image}
+        alt={`${name} in ${location}`}
+        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-sauna-charcoal/80 via-sauna-charcoal/20 to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 p-4">
+        <p className="text-sauna-sand text-xs uppercase tracking-wider mb-1">{location}</p>
+        <h3 className="text-sauna-paper font-display text-lg font-medium mb-1">{name}</h3>
+        <p className="text-sauna-paper/70 text-sm leading-snug">{feature}</p>
+      </div>
+    </div>
   )
 }
 
