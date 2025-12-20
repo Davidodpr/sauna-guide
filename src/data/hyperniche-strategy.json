@@ -1,0 +1,63 @@
+{
+  "updatedAt": "2025-12-20",
+  "document": "Sauna Guide Strategy",
+  "version": "4.0",
+
+  "promise": {
+    "oneLiner": "Every Thursday: why heat heals, where to find it, and five minutes of stillness.",
+    "pillars": [
+      {
+        "name": "Why heat heals",
+        "description": "The science of sauna",
+        "examples": ["Sleep benefits", "Stress reduction", "Heart health", "Recovery"]
+      },
+      {
+        "name": "Where to find it",
+        "description": "Beautiful destinations",
+        "examples": ["City guides", "Dream saunas", "Hidden gems", "Worth the trip"]
+      },
+      {
+        "name": "Five minutes of stillness",
+        "description": "The escape",
+        "examples": ["Weekly calm", "Permission to slow down", "Rituals", "Reflections"]
+      }
+    ]
+  },
+
+  "product": {
+    "primary": "Weekly newsletter",
+    "frequency": "Every Thursday",
+    "readTime": "5 minutes",
+    "price": "Free",
+    "bonus": "Website (sauna directory + guides)"
+  },
+
+  "whatWeSell": {
+    "core": ["Health insights", "Escape/wanderlust", "Moments of calm"],
+    "not": ["Products", "Optimization tips", "Hustle culture"]
+  },
+
+  "targetAudience": {
+    "description": "People curious about sauna — health, travel, relaxation",
+    "demographics": "All genders, all backgrounds",
+    "psychographics": [
+      "Health-curious (sleep, stress, longevity)",
+      "Travel-dreamers (bucket list destinations)",
+      "Stillness-seekers (need a break from screens)"
+    ]
+  },
+
+  "growth": {
+    "seo": ["Sauna health benefits", "Best saunas in [city]", "Sauna ritual"],
+    "social": ["Beautiful sauna photos", "Quick health facts", "Destination reveals"],
+    "partnerships": ["Wellness newsletters", "Travel newsletters"]
+  },
+
+  "kpis": {
+    "subscribers": {
+      "month3": 2500,
+      "month6": 8000,
+      "year1": 25000
+    }
+  }
+}

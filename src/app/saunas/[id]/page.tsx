@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import saunasData from '@/data/saunas.json'
 import { Sauna } from '@/lib/types'
+import { Navigation } from '@/components/layout/Navigation'
+import { Footer } from '@/components/layout/Footer'
 
 // This is required for static site generation (SSG) of dynamic routes
 export async function generateStaticParams() {
@@ -37,27 +39,8 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
   if (!sauna) return notFound()
 
   return (
-    <main className="min-h-screen bg-sauna-paper pb-20">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-sauna-paper/90 backdrop-blur-md border-b border-sauna-ash/50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-sauna-bark flex items-center justify-center
-                            group-hover:bg-sauna-walnut transition-colors duration-300">
-              <svg className="w-5 h-5 text-sauna-sand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-              </svg>
-            </div>
-            <span className="font-display text-xl font-medium text-sauna-ink tracking-tight">Sauna Guide</span>
-          </Link>
-          <div className="flex gap-4">
-             <Link href="/saunas" className="px-4 py-2 text-sm font-medium text-sauna-walnut hover:text-sauna-ink transition-colors">
-               Back to Directory
-             </Link>
-          </div>
-        </div>
-      </nav>
+    <div className="min-h-screen bg-sauna-paper flex flex-col">
+      <Navigation />
 
       {/* Hero Header */}
       <div className="relative h-[60vh] min-h-[500px] w-full bg-sauna-charcoal mt-20">
@@ -106,7 +89,7 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <main className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12 flex-grow">
         {/* Main Content */}
         <div className="lg:col-span-2">
             <h2 className="text-2xl font-display text-sauna-ink mb-6">About this Sauna</h2>
@@ -159,7 +142,9 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
                 </Link>
             </div>
         </div>
-      </div>
-    </main>
+      </main>
+
+      <Footer />
+    </div>
   )
 }

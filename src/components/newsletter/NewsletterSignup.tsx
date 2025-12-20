@@ -1,16 +1,19 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 
 interface NewsletterSignupProps {
   variant?: 'hero' | 'inline' | 'minimal'
   className?: string
+  redirectOnSuccess?: boolean
 }
 
-export function NewsletterSignup({ variant = 'hero', className = '' }: NewsletterSignupProps) {
+export function NewsletterSignup({ variant = 'hero', className = '', redirectOnSuccess = true }: NewsletterSignupProps) {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [message, setMessage] = useState('')
+  const router = useRouter()
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -27,8 +30,12 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
 
       if (response.ok) {
         setStatus('success')
-        setMessage('The door is open. The Complete Sauna Protocol is in your inbox.')
         setEmail('')
+        if (redirectOnSuccess) {
+          router.push('/welcome')
+        } else {
+          setMessage('You\'re in. Check your inbox.')
+        }
       } else {
         setStatus('error')
         setMessage(data.error || 'Something went wrong. Please try again.')

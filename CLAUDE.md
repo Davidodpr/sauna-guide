@@ -1,6 +1,22 @@
 # Sauna Guide
 
-> The ultimate sauna directory and guide website. Goal: become #1 resource for sauna enthusiasts and build a 100K+ subscriber newsletter.
+> Every Thursday: why heat heals, where to find it, and five minutes of stillness.
+
+## The Promise
+
+**Löftet i en mening:**
+> "Every Thursday: why heat heals, where to find it, and five minutes of stillness."
+
+**Vad vi levererar:**
+1. **Why heat heals** — Vetenskapen om bastu (hälsa, sömn, stress, återhämtning)
+2. **Where to find it** — Vackra bastudestinationer runt om i världen
+3. **Five minutes of stillness** — En stund av lugn, flykten
+
+**Produkt:** Nyhetsbrevet (gratis, varje torsdag, 5 min läsning)
+
+**Bonus:** Sajten (sauna directory + guides)
+
+**Vi säljer:** Hälsan, flykten, insikterna — inte produkter eller optimering.
 
 ## Tech Stack
 
@@ -104,9 +120,9 @@ Core principles:
 | Short, breathing sentences | Hype and urgency |
 
 **Signature phrases:**
-- "There's a room with no notifications."
-- "Just heat. Silence. Breath."
-- "Slower. Hotter. Older."
+- "Every Thursday: why heat heals, where to find it, and five minutes of stillness."
+- "Close the door. Let everything go."
+- "Step inside."
 
 ## Content Guidelines
 

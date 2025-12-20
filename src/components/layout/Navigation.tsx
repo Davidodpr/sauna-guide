@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,10 +14,13 @@ export function Navigation() {
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-10 h-10 rounded-lg bg-sauna-bark flex items-center justify-center
                           group-hover:bg-sauna-walnut transition-colors duration-300">
-            <svg className="w-5 h-5 text-sauna-sand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                    d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-            </svg>
+            <Image 
+              src="/images/logo.svg" 
+              alt="Sauna Guide Logo" 
+              width={20} 
+              height={20} 
+              className="w-5 h-5"
+            />
           </div>
           <span className="font-display text-xl font-medium text-sauna-ink tracking-tight">Sauna Guide</span>
         </Link>

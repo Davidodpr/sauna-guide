@@ -1,554 +1,834 @@
 {
-  "analyzedAt": "2025-12-19T00:00:00Z",
-  "summary": {
-    "totalKeywords": 20,
-    "primaryCompetitors": [
-      "healthline.com",
-      "goodrx.com",
-      "mayoclinic.org",
-      "clevelandclinic.org",
-      "garagegymreviews.com",
-      "mensfitness.com",
-      "plunge.com",
-      "finnmarksauna.com"
+  "analyzedAt": "2025-12-20T00:00:00Z",
+  "hyperNicheRecommendation": {
+    "primaryNiche": "Sauna as Ritual Practice & Mental Wellness",
+    "rationale": [
+      "Massive content gap: mental health benefits underexplored despite strong research (78% psychosis risk reduction, depression treatment)",
+      "Aligns perfectly with brand voice: ritual vs. hack, slow living, permission to do nothing",
+      "High engagement audience: people seeking mental wellness solutions are more committed than casual health optimizers",
+      "Lower competition than physical health benefits (dominated by medical sites)",
+      "Growing trend: wellness lifestyle, slow living, mindfulness all gaining traction in 2025",
+      "AI search opportunity: Perplexity/ChatGPT lack authoritative sources on sauna rituals and mental health",
+      "Newsletter fit: engaged audience seeking lifestyle transformation, not just information"
     ],
-    "topContentGaps": [
-      "Comprehensive beginner guides lacking personal experience",
-      "Scientific research combined with practical advice",
-      "Mental health benefits underexplored",
-      "DIY build guides with real cost breakdowns",
-      "Contrast therapy protocols (sauna + cold plunge)"
+    "secondaryNiches": [
+      {
+        "name": "Sauna Culture & Etiquette",
+        "reason": "Low competition, high social sharing potential, aligns with 'ancient practice' positioning",
+        "keywords": ["Finnish sauna etiquette", "sauna ritual", "aufguss ceremony", "sauna culture"]
+      },
+      {
+        "name": "Home Sauna for Renters & Apartments",
+        "reason": "Massive underserved market, portable/blanket options growing 70K+ weekly revenue",
+        "keywords": ["portable sauna", "sauna blanket", "apartment sauna", "renter-friendly sauna"]
+      },
+      {
+        "name": "Contrast Therapy Protocols",
+        "reason": "Trending topic (8,500 searches), fragmented information, opportunity for definitive guide",
+        "keywords": ["sauna cold plunge routine", "contrast therapy", "Nordic cycle", "hot cold therapy"]
+      }
+    ],
+    "avoidCompeting": [
+      "Generic 'sauna benefits' (dominated by Healthline, Mayo Clinic, Cleveland Clinic)",
+      "Product reviews of premium saunas (Garage Gym Reviews owns this)",
+      "Medical conditions requiring physician oversight (E-E-A-T barriers too high)"
     ]
   },
-  "keywordOpportunities": [
-    {
-      "keyword": "how to use a sauna for beginners",
-      "searchVolume": 8000,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-beginners-guide",
-      "contentNeeded": "Complete step-by-step guide with safety tips, duration, temperature recommendations, and common mistakes",
-      "contentAngle": "First-person experience combined with expert advice. Include timeline for building tolerance (week 1, week 2, etc.)",
-      "monetization": "Affiliate links to beginner-friendly home saunas, towels, thermometers",
-      "estimatedMonthlyTraffic": 3200,
-      "competitorWeakness": "Most guides are generic; lack personal storytelling and progression timeline"
-    },
-    {
-      "keyword": "sauna benefits for skin",
-      "searchVolume": 6500,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-skin-benefits",
-      "contentNeeded": "Scientific breakdown of collagen production, anti-aging effects, acne treatment, with before/after research studies",
-      "contentAngle": "Debunk myths (does sauna age skin?), cite 2006 study on collagen increase, include dermatologist quotes",
-      "monetization": "Infrared sauna blanket affiliates, skincare products for post-sauna",
-      "estimatedMonthlyTraffic": 2600,
-      "competitorWeakness": "Most content is superficial; opportunity to go deep on scientific research"
-    },
-    {
-      "keyword": "infrared vs traditional sauna",
-      "searchVolume": 12000,
-      "difficulty": "high",
-      "currentRanking": null,
-      "targetPage": "/guides/infrared-vs-traditional-sauna",
-      "contentNeeded": "Comprehensive comparison: heating method, temperature, cost, health benefits, maintenance, energy efficiency",
-      "contentAngle": "Decision framework: which type for your goals (weight loss, recovery, cardiovascular health, space constraints)",
-      "monetization": "Affiliate links to both types, comparison tables with buy buttons",
-      "estimatedMonthlyTraffic": 4800,
-      "competitorWeakness": "Existing content doesn't help readers decide; add quiz or decision tree"
-    },
-    {
-      "keyword": "best home sauna under 2000",
-      "searchVolume": 5500,
-      "difficulty": "high",
-      "currentRanking": null,
-      "targetPage": "/reviews/best-budget-home-saunas",
-      "contentNeeded": "Tested reviews of affordable options: portable saunas, sauna blankets, small 1-2 person units",
-      "contentAngle": "Actual testing with photos, pros/cons, which is best for apartments, small spaces, renters",
-      "monetization": "High-intent affiliate traffic, Amazon Associates",
-      "estimatedMonthlyTraffic": 2750,
-      "competitorWeakness": "Garage Gym Reviews and Men's Fitness dominate but focus on premium models"
-    },
-    {
-      "keyword": "sauna after workout benefits",
-      "searchVolume": 7200,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-after-workout",
-      "contentNeeded": "Muscle recovery science, timing recommendations, hydration protocol, when to avoid",
-      "contentAngle": "Athlete-focused guide with research on reduced DOMS, neuromuscular performance, optimal 30-60 min window",
-      "monetization": "Recovery equipment affiliates, electrolyte supplements",
-      "estimatedMonthlyTraffic": 2880,
-      "competitorWeakness": "Good content exists but lacks actionable protocols and timing specifics"
-    },
-    {
-      "keyword": "how long to stay in sauna",
-      "searchVolume": 9500,
-      "difficulty": "low",
-      "currentRanking": null,
-      "targetPage": "/guides/optimal-sauna-duration",
-      "contentNeeded": "Duration by experience level, temperature, sauna type; signs to exit immediately",
-      "contentAngle": "Progressive protocol: beginners (5-10 min), intermediate (15-20 min), advanced (20-30 min). Include Finnish research on 3-7x per week",
-      "monetization": "Sauna accessories (timers, thermometers)",
-      "estimatedMonthlyTraffic": 3800,
-      "competitorWeakness": "Quick wins - most sites give vague answers. Opportunity for detailed, authoritative guide"
-    },
-    {
-      "keyword": "sauna weight loss",
-      "searchVolume": 15000,
-      "difficulty": "high",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-weight-loss-truth",
-      "contentNeeded": "Myth-busting article: water weight vs fat loss, calorie burn reality, how to use sauna as part of weight management",
-      "contentAngle": "Honest, science-based approach. Don't overpromise. Cover indirect benefits (better sleep, stress reduction, recovery)",
-      "monetization": "Fitness equipment, sauna packages",
-      "estimatedMonthlyTraffic": 6000,
-      "competitorWeakness": "High volume but many sites spread misinformation. Opportunity for trusted, honest content"
-    },
-    {
-      "keyword": "sauna detox myth",
-      "searchVolume": 3800,
-      "difficulty": "low",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-detox-truth",
-      "contentNeeded": "Science-based debunking: liver/kidneys do the detoxing, what's actually in sweat, real benefits of sauna",
-      "contentAngle": "Educational, myth-busting tone citing National Geographic research and medical sources",
-      "monetization": "Shift to real benefits - cardiovascular health products",
-      "estimatedMonthlyTraffic": 1520,
-      "competitorWeakness": "Quick win - most sites promote detox myth. Opportunity to be the trusted voice"
-    },
-    {
-      "keyword": "sauna safety risks",
-      "searchVolume": 4200,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-safety-guide",
-      "contentNeeded": "Medical conditions requiring caution, dehydration prevention, alcohol dangers, pregnancy guidelines, medication interactions",
-      "contentAngle": "Medical professional-reviewed guide. Cover contraindications (unstable angina, recent MI, severe aortic stenosis)",
-      "monetization": "Safety equipment (timers, hydration products)",
-      "estimatedMonthlyTraffic": 1680,
-      "competitorWeakness": "E-E-A-T opportunity - get medical professional to review for credibility"
-    },
-    {
-      "keyword": "barrel sauna vs cabin sauna",
-      "searchVolume": 2800,
-      "difficulty": "low",
-      "currentRanking": null,
-      "targetPage": "/guides/barrel-vs-cabin-sauna",
-      "contentNeeded": "Heating efficiency, space requirements, weather durability, customization options, installation, maintenance, cost",
-      "contentAngle": "Climate-based recommendations: cold climates = cabin, moderate = barrel. Include decision matrix",
-      "monetization": "Outdoor sauna affiliates",
-      "estimatedMonthlyTraffic": 1120,
-      "competitorWeakness": "Quick win - low competition, specific buyer intent"
-    },
-    {
-      "keyword": "Finnish sauna etiquette",
-      "searchVolume": 3500,
-      "difficulty": "low",
-      "currentRanking": null,
-      "targetPage": "/guides/finnish-sauna-etiquette",
-      "contentNeeded": "Traditional rules: nudity customs, asking before adding steam, equality principle, vihta usage, public vs private",
-      "contentAngle": "Cultural deep-dive with Finnish sources. Make it entertaining and educational. Include travel tips for visiting Finland",
-      "monetization": "Finnish sauna products, travel guides",
-      "estimatedMonthlyTraffic": 1400,
-      "competitorWeakness": "Quick win - cultural content performs well, good for featured snippets"
-    },
-    {
-      "keyword": "sauna mental health benefits",
-      "searchVolume": 4800,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-mental-health",
-      "contentNeeded": "Depression, anxiety, stress reduction research. Neurochemical effects (serotonin, endorphins, norepinephrine), sleep improvements",
-      "contentAngle": "Cite Dr. Charles Raison's University of Wisconsin research on infrared for depression. Cover 78% reduced psychosis risk",
-      "monetization": "Mental wellness products, meditation accessories",
-      "estimatedMonthlyTraffic": 1920,
-      "competitorWeakness": "Underexplored topic with strong research backing. Big content gap opportunity"
-    },
-    {
-      "keyword": "sauna cold plunge routine",
-      "searchVolume": 8500,
-      "difficulty": "high",
-      "currentRanking": null,
-      "targetPage": "/guides/contrast-therapy-protocol",
-      "contentNeeded": "Step-by-step contrast therapy protocol, temperature settings, duration, frequency, benefits, safety precautions",
-      "contentAngle": "Nordic Cycle deep-dive. Include 2-3 round protocols, when to end with cold vs heat, contraindications",
-      "monetization": "Cold plunge affiliates, Plunge partnership opportunity",
-      "estimatedMonthlyTraffic": 3400,
-      "competitorWeakness": "Trending topic but fragmented information. Opportunity for definitive guide"
-    },
-    {
-      "keyword": "DIY sauna cost",
-      "searchVolume": 5200,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/diy-sauna-cost-guide",
-      "contentNeeded": "Detailed cost breakdown: materials, labor, permits, ongoing costs. Budget options ($3,500) to premium ($10,000+)",
-      "contentAngle": "Real project examples with itemized costs. Include lumber alternatives, heater recommendations, common mistakes",
-      "monetization": "DIY materials affiliates, sauna kit links",
-      "estimatedMonthlyTraffic": 2080,
-      "competitorWeakness": "Existing guides lack real-world examples. Opportunity for detailed case studies"
-    },
-    {
-      "keyword": "sauna frequency how often",
-      "searchVolume": 6800,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/optimal-sauna-frequency",
-      "contentNeeded": "Research-based recommendations: 3-7x per week for optimal benefits. Benefits by frequency (1x vs 4-7x per week)",
-      "contentAngle": "Cite Finnish 20-year study: 4+ sessions of 19+ minutes reduces disease risk up to 60%. Include beginner progression",
-      "monetization": "Home sauna packages",
-      "estimatedMonthlyTraffic": 2720,
-      "competitorWeakness": "Good research exists but needs better packaging and progression plans"
-    },
-    {
-      "keyword": "sauna vs hot tub",
-      "searchVolume": 7500,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-vs-hot-tub",
-      "contentNeeded": "2025 research comparison: cardiovascular effects, immune response, cost, maintenance, which for specific goals",
-      "contentAngle": "Cite November 2025 University of Oregon study showing hot tubs raise core temp more. Include decision framework",
-      "monetization": "Both product categories",
-      "estimatedMonthlyTraffic": 3000,
-      "competitorWeakness": "2025 research creates opportunity for updated, definitive comparison"
-    },
-    {
-      "keyword": "sauna blanket review",
-      "searchVolume": 9200,
-      "difficulty": "high",
-      "currentRanking": null,
-      "targetPage": "/reviews/best-sauna-blankets",
-      "contentNeeded": "Tested reviews: HigherDOSE, Bon Charge, budget options. Portability, effectiveness, durability",
-      "contentAngle": "Real testing with thermal camera readings. Cover who should buy blanket vs full sauna",
-      "monetization": "High conversion rate - direct affiliate links",
-      "estimatedMonthlyTraffic": 3680,
-      "competitorWeakness": "HigherDOSE dominates sponsored content. Opportunity for unbiased testing"
-    },
-    {
-      "keyword": "sauna before or after workout",
-      "searchVolume": 4500,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-workout-timing",
-      "contentNeeded": "Research on both: pre-workout warm-up benefits vs post-workout recovery. Expert recommendations",
-      "contentAngle": "Consensus: post-workout is better for recovery. Cover 2022 study on enhanced cardiorespiratory fitness",
-      "monetization": "Workout recovery products",
-      "estimatedMonthlyTraffic": 1800,
-      "competitorWeakness": "Conflicting information online. Opportunity to synthesize research into clear recommendation"
-    },
-    {
-      "keyword": "home sauna installation cost",
-      "searchVolume": 5800,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-installation-cost",
-      "contentNeeded": "Cost by sauna type: prefab kits, custom builds, indoor vs outdoor. Labor costs, electrical work, permits",
-      "contentAngle": "Cost calculator approach. Break down by decision factors: DIY vs professional, size, location, sauna type",
-      "monetization": "Lead generation for contractors, sauna kit affiliates",
-      "estimatedMonthlyTraffic": 2320,
-      "competitorWeakness": "Existing guides are outdated (2024 prices). Opportunity for current 2025 pricing"
-    },
-    {
-      "keyword": "sauna benefits research",
-      "searchVolume": 3200,
-      "difficulty": "medium",
-      "currentRanking": null,
-      "targetPage": "/guides/sauna-research-studies",
-      "contentNeeded": "Comprehensive review of scientific studies: cardiovascular, mental health, longevity, dementia, all-cause mortality",
-      "contentAngle": "Evidence-based resource hub. Cite Mayo Clinic Proceedings, Finnish studies, 2025 research updates",
-      "monetization": "Authority building for newsletter signups",
-      "estimatedMonthlyTraffic": 1280,
-      "competitorWeakness": "Opportunity for authoritative, well-cited resource that establishes site credibility"
-    }
-  ],
-  "quickWins": [
-    {
-      "keyword": "how long to stay in sauna",
-      "difficulty": "low",
-      "searchVolume": 9500,
-      "estimatedMonthlyTraffic": 3800,
-      "effort": "low",
-      "action": "2,000-word guide with progressive protocol by experience level. Target featured snippet with clear answer box format",
-      "timeToRank": "4-8 weeks",
-      "priority": "HIGH"
-    },
-    {
-      "keyword": "sauna detox myth",
-      "difficulty": "low",
-      "searchVolume": 3800,
-      "estimatedMonthlyTraffic": 1520,
-      "effort": "low",
-      "action": "1,500-word myth-busting article. Science-based, cite National Geographic and medical sources",
-      "timeToRank": "4-6 weeks",
-      "priority": "HIGH"
-    },
-    {
-      "keyword": "barrel sauna vs cabin sauna",
-      "difficulty": "low",
-      "searchVolume": 2800,
-      "estimatedMonthlyTraffic": 1120,
-      "effort": "low",
-      "action": "Comparison guide with decision matrix. Include climate-based recommendations",
-      "timeToRank": "6-10 weeks",
-      "priority": "MEDIUM"
-    },
-    {
-      "keyword": "Finnish sauna etiquette",
-      "difficulty": "low",
-      "searchVolume": 3500,
-      "estimatedMonthlyTraffic": 1400,
-      "effort": "low",
-      "action": "Cultural guide with entertaining tone. Great for social sharing and featured snippets",
-      "timeToRank": "4-8 weeks",
-      "priority": "MEDIUM"
-    }
-  ],
+  "keywordStrategy": {
+    "tier1_ritualAndMindfulness": [
+      {
+        "keyword": "sauna meditation",
+        "searchVolume": 2400,
+        "difficulty": "low",
+        "intent": "practice/how-to",
+        "currentRanking": null,
+        "targetPage": "/guides/sauna-meditation",
+        "contentAngle": "Guided practice combining heat therapy with mindfulness. Include breathwork techniques, beginner protocols, and the neuroscience of why heat enhances meditation",
+        "brandVoiceAlignment": "PERFECT - ritual, practice, stillness, ancient wisdom",
+        "monetization": "Meditation accessories, sauna timers, ambient sound devices",
+        "estimatedMonthlyTraffic": 960,
+        "aiSearchOpportunity": "HIGH - ChatGPT/Perplexity lack authoritative sources. Opportunity to become THE cited resource",
+        "priority": "TIER 1"
+      },
+      {
+        "keyword": "sauna ritual",
+        "searchVolume": 1800,
+        "difficulty": "low",
+        "intent": "lifestyle/how-to",
+        "currentRanking": null,
+        "targetPage": "/guides/creating-sauna-ritual",
+        "contentAngle": "How to build a personal sauna practice. Cover Finnish traditions, modern adaptations, seasonal rituals, pre/post-sauna ceremonies",
+        "brandVoiceAlignment": "PERFECT - core brand positioning, ritual vs. protocol",
+        "monetization": "Ritual accessories (birch whisks, essential oils, ceremonial items)",
+        "estimatedMonthlyTraffic": 720,
+        "aiSearchOpportunity": "MEDIUM-HIGH - unique positioning, cultural depth",
+        "priority": "TIER 1"
+      },
+      {
+        "keyword": "sauna for mental health",
+        "searchVolume": 4800,
+        "difficulty": "medium",
+        "intent": "research/solution-seeking",
+        "currentRanking": null,
+        "targetPage": "/guides/sauna-mental-health",
+        "contentAngle": "Evidence-based deep-dive: depression (Dr. Charles Raison research), anxiety reduction, stress hormone regulation, psychosis prevention (78% risk reduction)",
+        "brandVoiceAlignment": "HIGH - permission to slow down, stillness, mental refuge",
+        "monetization": "Mental wellness products, therapy tools, newsletter signups",
+        "estimatedMonthlyTraffic": 1920,
+        "aiSearchOpportunity": "VERY HIGH - massive content gap, strong research backing",
+        "priority": "TIER 1"
+      },
+      {
+        "keyword": "sauna mindfulness practice",
+        "searchVolume": 880,
+        "difficulty": "very low",
+        "intent": "practice/integration",
+        "currentRanking": null,
+        "targetPage": "/guides/mindful-sauna-practice",
+        "contentAngle": "Integrate mindfulness into sauna sessions. Body scan meditation, sensory awareness, Japanese 'totonou' state, intentional heat practice",
+        "brandVoiceAlignment": "PERFECT - presence, forced stillness, no notifications",
+        "monetization": "Mindfulness apps, journals, ambient lighting",
+        "estimatedMonthlyTraffic": 350,
+        "aiSearchOpportunity": "HIGH - zero-volume keyword opportunity, high intent",
+        "priority": "TIER 1"
+      },
+      {
+        "keyword": "sauna for stress relief",
+        "searchVolume": 3200,
+        "difficulty": "medium",
+        "intent": "solution-seeking",
+        "currentRanking": null,
+        "targetPage": "/guides/sauna-stress-reduction",
+        "contentAngle": "Science of stress reduction: cortisol regulation, parasympathetic activation, HRV improvement. Include weekly stress-reduction protocols",
+        "brandVoiceAlignment": "HIGH - refuge from modern stress, permission to rest",
+        "monetization": "Stress-reduction tools, wearables, recovery products",
+        "estimatedMonthlyTraffic": 1280,
+        "aiSearchOpportunity": "MEDIUM-HIGH - competitive but winnable with depth",
+        "priority": "TIER 1"
+      },
+      {
+        "keyword": "sauna for sleep",
+        "searchVolume": 5600,
+        "difficulty": "medium",
+        "intent": "solution-seeking",
+        "currentRanking": null,
+        "targetPage": "/guides/sauna-sleep-optimization",
+        "contentAngle": "Sleep science: 70% increase in deep sleep, melatonin production, circadian rhythm regulation. Evening sauna protocols (1-3 hours before bed)",
+        "brandVoiceAlignment": "HIGH - rest, restoration, slowing down",
+        "monetization": "Sleep products, cooling sheets, sleep trackers",
+        "estimatedMonthlyTraffic": 2240,
+        "aiSearchOpportunity": "MEDIUM - good research exists, need unique angle",
+        "priority": "TIER 1"
+      }
+    ],
+    "tier2_cultureAndEtiquette": [
+      {
+        "keyword": "Finnish sauna etiquette",
+        "searchVolume": 3500,
+        "difficulty": "low",
+        "intent": "educational/cultural",
+        "currentRanking": null,
+        "targetPage": "/guides/finnish-sauna-etiquette",
+        "contentAngle": "Cultural deep-dive: nudity customs, löyly protocol, vihta/vasta usage, equality principle, sauna as sacred space. Include travel guide for Finland",
+        "brandVoiceAlignment": "PERFECT - ancient traditions, cultural wisdom, UNESCO heritage",
+        "monetization": "Finnish products, travel guides, traditional accessories",
+        "estimatedMonthlyTraffic": 1400,
+        "aiSearchOpportunity": "HIGH - featured snippet opportunity, social sharing",
+        "priority": "TIER 2"
+      },
+      {
+        "keyword": "aufguss sauna ritual",
+        "searchVolume": 1200,
+        "difficulty": "very low",
+        "intent": "cultural/educational",
+        "currentRanking": null,
+        "targetPage": "/guides/aufguss-ceremony",
+        "contentAngle": "German/Alpine sauna ceremony: Aufgussmeister role, essential oil infusions, towel waving technique, sensory experience vs. productivity",
+        "brandVoiceAlignment": "PERFECT - ritual, ceremony, slow living counterpoint",
+        "monetization": "Essential oils, ceremonial tools, sauna experiences",
+        "estimatedMonthlyTraffic": 480,
+        "aiSearchOpportunity": "VERY HIGH - near-zero competition, unique content",
+        "priority": "TIER 2"
+      },
+      {
+        "keyword": "sauna etiquette guide",
+        "searchVolume": 2800,
+        "difficulty": "low",
+        "intent": "how-to/beginner",
+        "currentRanking": null,
+        "targetPage": "/guides/sauna-etiquette",
+        "contentAngle": "Modern comprehensive guide: public vs private, gym vs spa, phone policy, conversation norms, shower protocol, respect for quiet",
+        "brandVoiceAlignment": "HIGH - respect for practice, creating sacred space",
+        "monetization": "Sauna accessories, etiquette-friendly gear",
+        "estimatedMonthlyTraffic": 1120,
+        "aiSearchOpportunity": "MEDIUM - trending in 2025 (69.1% gym members want saunas)",
+        "priority": "TIER 2"
+      },
+      {
+        "keyword": "sauna culture around the world",
+        "searchVolume": 1600,
+        "difficulty": "low",
+        "intent": "educational/cultural",
+        "currentRanking": null,
+        "targetPage": "/guides/world-sauna-cultures",
+        "contentAngle": "Global traditions: Finnish, Russian banya, Turkish hammam, Japanese sento, Korean jjimjilbang, Native American sweat lodge",
+        "brandVoiceAlignment": "PERFECT - ancient wisdom, belonging to something bigger",
+        "monetization": "Cultural products, travel experiences, books",
+        "estimatedMonthlyTraffic": 640,
+        "aiSearchOpportunity": "HIGH - comprehensive cultural resource, evergreen content",
+        "priority": "TIER 2"
+      }
+    ],
+    "tier3_portableAndAccessible": [
+      {
+        "keyword": "sauna blanket review",
+        "searchVolume": 9200,
+        "difficulty": "high",
+        "intent": "commercial/research",
+        "currentRanking": null,
+        "targetPage": "/reviews/best-sauna-blankets",
+        "contentAngle": "Unbiased testing: HigherDOSE, Bon Charge, budget options. Thermal camera readings, who should choose blanket vs. full sauna, renter-friendly focus",
+        "brandVoiceAlignment": "MEDIUM - commercial but serves accessibility mission",
+        "monetization": "HIGH - direct affiliates, strong conversion rates",
+        "estimatedMonthlyTraffic": 3680,
+        "aiSearchOpportunity": "MEDIUM - competitive but high-value",
+        "priority": "TIER 3"
+      },
+      {
+        "keyword": "portable sauna for apartment",
+        "searchVolume": 2200,
+        "difficulty": "low",
+        "intent": "commercial/solution-seeking",
+        "currentRanking": null,
+        "targetPage": "/guides/apartment-sauna-options",
+        "contentAngle": "Complete guide for renters: portable tents, blankets, infrared panels, space requirements, landlord-friendly installations, storage solutions",
+        "brandVoiceAlignment": "HIGH - democratizing the practice, making ritual accessible",
+        "monetization": "Portable sauna affiliates, compact solutions",
+        "estimatedMonthlyTraffic": 880,
+        "aiSearchOpportunity": "HIGH - underserved market, practical focus",
+        "priority": "TIER 3"
+      },
+      {
+        "keyword": "best portable sauna",
+        "searchVolume": 6800,
+        "difficulty": "high",
+        "intent": "commercial/research",
+        "currentRanking": null,
+        "targetPage": "/reviews/best-portable-saunas",
+        "contentAngle": "Tested reviews: SereneLife, Nordic Ways, Sauna Pod. Focus on under-$500 options, footprint, setup time, effectiveness for rituals",
+        "brandVoiceAlignment": "MEDIUM - commercial but accessibility-focused",
+        "monetization": "HIGH - affiliate revenue, strong buyer intent",
+        "estimatedMonthlyTraffic": 2720,
+        "aiSearchOpportunity": "MEDIUM - competitive category",
+        "priority": "TIER 3"
+      },
+      {
+        "keyword": "DIY sauna for small spaces",
+        "searchVolume": 1400,
+        "difficulty": "low",
+        "intent": "project/solution-seeking",
+        "currentRanking": null,
+        "targetPage": "/guides/small-space-diy-sauna",
+        "contentAngle": "Creative solutions: closet conversions, infrared panels in bathrooms, balcony barrel saunas, budget builds under $1000",
+        "brandVoiceAlignment": "HIGH - resourcefulness, making practice accessible",
+        "monetization": "DIY materials, compact kits",
+        "estimatedMonthlyTraffic": 560,
+        "aiSearchOpportunity": "HIGH - unique practical angle",
+        "priority": "TIER 3"
+      }
+    ],
+    "tier4_contrastTherapy": [
+      {
+        "keyword": "sauna cold plunge routine",
+        "searchVolume": 8500,
+        "difficulty": "high",
+        "intent": "how-to/protocol",
+        "currentRanking": null,
+        "targetPage": "/guides/contrast-therapy-protocol",
+        "contentAngle": "Complete Nordic Cycle guide: 2-3 round protocols, temperature settings, duration by experience, end with cold vs. heat debate, safety contraindications",
+        "brandVoiceAlignment": "HIGH - ritual, practice, ancient wisdom meets modern science",
+        "monetization": "Cold plunge affiliates, contrast therapy equipment",
+        "estimatedMonthlyTraffic": 3400,
+        "aiSearchOpportunity": "VERY HIGH - trending topic, fragmented information",
+        "priority": "TIER 4"
+      },
+      {
+        "keyword": "contrast therapy benefits",
+        "searchVolume": 4200,
+        "difficulty": "medium",
+        "intent": "research/educational",
+        "currentRanking": null,
+        "targetPage": "/guides/contrast-therapy-benefits",
+        "contentAngle": "Science deep-dive: circulation, inflammation, immune response, norepinephrine, resilience training. Cite latest 2025 research",
+        "brandVoiceAlignment": "MEDIUM - educational with ritual framing",
+        "monetization": "Therapy equipment, recovery products",
+        "estimatedMonthlyTraffic": 1680,
+        "aiSearchOpportunity": "HIGH - research-based authority opportunity",
+        "priority": "TIER 4"
+      },
+      {
+        "keyword": "hot cold therapy protocol",
+        "searchVolume": 2600,
+        "difficulty": "medium",
+        "intent": "how-to/protocol",
+        "currentRanking": null,
+        "targetPage": "/guides/hot-cold-therapy-guide",
+        "contentAngle": "Practical implementation: home setups, gym protocols, timing variations, progression for beginners, advanced techniques",
+        "brandVoiceAlignment": "MEDIUM-HIGH - practice-oriented",
+        "monetization": "Temperature therapy equipment",
+        "estimatedMonthlyTraffic": 1040,
+        "aiSearchOpportunity": "MEDIUM",
+        "priority": "TIER 4"
+      }
+    ],
+    "quickWins_updated2025": [
+      {
+        "keyword": "aufguss sauna ritual",
+        "difficulty": "very low",
+        "searchVolume": 1200,
+        "estimatedMonthlyTraffic": 480,
+        "effort": "low",
+        "action": "1,500-word cultural guide on German sauna ceremony. Sensory-rich writing, ceremony steps, where to experience, DIY adaptation",
+        "timeToRank": "3-6 weeks",
+        "priority": "VERY HIGH",
+        "reason": "Zero competition, perfect brand alignment, unique cultural angle, social sharing potential"
+      },
+      {
+        "keyword": "sauna mindfulness practice",
+        "difficulty": "very low",
+        "searchVolume": 880,
+        "estimatedMonthlyTraffic": 350,
+        "effort": "low",
+        "action": "1,200-word practice guide. Include guided meditation script, body awareness exercises, breathwork for heat",
+        "timeToRank": "3-6 weeks",
+        "priority": "VERY HIGH",
+        "reason": "Perfect brand fit, zero competition, high-intent audience seeking practice integration"
+      },
+      {
+        "keyword": "Finnish sauna etiquette",
+        "difficulty": "low",
+        "searchVolume": 3500,
+        "estimatedMonthlyTraffic": 1400,
+        "effort": "low",
+        "action": "Entertaining cultural guide. Include Finnish phrases, travel tips, what NOT to do, historical context",
+        "timeToRank": "4-8 weeks",
+        "priority": "HIGH",
+        "reason": "Low competition, featured snippet opportunity, social sharing, cultural authority"
+      },
+      {
+        "keyword": "sauna ritual",
+        "difficulty": "low",
+        "searchVolume": 1800,
+        "estimatedMonthlyTraffic": 720,
+        "effort": "medium",
+        "action": "2,000-word pillar content on creating personal sauna rituals. Seasonal variations, beginner to advanced",
+        "timeToRank": "6-10 weeks",
+        "priority": "HIGH",
+        "reason": "Core brand positioning, owns the 'ritual vs. protocol' narrative"
+      },
+      {
+        "keyword": "sauna for sleep",
+        "difficulty": "medium",
+        "searchVolume": 5600,
+        "estimatedMonthlyTraffic": 2240,
+        "effort": "medium",
+        "action": "2,500-word evidence-based guide. 70% deep sleep increase research, evening protocols, circadian science",
+        "timeToRank": "8-12 weeks",
+        "priority": "MEDIUM-HIGH",
+        "reason": "High volume, solution-seeking intent, strong research backing, newsletter fit"
+      }
+    ]
+  },
   "competitorAnalysis": {
+    "mentalWellnessGap": {
+      "observation": "Medical sites (Healthline, Mayo Clinic) mention mental health benefits superficially. No one owns the sauna-as-mental-refuge positioning",
+      "opportunity": "Become THE authority on sauna for mental health, stress, and mindfulness. Own the narrative of sauna as ritual practice vs. optimization hack",
+      "differentiation": "Combine rigorous research with atmospheric storytelling. Make readers feel the refuge, not just understand the benefits"
+    },
+    "culturalContentGap": {
+      "observation": "Sauna culture content is fragmented, often travel-focused or superficial",
+      "opportunity": "Deep cultural storytelling: Finnish traditions, global practices, ceremonial aspects. UNESCO heritage angle",
+      "differentiation": "Respect for tradition, not appropriation. Connect ancient wisdom to modern need for ritual"
+    },
+    "accessibilityGap": {
+      "observation": "Garage Gym Reviews and premium sauna companies focus on $3,000+ installations",
+      "opportunity": "Serve renters, apartment dwellers, budget-conscious seekers. Portable, blankets, DIY under $1,000",
+      "differentiation": "Democratize the practice. The ritual matters more than the equipment"
+    },
     "topCompetitors": [
       {
         "domain": "healthline.com",
-        "strengths": ["Medical authority", "E-E-A-T signals", "Comprehensive health coverage"],
-        "weaknesses": ["Generic content", "Lacks personal experience", "Heavy ads reduce UX"],
-        "opportunityGaps": ["More engaging storytelling", "Practical how-to guides", "Better visual design"]
+        "strengths": ["Medical authority", "E-E-A-T", "Domain authority 92"],
+        "weaknesses": ["Generic tone", "No cultural depth", "Benefits-focused only"],
+        "howToWin": "Go deeper on mental health research, add cultural context, write with atmosphere"
       },
       {
         "domain": "garagegymreviews.com",
-        "strengths": ["Actual product testing", "Detailed reviews", "Niche authority"],
-        "weaknesses": ["Focuses on premium products", "Limited beginner content"],
-        "opportunityGaps": ["Budget-friendly options", "Apartment dweller guides", "Rental-friendly solutions"]
+        "strengths": ["Actual testing", "Recovery niche authority", "Detailed reviews"],
+        "weaknesses": ["Premium focus only", "Fitness-only angle", "Lacks ritual/cultural dimension"],
+        "howToWin": "Cover budget options, renters, mindfulness angle they can't authentically own"
       },
       {
-        "domain": "plunge.com",
-        "strengths": ["Own product line", "Educational content", "Contrast therapy focus"],
-        "weaknesses": ["Product-biased", "Limited traditional sauna coverage"],
-        "opportunityGaps": ["Unbiased comparisons", "DIY alternatives", "Traditional sauna guides"]
+        "domain": "finnleo.com / almostheaven.com",
+        "strengths": ["Product authority", "Finnish connection", "Some cultural content"],
+        "weaknesses": ["Biased toward own products", "Commercial focus limits depth"],
+        "howToWin": "Unbiased cultural authority, practices work with any sauna, ritual over gear"
       },
       {
-        "domain": "goodrx.com",
-        "strengths": ["Medical credibility", "Research citations", "Clear health focus"],
-        "weaknesses": ["Pharmaceutical focus limits sauna depth", "Conservative claims"],
-        "opportunityGaps": ["Deeper dives into specific benefits", "Practical implementation guides"]
-      }
-    ],
-    "contentGaps": [
-      {
-        "topic": "Mental health benefits",
-        "opportunity": "Deep research-based content on depression, anxiety, psychosis prevention. Underexplored despite strong research",
-        "difficulty": "medium",
-        "potential": "high"
-      },
-      {
-        "topic": "Contrast therapy protocols",
-        "opportunity": "Step-by-step routines for sauna + cold plunge. Trending topic with fragmented information",
-        "difficulty": "high",
-        "potential": "very high"
-      },
-      {
-        "topic": "DIY build guides with real costs",
-        "opportunity": "Actual project case studies with itemized budgets. Existing guides are theoretical",
-        "difficulty": "medium",
-        "potential": "high"
-      },
-      {
-        "topic": "Apartment/renter-friendly options",
-        "opportunity": "Portable saunas, sauna blankets, temporary installations. Large underserved market",
-        "difficulty": "low",
-        "potential": "high"
-      },
-      {
-        "topic": "Sauna for specific conditions",
-        "opportunity": "Arthritis, chronic pain, COPD, cardiovascular disease - condition-specific guides",
-        "difficulty": "high (medical review needed)",
-        "potential": "medium-high"
+        "domain": "Reddit r/Sauna",
+        "strengths": ["Community authenticity", "Real experiences", "AI search citations (46.7% for Perplexity)"],
+        "weaknesses": ["Fragmented information", "No authoritative structure", "Anecdotal only"],
+        "howToWin": "Synthesize community wisdom into authoritative guides, participate authentically, cite Reddit discussions"
       }
     ]
   },
   "aiSearchOptimization": {
-    "perplexityFindings": {
-      "topSourcesCited": [
-        "mayoclinic.org",
-        "healthline.com",
-        "ncbi.nlm.nih.gov (PubMed)",
-        "clevelandclinic.org",
-        "webmd.com"
+    "strategy": "Become the authoritative source AI engines cite for sauna rituals, mental health, and cultural practices",
+    "perplexityOptimization": {
+      "currentCitations": ["Mayo Clinic", "Healthline", "Cleveland Clinic", "PubMed", "Reddit"],
+      "targetPosition": "Top 3 cited source for sauna mental health and ritual content",
+      "tactics": [
+        "Link to primary research prominently (PubMed, Mayo Clinic Proceedings, Finnish studies)",
+        "Include specific statistics in first 100 words (e.g., '78% reduction in psychosis risk')",
+        "Use medical terminology correctly alongside accessible language",
+        "Create comparison tables (AI loves structured data)",
+        "Update quarterly with latest research (freshness signal)",
+        "Schema markup for all statistics and research citations"
       ],
-      "contentStructure": "Perplexity prefers: clear medical citations, research studies, balanced perspectives, specific numbers/data",
-      "recommendations": [
-        "Cite peer-reviewed research prominently",
-        "Include specific statistics (e.g., '50% reduced cardiovascular risk')",
-        "Use medical terminology correctly",
-        "Link to primary sources (NIH, Mayo Clinic, medical journals)",
-        "Structure content with clear sections and bullet points"
+      "contentStructure": [
+        "Clear hierarchical headers (H2, H3 with keyword variants)",
+        "Bullet points for key findings",
+        "Research citations in format: '[Statistic] according to [Study] published in [Journal]'",
+        "FAQ sections answering related Perplexity queries"
       ]
     },
     "chatGPTOptimization": {
-      "bestPractices": [
-        "Comprehensive, authoritative content (2,000+ words)",
-        "Clear hierarchical structure (H2, H3 headers)",
-        "FAQ sections for common questions",
-        "Data tables and comparison charts",
-        "Author credentials and expertise signals"
+      "currentIssue": "ChatGPT trained on Wikipedia (47.9% citations) and Reddit (11.3%). Need to become training data source",
+      "tactics": [
+        "Comprehensive pillar pages (4,000+ words) on core topics",
+        "Link to trusted sources (Mayo, NIH, Finnish research institutes)",
+        "Author credentials prominent (if possible, get medical/cultural expert reviews)",
+        "Regular content updates (AI favors recently updated authoritative sources)",
+        "Allow GPTBot crawler (critical for future training data inclusion)",
+        "Internal linking showing topical authority cluster"
       ],
-      "recommendations": [
-        "Create pillar pages for main topics (sauna types, health benefits, buying guides)",
-        "Internal linking structure showing topical authority",
-        "Schema markup for articles, reviews, FAQs",
-        "Original research or surveys when possible"
+      "pillarPageStrategy": [
+        "Sauna Mental Health: Complete Research Review (4,000 words)",
+        "Finnish Sauna Culture: UNESCO Heritage Guide (3,500 words)",
+        "Sauna Ritual Practices: Ancient to Modern (3,000 words)"
       ]
     },
     "claudeOptimization": {
-      "recommendations": [
-        "Balanced, nuanced perspectives (acknowledge limitations)",
-        "Multiple viewpoints on controversial topics",
-        "Clear safety warnings and disclaimers",
-        "Evidence-based claims with source attribution",
-        "Practical, actionable advice over hype"
+      "approach": "Nuanced, balanced, evidence-based content with clear limitations acknowledged",
+      "tactics": [
+        "Acknowledge where research is limited or conflicting",
+        "Include safety warnings and contraindications prominently",
+        "Multiple perspectives on controversial topics (e.g., detox claims)",
+        "Source attribution for all claims",
+        "Practical, actionable advice without overpromising",
+        "Balance benefits with realistic expectations"
       ]
+    },
+    "redditStrategy": {
+      "importance": "Reddit dominates AI citations (46.7% Perplexity, 11.3% ChatGPT, 21% Google AI)",
+      "tactics": [
+        "Authentic participation in r/Sauna community (no spam)",
+        "Answer questions with depth, link to your guides when truly helpful",
+        "Create discussions around your pillar content topics",
+        "Cite Reddit discussions in your content (builds relationship)",
+        "Monitor for trending questions, create content responding to community needs",
+        "AMA opportunities with cultural or wellness experts"
+      ],
+      "contentOpportunities": [
+        "Synthesize popular Reddit threads into authoritative guides",
+        "Address common beginner questions from r/Sauna FAQ",
+        "Feature real community stories (with permission)",
+        "Create Reddit-friendly infographics and decision trees"
+      ]
+    },
+    "schemaImplementation": {
+      "priority": "CRITICAL for AI visibility",
+      "required": [
+        {
+          "type": "Article",
+          "pages": "All guide content",
+          "impact": "Featured snippets, AI citation, news results"
+        },
+        {
+          "type": "FAQPage",
+          "pages": "All guides with Q&A sections",
+          "impact": "FAQ rich results, voice search, AI Q&A responses"
+        },
+        {
+          "type": "HowTo",
+          "pages": "Protocol and practice guides",
+          "impact": "Step-by-step rich results, AI instruction responses"
+        },
+        {
+          "type": "Review / Product",
+          "pages": "Sauna and equipment reviews",
+          "impact": "Star ratings in SERPs, product graph, shopping AI"
+        },
+        {
+          "type": "Organization",
+          "pages": "Homepage, about",
+          "impact": "Knowledge graph, brand entity recognition"
+        }
+      ]
+    }
+  },
+  "brandVoiceAlignedStrategy": {
+    "corePositioning": "Sauna as ritual practice and mental refuge, not optimization hack",
+    "contentPillars": [
+      {
+        "pillar": "Ritual & Practice",
+        "keywords": ["sauna ritual", "sauna meditation", "mindfulness", "practice", "ceremony"],
+        "tone": "Atmospheric, inviting, permission-giving",
+        "newsletterAngle": "Weekly rituals, practices worth trying, ancient wisdom"
+      },
+      {
+        "pillar": "Mental Refuge",
+        "keywords": ["mental health", "stress relief", "sleep", "anxiety", "stillness"],
+        "tone": "Empathetic, research-backed, permission to rest",
+        "newsletterAngle": "The science of slowing down, forced presence benefits"
+      },
+      {
+        "pillar": "Cultural Wisdom",
+        "keywords": ["Finnish sauna", "etiquette", "traditions", "global practices", "UNESCO heritage"],
+        "tone": "Respectful, educational, storytelling",
+        "newsletterAngle": "Ancient practices for modern life, belonging to something older"
+      },
+      {
+        "pillar": "Accessible Practice",
+        "keywords": ["portable sauna", "apartment", "DIY", "budget", "beginners"],
+        "tone": "Encouraging, practical, democratizing",
+        "newsletterAngle": "You don't need $10K to practice, ritual > equipment"
+      }
+    ],
+    "ctaStrategy": {
+      "never": ["Subscribe now", "Don't miss out", "Limited time"],
+      "always": ["Step inside", "Enter the heat", "I'm in", "Open the door"],
+      "newsletterPitch": "A weekly letter from the heat. One practice. One place. One thing worth considering. No optimization. Just warmth."
     }
   },
   "technicalSEO": {
-    "currentIssues": [
-      "No structured data (JSON-LD) implemented",
-      "Missing Open Graph images for social sharing",
-      "Newsletter popup may hurt mobile UX",
-      "Need XML sitemap for content discovery",
-      "Core Web Vitals optimization needed"
-    ],
-    "recommendations": [
+    "criticalActions": [
       {
-        "priority": "HIGH",
-        "action": "Implement Article schema markup on all guide pages",
-        "impact": "Featured snippets, AI citation, rich results"
+        "priority": "IMMEDIATE",
+        "action": "Implement Article schema on all guide pages",
+        "impact": "AI citation eligibility, featured snippets",
+        "effort": "2-3 hours dev time"
+      },
+      {
+        "priority": "IMMEDIATE",
+        "action": "Add FAQ schema to guides with Q&A sections",
+        "impact": "FAQ rich results, voice search, AI responses",
+        "effort": "1-2 hours dev time"
+      },
+      {
+        "priority": "IMMEDIATE",
+        "action": "Allow GPTBot and ChatGPT-User crawlers in robots.txt",
+        "impact": "Future ChatGPT training data inclusion",
+        "effort": "5 minutes"
       },
       {
         "priority": "HIGH",
-        "action": "Add FAQ schema to guides with common questions",
-        "impact": "FAQ rich results in SERPs, voice search optimization"
+        "action": "Create XML sitemap for content discovery",
+        "impact": "Faster indexing, better crawl coverage",
+        "effort": "30 minutes (Next.js built-in)"
       },
       {
         "priority": "HIGH",
-        "action": "Create Review schema for product review pages",
-        "impact": "Star ratings in search results, higher CTR"
+        "action": "Optimize images: WebP, lazy loading, descriptive alt text",
+        "impact": "Page speed, image search, accessibility",
+        "effort": "3-4 hours for existing, template for new"
       },
       {
         "priority": "MEDIUM",
-        "action": "Optimize images: WebP format, lazy loading, descriptive alt text",
-        "impact": "Page speed, image search rankings, accessibility"
+        "action": "Internal linking: pillar pages linking to cluster content",
+        "impact": "Topical authority, better crawling",
+        "effort": "2 hours planning, ongoing"
       },
       {
         "priority": "MEDIUM",
-        "action": "Internal linking strategy: pillar content with cluster pages",
-        "impact": "Topical authority, better crawling, user engagement"
-      },
-      {
-        "priority": "LOW",
-        "action": "Implement breadcrumb navigation with schema",
-        "impact": "Better site structure signals, SERP breadcrumbs"
-      }
-    ]
-  },
-  "contentStrategy": {
-    "pillarPages": [
-      {
-        "title": "The Ultimate Guide to Saunas",
-        "url": "/guides/ultimate-sauna-guide",
-        "wordCount": 5000,
-        "clusterTopics": [
-          "Types of saunas",
-          "Health benefits",
-          "How to use",
-          "Safety guidelines",
-          "Buying guide"
-        ]
-      },
-      {
-        "title": "Sauna Health Benefits: Complete Research Review",
-        "url": "/guides/sauna-health-benefits",
-        "wordCount": 4000,
-        "clusterTopics": [
-          "Cardiovascular health",
-          "Mental health",
-          "Skin benefits",
-          "Weight management",
-          "Recovery and performance"
-        ]
-      },
-      {
-        "title": "Home Sauna Buying Guide 2025",
-        "url": "/guides/home-sauna-buying-guide",
-        "wordCount": 4500,
-        "clusterTopics": [
-          "Types comparison",
-          "Cost breakdown",
-          "Installation guide",
-          "Best models by budget",
-          "Maintenance requirements"
-        ]
+        "action": "Open Graph images for all pages",
+        "impact": "Social sharing CTR, Reddit visibility",
+        "effort": "2-3 hours design + implementation"
       }
     ],
-    "monthlyContentPlan": {
-      "month1": [
-        "How long to stay in sauna (quick win)",
-        "Sauna detox myth (quick win)",
-        "Sauna beginners guide (pillar)"
+    "crawlerConfiguration": {
+      "allow": [
+        "Googlebot",
+        "Googlebot-Image",
+        "GPTBot",
+        "ChatGPT-User",
+        "PerplexityBot",
+        "ClaudeBot",
+        "Bingbot"
       ],
-      "month2": [
-        "Infrared vs traditional sauna",
-        "Sauna after workout benefits",
-        "Finnish sauna etiquette (quick win)"
-      ],
-      "month3": [
-        "Sauna mental health benefits (gap opportunity)",
-        "Contrast therapy protocol (trending)",
-        "Barrel vs cabin sauna (quick win)"
-      ]
+      "monitoring": "Monitor crawl stats in Google Search Console weekly"
     }
   },
-  "newsletterGrowthTactics": {
-    "contentUpgrades": [
-      "Printable sauna protocol checklist",
-      "7-day sauna challenge email series",
-      "Sauna buying decision flowchart PDF",
-      "Temperature and duration tracking spreadsheet"
+  "contentCalendar_next90Days": {
+    "month1_ritual_focus": [
+      {
+        "week": 1,
+        "content": "Aufguss Sauna Ritual Guide",
+        "keyword": "aufguss sauna ritual",
+        "wordCount": 1500,
+        "type": "cultural guide",
+        "priority": "VERY HIGH - quick win",
+        "newsletterTie": "Feature German ceremony in 'A Place Worth Visiting'"
+      },
+      {
+        "week": 2,
+        "content": "Sauna Mindfulness Practice",
+        "keyword": "sauna mindfulness practice",
+        "wordCount": 1200,
+        "type": "practice guide",
+        "priority": "VERY HIGH - quick win",
+        "newsletterTie": "'One Thing That Works' - guided meditation script"
+      },
+      {
+        "week": 3,
+        "content": "Creating Your Sauna Ritual",
+        "keyword": "sauna ritual",
+        "wordCount": 2000,
+        "type": "pillar content",
+        "priority": "HIGH - core positioning",
+        "newsletterTie": "Multi-week series on ritual building"
+      },
+      {
+        "week": 4,
+        "content": "Finnish Sauna Etiquette",
+        "keyword": "Finnish sauna etiquette",
+        "wordCount": 1800,
+        "type": "cultural guide",
+        "priority": "HIGH - quick win",
+        "newsletterTie": "'Something to Consider' - Finnish wisdom"
+      }
     ],
-    "leadMagnets": [
-      "30-Day Sauna Habit Builder Guide",
-      "Sauna Safety Checklist (medical review)",
-      "DIY Sauna Cost Calculator Spreadsheet",
-      "Contrast Therapy Protocol Video Series"
+    "month2_mental_wellness": [
+      {
+        "week": 5,
+        "content": "Sauna for Mental Health: Complete Research Review",
+        "keyword": "sauna mental health benefits",
+        "wordCount": 4000,
+        "type": "pillar content",
+        "priority": "VERY HIGH - core niche",
+        "newsletterTie": "Multi-week series on mental wellness"
+      },
+      {
+        "week": 6,
+        "content": "Sauna for Sleep Optimization",
+        "keyword": "sauna for sleep",
+        "wordCount": 2500,
+        "type": "solution guide",
+        "priority": "HIGH - high volume",
+        "newsletterTie": "Evening ritual protocols"
+      },
+      {
+        "week": 7,
+        "content": "Sauna Stress Reduction Protocol",
+        "keyword": "sauna for stress relief",
+        "wordCount": 2200,
+        "type": "protocol guide",
+        "priority": "MEDIUM-HIGH",
+        "newsletterTie": "'The Quiet Part' - permission to rest"
+      },
+      {
+        "week": 8,
+        "content": "Sauna Meditation: Beginner's Guide",
+        "keyword": "sauna meditation",
+        "wordCount": 2000,
+        "type": "practice guide",
+        "priority": "HIGH - core niche",
+        "newsletterTie": "Guided meditation audio/video"
+      }
+    ],
+    "month3_accessible_practice": [
+      {
+        "week": 9,
+        "content": "Best Sauna Blankets: Unbiased Testing",
+        "keyword": "sauna blanket review",
+        "wordCount": 3000,
+        "type": "review/commercial",
+        "priority": "HIGH - monetization",
+        "newsletlerTie": "Accessibility focus, renters"
+      },
+      {
+        "week": 10,
+        "content": "Apartment Sauna Options: Complete Guide",
+        "keyword": "portable sauna for apartment",
+        "wordCount": 2200,
+        "type": "buyer guide",
+        "priority": "MEDIUM-HIGH - underserved",
+        "newsletterTie": "Democratizing the practice"
+      },
+      {
+        "week": 11,
+        "content": "Contrast Therapy Protocol: Sauna + Cold Plunge",
+        "keyword": "sauna cold plunge routine",
+        "wordCount": 2800,
+        "type": "protocol guide",
+        "priority": "HIGH - trending",
+        "newsletterTie": "Nordic Cycle ritual"
+      },
+      {
+        "week": 12,
+        "content": "World Sauna Cultures: Global Guide",
+        "keyword": "sauna culture around the world",
+        "wordCount": 3500,
+        "type": "cultural pillar",
+        "priority": "MEDIUM - authority building",
+        "newsletterTie": "Monthly cultural deep-dive series"
+      }
     ]
   },
-  "priorityActions": [
+  "newsletterGrowthIntegration": {
+    "leadMagnets_alignedWithNiche": [
+      {
+        "title": "The 7-Day Sauna Ritual Builder",
+        "format": "PDF guide + email series",
+        "angle": "Build your personal practice, not just use the sauna",
+        "targetKeywords": ["sauna ritual", "sauna practice", "mindfulness"],
+        "conversion": "Ritual-seekers, high engagement potential"
+      },
+      {
+        "title": "Sauna Meditation: Guided Audio Series",
+        "format": "3 guided meditation audio tracks",
+        "angle": "Breathwork, body scan, stillness practices for heat",
+        "targetKeywords": ["sauna meditation", "mindfulness", "practice"],
+        "conversion": "Premium offering, builds loyalty"
+      },
+      {
+        "title": "Mental Refuge Protocol: Sauna for Stress & Sleep",
+        "format": "PDF protocol + tracking sheet",
+        "angle": "Science-backed evening ritual for better sleep and stress reduction",
+        "targetKeywords": ["sauna for sleep", "stress relief", "mental health"],
+        "conversion": "Solution-seekers, newsletter subscribers"
+      },
+      {
+        "title": "Finnish Sauna Wisdom: Cultural Guide",
+        "format": "Illustrated PDF",
+        "angle": "Traditional practices, etiquette, Finnish phrases, UNESCO heritage",
+        "targetKeywords": ["Finnish sauna", "etiquette", "culture"],
+        "conversion": "Cultural enthusiasts, travel planners"
+      }
+    ],
+    "contentUpgrades": [
+      "Printable sauna ritual checklist (for ritual article)",
+      "Meditation timer with löyly intervals (for meditation guide)",
+      "Mental health benefits research summary (for mental health pillar)",
+      "Apartment sauna decision flowchart (for portable guide)"
+    ]
+  },
+  "measurementAndKPIs": {
+    "seoMetrics": [
+      {
+        "metric": "Organic traffic to mental health/ritual content",
+        "target": "1,000 monthly visits by month 3",
+        "measurement": "Google Analytics 4"
+      },
+      {
+        "metric": "Featured snippets owned",
+        "target": "5 featured snippets by month 3",
+        "measurement": "Ahrefs / SEMrush"
+      },
+      {
+        "metric": "AI search citations",
+        "target": "Cited in Perplexity for 3+ sauna mental health queries by month 6",
+        "measurement": "Manual Perplexity testing, citation monitoring"
+      },
+      {
+        "metric": "Domain authority",
+        "target": "DR 30+ by month 6",
+        "measurement": "Ahrefs"
+      }
+    ],
+    "newsletterMetrics": [
+      {
+        "metric": "Newsletter signups from SEO content",
+        "target": "15% of organic visitors (150 signups from 1,000 visitors)",
+        "measurement": "Beehiiv conversion tracking"
+      },
+      {
+        "metric": "Lead magnet downloads",
+        "target": "25% of ritual/meditation content visitors",
+        "measurement": "Download tracking"
+      }
+    ],
+    "engagementMetrics": [
+      {
+        "metric": "Time on page for pillar content",
+        "target": "Average 4+ minutes",
+        "measurement": "GA4"
+      },
+      {
+        "metric": "Reddit mentions and discussions",
+        "target": "3+ organic mentions per month by month 3",
+        "measurement": "Manual monitoring, Reddit search"
+      }
+    ]
+  },
+  "competitiveAdvantages": {
+    "unique_positioning": [
+      "Only site combining rigorous research with atmospheric storytelling",
+      "Ritual vs. protocol narrative (no one else owns this)",
+      "Mental refuge positioning (vs. medical sites' clinical approach)",
+      "Cultural depth without appropriation",
+      "Accessible practice focus (vs. premium equipment sites)"
+    ],
+    "moat_building": [
+      "Build relationship with Finnish cultural organizations for authenticity",
+      "Get mental health professionals to review content (E-E-A-T)",
+      "Create original research via newsletter surveys",
+      "Build Reddit community presence organically",
+      "Develop meditation/ritual audio content (hard to copy)"
+    ]
+  },
+  "priorityActions_immediate": [
     {
-      "action": "Create 'How long to stay in sauna' guide",
-      "reason": "Low difficulty, high volume (9,500), perfect for featured snippet",
+      "action": "Allow GPTBot and ChatGPT-User in robots.txt",
+      "timeline": "Today",
+      "effort": "5 minutes",
+      "impact": "Future AI training data inclusion"
+    },
+    {
+      "action": "Write 'Aufguss Sauna Ritual' guide",
       "timeline": "Week 1",
-      "resources": "1 writer, 1 editor"
+      "effort": "4 hours",
+      "impact": "Quick win, zero competition, perfect brand fit"
     },
     {
-      "action": "Implement Article schema on homepage and existing content",
-      "reason": "Technical foundation for AI search visibility",
+      "action": "Implement Article schema on existing guides",
       "timeline": "Week 1",
-      "resources": "1 developer, 2 hours"
+      "effort": "2-3 hours dev",
+      "impact": "AI citation eligibility, featured snippets"
     },
     {
-      "action": "Create comprehensive 'Sauna beginners guide'",
-      "reason": "High volume keyword (8,000), addresses largest audience segment",
+      "action": "Write 'Sauna Mindfulness Practice' guide",
       "timeline": "Week 2",
-      "resources": "1 writer (8 hours), 1 editor (2 hours)"
+      "effort": "3 hours",
+      "impact": "Quick win, core niche, high intent"
     },
     {
-      "action": "Build internal linking structure from homepage to guide pages",
-      "reason": "Topical authority signal, better crawling",
+      "action": "Add FAQ schema to all guides",
       "timeline": "Week 2",
-      "resources": "1 hour"
+      "effort": "2 hours dev",
+      "impact": "Voice search, AI Q&A, rich results"
     },
     {
-      "action": "Myth-busting content series: detox, weight loss, skin aging",
-      "reason": "Build trust as evidence-based resource, differentiate from competitors",
-      "timeline": "Weeks 3-4",
-      "resources": "1 writer per article"
+      "action": "Create 'Sauna Ritual' pillar page",
+      "timeline": "Week 3",
+      "effort": "8 hours",
+      "impact": "Core brand positioning, owns the narrative"
+    },
+    {
+      "action": "Join r/Sauna and begin authentic participation",
+      "timeline": "Week 1 ongoing",
+      "effort": "30 min daily",
+      "impact": "AI citation source, community trust, content ideas"
     }
   ]
 }

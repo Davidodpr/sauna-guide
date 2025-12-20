@@ -10,6 +10,10 @@ if (!GEMINI_API_KEY) {
 
 const images = [
   {
+    name: "logo.png",
+    prompt: "800x800 pixel logo design split vertically in half to show versatility: LEFT SIDE has warm cream/beige background (#F5EFE7), RIGHT SIDE has dark charcoal background (#1A1A1A). In the CENTER of the entire image is an elegant minimalist logo consisting of concentric circles that INTERWEAVE and SPIRAL together like interlocking waves, representing both heat waves radiating outward and natural wood grain rings. The circular lines should flow and weave through each other in a sophisticated dance, creating a unified spiraling pattern (NOT separate circles). Use warm copper gradient (#D4A574) transitioning to deep wood brown tones (#4A3228) for the interlocking circular lines, with subtle wood grain texture integrated into the strokes. The design should be centered, sophisticated, meditative, premium Scandinavian-Japanese fusion aesthetic. The same logo appears on both backgrounds to demonstrate it works on light AND dark surfaces. Ultra clean professional brand identity, geometric precision, looks like a high-end wellness brand mark.",
+  },
+  {
     name: "guides/longevity-protocol.jpg",
     prompt: "Serene Finnish lakeside sauna at golden hour, gentle steam rising from chimney, silhouette of elderly person visible through window suggesting longevity and wisdom, warm amber and honey tones, peaceful Nordic landscape, pine trees and calm lake water, symbol of health and long life, premium wellness photography, Scandinavian minimalist aesthetic, 16:9 aspect ratio, ultra high quality, 2K resolution",
   },
@@ -109,7 +113,7 @@ async function generateImage(imageConfig) {
 
 async function main() {
   console.log("Starting image generation with Gemini 3 Pro (Nano Banana Pro)...\n");
-  console.log("Generating 9 guide images for sauna articles\n");
+  console.log("Generating logo with split background demonstration\n");
 
   const outputDir = path.join("public", "images");
   if (!fs.existsSync(outputDir)) {
@@ -131,7 +135,7 @@ async function main() {
   }
 
   console.log(`\nCompleted: ${successCount}/${images.length} images generated`);
-  console.log(`\nAll images saved to: public/images/guides/`);
+  console.log(`\nImages saved to: public/images/`);
 }
 
 main();
