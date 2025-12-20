@@ -27,26 +27,28 @@ export default function HomePage() {
 
         {/* Content */}
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-sauna-paper mb-6
-                        leading-[1.1] tracking-tight animate-fade-up">
-            Close the door.<br />
-            <span className="text-sauna-sand">Let everything go.</span>
-          </h1>
+          <div className="bg-sauna-charcoal/40 backdrop-blur-sm rounded-2xl p-8 md:p-12">
+            <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-sauna-paper mb-6
+                          leading-[1.1] tracking-tight animate-fade-up drop-shadow-lg">
+              Close the door.<br />
+              <span className="text-sauna-sand">Let everything go.</span>
+            </h1>
 
-          <p className="text-lg md:text-xl text-sauna-paper/90 mb-10 animate-fade-up max-w-2xl mx-auto leading-relaxed"
-             style={{ animationDelay: '0.1s' }}>
-            Every Thursday: why heat heals, where to find it,<br />
-            and five minutes of stillness.
-          </p>
+            <p className="text-lg md:text-xl text-sauna-paper/90 mb-10 animate-fade-up max-w-2xl mx-auto leading-relaxed"
+               style={{ animationDelay: '0.1s' }}>
+              Every Thursday: why heat heals, where to find it,<br />
+              and five minutes of stillness.
+            </p>
 
-          <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
-            <NewsletterSignup />
+            <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
+              <NewsletterSignup />
+            </div>
+
+            <p className="text-sm text-sauna-paper/70 mt-6 animate-fade-up"
+               style={{ animationDelay: '0.25s' }}>
+              5-minute read. Thursday evenings. No spam.
+            </p>
           </div>
-
-          <p className="text-sm text-sauna-paper/60 mt-6 animate-fade-up"
-             style={{ animationDelay: '0.25s' }}>
-            5-minute read. Thursday evenings. No spam.
-          </p>
         </div>
 
         {/* Scroll indicator */}
