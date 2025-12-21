@@ -4,56 +4,49 @@ import gadgetsData from '@/data/gadgets.json'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Sauna Gear & Gadgets | The Best Accessories for 2025',
-  description: 'Discover 100+ essential sauna accessories, from thermometers and buckets to cold plunges and red light therapy. Curated recommendations for every budget.',
+  title: 'Sauna Gear & Accessories | Essential Equipment Guide',
+  description: 'A curated collection of essential sauna accessories. From traditional buckets to modern recovery tools.',
   openGraph: {
-    title: 'Sauna Gear & Gadgets | The Best Accessories for 2025',
-    description: 'Discover 100+ essential sauna accessories, from thermometers and buckets to cold plunges and red light therapy.',
+    title: 'Sauna Gear & Accessories | Essential Equipment Guide',
+    description: 'A curated collection of essential sauna accessories. From traditional buckets to modern recovery tools.',
   },
 }
 
 export default function GearPage() {
   return (
-    <main className="min-h-screen bg-sauna-paper">
+    <div className="min-h-screen bg-sauna-paper flex flex-col">
       <Navigation />
 
-      {/* Hero */}
-      <section className="pt-28 pb-12 md:pt-36 md:pb-16 bg-sauna-ink text-sauna-paper">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-sm uppercase tracking-widest text-sauna-sand mb-4">Gear Guide</p>
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-medium mb-6">
-            The gear that matters
+      <main className="max-w-7xl mx-auto px-6 py-32 flex-grow">
+        <header className="mb-16">
+          <h1 className="font-display text-4xl md:text-5xl font-medium text-sauna-ink mb-4">
+            Gear Guide
           </h1>
-          <p className="text-xl text-sauna-paper/80 max-w-2xl mx-auto">
-            {gadgetsData.totalProducts}+ products across {gadgetsData.categories.length} categories.
-            Curated from Reddit, expert reviews, and real-world testing.
+          <p className="text-xl text-sauna-slate max-w-2xl leading-relaxed">
+            A curated collection of {gadgetsData.totalProducts}+ essential accessories.
+            From traditional rituals to modern recovery.
           </p>
-        </div>
-      </section>
+        </header>
 
-      {/* Quick Nav */}
-      <section className="py-8 bg-sauna-cream border-b border-sauna-sand/20 sticky top-16 z-40">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+        {/* Quick Nav */}
+        <nav className="mb-16 pb-8 border-b border-sauna-ash/30">
+          <div className="flex flex-wrap gap-2">
             {gadgetsData.categories.map((category) => (
               <a
                 key={category.id}
                 href={`#${category.id}`}
-                className="px-4 py-2 bg-sauna-paper rounded-full text-sm font-medium text-sauna-ink
-                         hover:bg-sauna-ink hover:text-sauna-paper transition-colors whitespace-nowrap
-                         border border-sauna-sand/30"
+                className="px-4 py-2 text-sm font-medium text-sauna-slate
+                         hover:text-sauna-ink hover:bg-sauna-linen rounded-lg transition-colors"
               >
                 {category.name}
               </a>
             ))}
           </div>
-        </div>
-      </section>
+        </nav>
 
-      {/* Starter Kits */}
-      <section className="py-16 bg-sauna-paper">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-display text-2xl md:text-3xl font-medium text-sauna-ink text-center mb-10">
+        {/* Starter Kits */}
+        <section className="mb-20">
+          <h2 className="font-display text-2xl font-medium text-sauna-ink mb-8">
             Quick Start Kits
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
@@ -61,34 +54,32 @@ export default function GearPage() {
               name={gadgetsData.starterKits.budget.name}
               total={gadgetsData.starterKits.budget.total}
               items={gadgetsData.starterKits.budget.items}
-              variant="budget"
+              tier="Essential"
             />
             <KitCard
               name={gadgetsData.starterKits.enthusiast.name}
               total={gadgetsData.starterKits.enthusiast.total}
               items={gadgetsData.starterKits.enthusiast.items}
-              variant="enthusiast"
+              tier="Enthusiast"
             />
             <KitCard
               name={gadgetsData.starterKits.biohacker.name}
               total={gadgetsData.starterKits.biohacker.total}
               items={gadgetsData.starterKits.biohacker.items}
-              variant="biohacker"
+              tier="Premium"
             />
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Categories */}
-      {gadgetsData.categories.map((category, index) => (
-        <section
-          key={category.id}
-          id={category.id}
-          className={`py-16 ${index % 2 === 0 ? 'bg-sauna-cream' : 'bg-sauna-paper'}`}
-        >
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="mb-10">
-              <h2 className="font-display text-2xl md:text-3xl font-medium text-sauna-ink mb-2">
+        {/* Categories */}
+        {gadgetsData.categories.map((category) => (
+          <section
+            key={category.id}
+            id={category.id}
+            className="mb-20"
+          >
+            <div className="mb-8">
+              <h2 className="font-display text-2xl font-medium text-sauna-ink mb-2">
                 {category.name}
               </h2>
               <p className="text-sauna-slate">{category.description}</p>
@@ -106,34 +97,12 @@ export default function GearPage() {
                 />
               ))}
             </div>
-          </div>
-        </section>
-      ))}
-
-      {/* Bottom CTA */}
-      <section className="py-20 bg-sauna-ink text-sauna-paper">
-        <div className="max-w-2xl mx-auto px-6 text-center">
-          <h2 className="font-display text-3xl md:text-4xl font-medium mb-6">
-            Get gear picks in your inbox
-          </h2>
-          <p className="text-sauna-paper/70 mb-8">
-            Every Thursday we share one gear recommendation that actually works.
-          </p>
-          <a
-            href="/#newsletter"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-sauna-paper text-sauna-ink rounded-lg
-                     font-medium hover:bg-sauna-linen transition-colors"
-          >
-            Step inside
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </a>
-        </div>
-      </section>
+          </section>
+        ))}
+      </main>
 
       <Footer />
-    </main>
+    </div>
   )
 }
 
@@ -141,38 +110,28 @@ function KitCard({
   name,
   total,
   items,
-  variant,
+  tier,
 }: {
   name: string
   total: string
   items: string[]
-  variant: 'budget' | 'enthusiast' | 'biohacker'
+  tier: string
 }) {
-  const icons = {
-    budget: '🌱',
-    enthusiast: '🔥',
-    biohacker: '🧬',
-  }
-
-  const colors = {
-    budget: 'border-green-500/30 bg-green-50',
-    enthusiast: 'border-orange-500/30 bg-orange-50',
-    biohacker: 'border-purple-500/30 bg-purple-50',
-  }
-
   return (
-    <div className={`p-6 rounded-xl border-2 ${colors[variant]}`}>
-      <div className="flex items-center gap-3 mb-4">
-        <span className="text-2xl">{icons[variant]}</span>
-        <div>
-          <h3 className="font-medium text-sauna-ink">{name}</h3>
-          <p className="text-sm text-sauna-slate">{total}</p>
-        </div>
+    <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 p-6
+                    hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300">
+      <div className="flex items-center gap-2 text-xs font-medium text-sauna-oak uppercase tracking-wider mb-3">
+        <span>{tier}</span>
+        <span>•</span>
+        <span>{total}</span>
       </div>
+      <h3 className="text-lg font-medium text-sauna-ink mb-4">{name}</h3>
       <ul className="space-y-2">
         {items.map((item, i) => (
           <li key={i} className="text-sm text-sauna-slate flex items-start gap-2">
-            <span className="text-sauna-oak mt-0.5">+</span>
+            <svg className="w-4 h-4 text-sauna-oak mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
             {item}
           </li>
         ))}
@@ -195,20 +154,28 @@ function ProductCard({
   why: string
 }) {
   return (
-    <div className="bg-sauna-paper p-6 rounded-xl border border-sauna-sand/30 hover:border-sauna-oak/40 transition-colors">
-      <div className="flex justify-between items-start mb-3">
-        <div>
-          <h3 className="font-medium text-sauna-ink">{name}</h3>
-          <p className="text-sm text-sauna-slate">{brand}</p>
+    <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 p-6
+                    hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+      <div className="mb-4">
+        <div className="flex items-center gap-2 text-xs font-medium text-sauna-oak uppercase tracking-wider mb-2">
+          <span>{brand}</span>
+          <span>•</span>
+          <span>{price}</span>
         </div>
-        <span className="text-sm font-medium text-sauna-oak bg-sauna-sand/20 px-2 py-1 rounded">
-          {price}
-        </span>
+        <h3 className="text-lg font-medium text-sauna-ink group-hover:text-sauna-walnut transition-colors">
+          {name}
+        </h3>
       </div>
-      <p className="text-sm text-sauna-slate mb-3">{description}</p>
-      <p className="text-sm text-sauna-bark">
-        <span className="font-medium">Why:</span> {why}
+
+      <p className="text-sm text-sauna-slate leading-relaxed mb-4 flex-grow">
+        {description}
       </p>
+
+      <div className="pt-4 border-t border-sauna-ash/30">
+        <p className="text-sm text-sauna-bark">
+          <span className="font-medium">Why:</span> {why}
+        </p>
+      </div>
     </div>
   )
 }
