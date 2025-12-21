@@ -59,42 +59,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* What You Get Section */}
-      <section className="py-20 md:py-28 bg-sauna-ink text-sauna-paper">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="font-display text-3xl md:text-4xl font-medium mb-12">
-            What you get every Thursday
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-8 text-left max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="text-4xl mb-4">🔬</div>
-              <h3 className="font-medium text-lg mb-2 text-sauna-sand">Why heat heals</h3>
-              <p className="text-sauna-paper/70 text-sm">The science of sauna — what it does to your body, your sleep, your stress.</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-4">🗺️</div>
-              <h3 className="font-medium text-lg mb-2 text-sauna-sand">Where to find it</h3>
-              <p className="text-sauna-paper/70 text-sm">Beautiful saunas around the world. Places worth the journey.</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-4">🧘</div>
-              <h3 className="font-medium text-lg mb-2 text-sauna-sand">Five minutes of stillness</h3>
-              <p className="text-sauna-paper/70 text-sm">A moment to slow down. The whole point, really.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
       {/* What's Inside Section */}
-      <section className="py-20 md:py-28 bg-sauna-paper relative">
+      <section className="py-20 md:py-28 bg-sauna-ink text-sauna-paper relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
-            <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-4">
+            <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-paper mb-4">
               What&apos;s inside each letter
             </h2>
-            <p className="text-lg text-sauna-slate max-w-2xl mx-auto">
+            <p className="text-lg text-sauna-paper/70 max-w-2xl mx-auto">
               Short enough to read. Useful enough to keep.
             </p>
           </div>
@@ -333,12 +305,12 @@ function ValueCard({
   }
 
   return (
-    <div className="p-6 bg-sauna-linen rounded-xl border border-sauna-ash/50">
-      <div className="w-10 h-10 rounded-lg bg-sauna-oak/10 flex items-center justify-center text-sauna-walnut mb-4">
+    <div className="p-6 bg-sauna-charcoal/50 rounded-xl border border-sauna-paper/10">
+      <div className="w-10 h-10 rounded-lg bg-sauna-sand/20 flex items-center justify-center text-sauna-sand mb-4">
         {icons[icon]}
       </div>
-      <h3 className="text-base font-semibold text-sauna-ink mb-2">{title}</h3>
-      <p className="text-sm text-sauna-slate leading-relaxed">{description}</p>
+      <h3 className="text-base font-semibold text-sauna-paper mb-2">{title}</h3>
+      <p className="text-sm text-sauna-paper/70 leading-relaxed">{description}</p>
     </div>
   )
 }
