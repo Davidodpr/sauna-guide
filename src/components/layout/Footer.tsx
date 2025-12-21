@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-sauna-charcoal text-sauna-paper py-16">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+        <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-sauna-bark flex items-center justify-center">
@@ -30,16 +30,6 @@ export function Footer() {
             <ul className="space-y-2 text-sauna-fog">
               <li><Link href="/saunas" className="hover:text-sauna-paper transition-colors">Sauna Directory</Link></li>
               <li><Link href="/guides" className="hover:text-sauna-paper transition-colors">Guides & Rituals</Link></li>
-              <li><Link href="/guides/contrast-therapy" className="hover:text-sauna-paper transition-colors">Contrast Therapy</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-medium mb-4 text-sauna-sand">Company</h4>
-            <ul className="space-y-2 text-sauna-fog">
-              <li><Link href="/about" className="hover:text-sauna-paper transition-colors">About</Link></li>
-              <li><Link href="/privacy" className="hover:text-sauna-paper transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="hover:text-sauna-paper transition-colors">Terms of Service</Link></li>
             </ul>
           </div>
         </div>
