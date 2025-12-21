@@ -1,14 +1,16 @@
 import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
-import gadgetsData from '@/data/gadgets.json'
+import gadgetsData from '@/data/gear-merged.json'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Sauna Gear & Accessories | Essential Equipment Guide',
-  description: 'A curated collection of essential sauna accessories. From traditional buckets to modern recovery tools.',
+  title: 'Best Sauna Gear & Accessories 2026 | Reviews & Guide',
+  description: 'Discover top-rated sauna accessories, from authentic Finnish buckets and ladles to infrared blankets and cold plunges. Expert reviews, specs, and buying guide.',
+  keywords: ['sauna gear', 'sauna accessories', 'best sauna thermometer', 'sauna hat', 'cold plunge', 'infrared sauna blanket', 'sauna heater', 'finnish sauna'],
   openGraph: {
-    title: 'Sauna Gear & Accessories | Essential Equipment Guide',
-    description: 'A curated collection of essential sauna accessories. From traditional buckets to modern recovery tools.',
+    title: 'Best Sauna Gear & Accessories 2026 | Reviews & Guide',
+    description: 'Discover top-rated sauna accessories, from authentic Finnish buckets and ladles to infrared blankets and cold plunges. Expert reviews, specs, and buying guide.',
+    type: 'website',
   },
 }
 
@@ -86,7 +88,7 @@ export default function GearPage() {
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {category.products.map((product) => (
+              {category.products.map((product: any) => (
                 <ProductCard
                   key={product.name}
                   name={product.name}
@@ -94,6 +96,11 @@ export default function GearPage() {
                   price={product.price}
                   description={product.description}
                   why={product.why}
+                  image={product.image}
+                  link={product.link}
+                  specs={product.specs || undefined}
+                  redditSentiment={product.redditSentiment || undefined}
+                  rating={product.rating}
                 />
               ))}
             </div>
@@ -146,35 +153,102 @@ function ProductCard({
   price,
   description,
   why,
+  image,
+  link,
+  specs,
+  redditSentiment,
+  rating
 }: {
   name: string
   brand: string
   price: string
   description: string
   why: string
+  image?: string
+  link?: string
+  specs?: Record<string, string>
+  redditSentiment?: string
+  rating?: number
 }) {
   return (
-    <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 p-6
+    <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 overflow-hidden
                     hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
-      <div className="mb-4">
-        <div className="flex items-center gap-2 text-xs font-medium text-sauna-oak uppercase tracking-wider mb-2">
-          <span>{brand}</span>
-          <span>•</span>
-          <span>{price}</span>
+      {/* Image Area */}
+      <div className="aspect-video bg-sauna-linen relative overflow-hidden">
+        {image ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img 
+            src={image} 
+            alt={name}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center text-sauna-stone/20">
+            <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </div>
+        )}
+        <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-medium text-sauna-ink shadow-sm">
+          {price}
         </div>
-        <h3 className="text-lg font-medium text-sauna-ink group-hover:text-sauna-walnut transition-colors">
-          {name}
-        </h3>
       </div>
 
-      <p className="text-sm text-sauna-slate leading-relaxed mb-4 flex-grow">
-        {description}
-      </p>
+      <div className="p-6 flex flex-col flex-grow">
+        <div className="mb-4">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-xs font-medium text-sauna-oak uppercase tracking-wider">{brand}</span>
+            {rating && (
+              <div className="flex items-center gap-1">
+                <span className="text-yellow-500 text-xs">★</span>
+                <span className="text-xs text-sauna-slate font-medium">{rating}</span>
+              </div>
+            )}
+          </div>
+          <h3 className="text-lg font-medium text-sauna-ink group-hover:text-sauna-walnut transition-colors">
+            {name}
+          </h3>
+        </div>
 
-      <div className="pt-4 border-t border-sauna-ash/30">
-        <p className="text-sm text-sauna-bark">
-          <span className="font-medium">Why:</span> {why}
+        <p className="text-sm text-sauna-slate leading-relaxed mb-4 flex-grow">
+          {description}
         </p>
+
+        {/* Specs & Sentiment */}
+        {(specs || redditSentiment) && (
+          <div className="mb-4 space-y-3">
+            {specs?.material && (
+              <div className="text-xs text-sauna-stone bg-sauna-linen/50 px-3 py-2 rounded">
+                <span className="font-medium text-sauna-ink">Material:</span> {specs.material}
+              </div>
+            )}
+            {redditSentiment && (
+              <div className="text-xs text-sauna-stone bg-blue-50/50 px-3 py-2 rounded border border-blue-100/50">
+                <span className="font-medium text-blue-900">Reddit Verdict:</span> {redditSentiment}
+              </div>
+            )}
+          </div>
+        )}
+
+        <div className="pt-4 border-t border-sauna-ash/30 mt-auto">
+          <div className="mb-4">
+             <p className="text-sm text-sauna-bark">
+              <span className="font-medium">Why:</span> {why}
+            </p>
+          </div>
+          
+          {link && (
+            <a 
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-center py-2.5 px-4 bg-sauna-ink text-white text-sm font-medium rounded-lg
+                       hover:bg-sauna-obsidian transition-colors active:transform active:scale-95"
+            >
+              View Product
+            </a>
+          )}
+        </div>
       </div>
     </div>
   )
