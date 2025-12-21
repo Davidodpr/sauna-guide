@@ -33,6 +33,9 @@ export function Navigation() {
           <Link href="/guides" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
             Guides
           </Link>
+          <Link href="/gear" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
+            Gear
+          </Link>
           <Link href="/#newsletter" className="px-5 py-2.5 bg-sauna-ink text-sauna-paper rounded-lg text-sm font-medium
                                                hover:bg-sauna-charcoal transition-colors duration-300">
             Get The Briefing
@@ -74,6 +77,13 @@ export function Navigation() {
               className="block text-sauna-ink font-medium py-2 hover:text-sauna-walnut transition-colors"
             >
               Guides
+            </Link>
+            <Link
+              href="/gear"
+              onClick={() => setIsOpen(false)}
+              className="block text-sauna-ink font-medium py-2 hover:text-sauna-walnut transition-colors"
+            >
+              Gear
             </Link>
             <Link
               href="/#newsletter"

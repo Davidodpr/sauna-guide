@@ -1,0 +1,1204 @@
+{
+  "scrapedAt": "2025-12-21",
+  "totalProducts": 78,
+  "categories": {
+    "thermometersHygrometers": {
+      "description": "Temperature and humidity monitoring devices",
+      "products": [
+        {
+          "name": "SensorPush HT1 Wireless Thermometer/Hygrometer",
+          "brand": "SensorPush",
+          "type": "Digital wireless",
+          "whatItDoes": "Bluetooth-connected thermometer/hygrometer with smartphone app for real-time and historical monitoring",
+          "whyPeopleLikeIt": "Very accurate, long data history storage (months), convenient smartphone monitoring, works even when you only check occasionally",
+          "priceRange": "$50-90",
+          "redditSentiment": "Highly recommended, users praise accuracy and convenience",
+          "notes": "Cheapest model around $50, optional gateway for continuous monitoring"
+        },
+        {
+          "name": "Fischer Sauna Thermometer & Hygrometer",
+          "brand": "Fischer",
+          "type": "Analog",
+          "whatItDoes": "German-made precision analog thermometer and hygrometer combo",
+          "whyPeopleLikeIt": "High craftsmanship, beautiful design, precise readings, durable construction",
+          "priceRange": "$40+",
+          "redditSentiment": "Praised for quality feel and aesthetics",
+          "notes": "Wide range 70-280°F, chrome metal or wood options"
+        },
+        {
+          "name": "TFA Dostmann Sauna Thermo-Hygrometer",
+          "brand": "TFA Dostmann",
+          "type": "Analog",
+          "whatItDoes": "Traditional design temperature and humidity measurement",
+          "whyPeopleLikeIt": "Combines classic design with modern accuracy, fits traditional sauna aesthetics",
+          "priceRange": "$40",
+          "redditSentiment": "Popular mid-range option"
+        },
+        {
+          "name": "Bjerg Instruments Sauna Thermometer",
+          "brand": "Bjerg Instruments",
+          "type": "Analog combo",
+          "whatItDoes": "Dual-function temperature and humidity tracker",
+          "whyPeopleLikeIt": "Elegant design, tracks both metrics in one unit",
+          "priceRange": "$30-40",
+          "redditSentiment": "4.4/5 stars on Amazon"
+        },
+        {
+          "name": "TOPINCN Thermo-Hygrometer",
+          "brand": "TOPINCN",
+          "type": "Analog",
+          "whatItDoes": "Budget cedar wood thermometer/hygrometer",
+          "whyPeopleLikeIt": "Affordable, withstands high temps, complements sauna interior",
+          "priceRange": "$16",
+          "redditSentiment": "Good budget option"
+        },
+        {
+          "name": "ThermoWorks ThermData WiFi/4-Channel Logger",
+          "brand": "ThermoWorks",
+          "type": "Digital data logger",
+          "whatItDoes": "High-accuracy temperature logger with external probes for sauna monitoring",
+          "whyPeopleLikeIt": "Most accurate option, logger stays outside sauna while probe measures inside",
+          "priceRange": "$150+",
+          "redditSentiment": "Recommended for serious enthusiasts requiring precision"
+        },
+        {
+          "name": "ThermoWorks BlueDOT",
+          "brand": "ThermoWorks",
+          "type": "Digital with probes",
+          "whatItDoes": "Affordable accurate thermometer with pluggable probes",
+          "whyPeopleLikeIt": "Inexpensive, accurate, available with or without Bluetooth",
+          "priceRange": "$30-50",
+          "redditSentiment": "Good value option"
+        }
+      ]
+    },
+    "bucketsLadles": {
+      "description": "Traditional water buckets and ladles for löyly (steam)",
+      "products": [
+        {
+          "name": "KOLO Bucket and Ladle Set",
+          "brand": "KOLO (Designed by Brita Flander)",
+          "material": "Painted aluminum and bamboo",
+          "whatItDoes": "Unique design where ladle serves as bucket handle",
+          "whyPeopleLikeIt": "Innovative design, guaranteed not to leak, modern aesthetic",
+          "priceRange": "$70",
+          "redditSentiment": "Popular Finnish design",
+          "colors": "White or black"
+        },
+        {
+          "name": "Rento Pisara Bucket and Ladle",
+          "brand": "Rento",
+          "material": "Biocomposite",
+          "whatItDoes": "Durable Finnish-designed sauna bucket and ladle",
+          "whyPeopleLikeIt": "Made from recycled wood, handles heat well without burning skin",
+          "priceRange": "$120",
+          "redditSentiment": "Premium Finnish choice"
+        },
+        {
+          "name": "Rento Steel Sauna Pail",
+          "brand": "Rento (Designed by Harri Koskinen)",
+          "material": "Stainless steel with birch handle",
+          "whatItDoes": "Streamlined steel bucket with matching ladle",
+          "whyPeopleLikeIt": "Sleek modern design, durable, easy to clean",
+          "priceRange": "Bucket €89.90, Ladle €39.90"
+        },
+        {
+          "name": "Aarikka Nuppu Sauna Bucket",
+          "brand": "Aarikka",
+          "material": "Black biocomposite",
+          "whatItDoes": "Finnish bucket with decorative wooden bead handle",
+          "whyPeopleLikeIt": "Unique aesthetic with large wooden beads, Finnish design",
+          "priceRange": "$66.70"
+        },
+        {
+          "name": "Harvia Pail Ladle Set",
+          "brand": "Harvia",
+          "material": "Black plastic and bamboo",
+          "whatItDoes": "Simple, functional bucket and ladle set",
+          "whyPeopleLikeIt": "Straightforward design from trusted brand",
+          "priceRange": "$158"
+        },
+        {
+          "name": "Emendo Bucket and Ladle",
+          "brand": "Emendo",
+          "material": "Wood with plastic insert",
+          "whatItDoes": "Traditional wood appearance with modern durability",
+          "whyPeopleLikeIt": "Plastic insert prevents mold and extends lifespan",
+          "priceRange": "$40-80",
+          "notes": "Good for essential oil users (less staining with dark colors)"
+        }
+      ]
+    },
+    "essentialOilsAromatherapy": {
+      "description": "Sauna-safe essential oils and aromatherapy products",
+      "products": [
+        {
+          "name": "Eucalyptus Essential Oil",
+          "type": "Essential oil",
+          "whatItDoes": "Refreshing aromatherapy oil that clears airways and sinuses",
+          "whyPeopleLikeIt": "Most popular sauna oil, stress-relieving, helps with colds, fresh penetrating scent",
+          "priceRange": "$10-25 per bottle",
+          "usage": "3-5 drops per liter of water",
+          "recommendedBrands": "Stillpoint Aromatics, Edens Garden (organic quality)",
+          "notes": "Must be diluted, never use directly on stones"
+        },
+        {
+          "name": "Lavender Essential Oil",
+          "type": "Essential oil",
+          "whatItDoes": "Calming aromatherapy for relaxation and stress relief",
+          "whyPeopleLikeIt": "Soothing properties, helps with sleep, reduces stress, calms headaches",
+          "priceRange": "$10-25 per bottle",
+          "usage": "3-5 drops per liter of water",
+          "recommendedBrands": "Stillpoint Aromatics, Edens Garden"
+        },
+        {
+          "name": "Peppermint Essential Oil",
+          "type": "Essential oil",
+          "whatItDoes": "Energizing and stimulating aromatherapy",
+          "whyPeopleLikeIt": "Boosts energy, awakens senses, good for morning saunas",
+          "priceRange": "$10-20 per bottle",
+          "usage": "3-5 drops per liter of water (use less than other oils)",
+          "notes": "Strong menthol content, can irritate if overdosed"
+        },
+        {
+          "name": "Cedar/Cedarwood Essential Oil",
+          "type": "Essential oil",
+          "whatItDoes": "Woody aromatherapy that complements sauna environment",
+          "whyPeopleLikeIt": "Natural forest scent, grounding, complements cedar saunas",
+          "priceRange": "$10-20 per bottle"
+        },
+        {
+          "name": "Eucalyptus + Lavender Blend",
+          "type": "Essential oil blend",
+          "whatItDoes": "Combines calming and refreshing effects",
+          "whyPeopleLikeIt": "Best of both worlds - soothes mind while clearing airways",
+          "usage": "3 drops each per bowl of water"
+        }
+      ],
+      "safetyNotes": [
+        "Always dilute: 3-5 drops per liter of water, 8-10 drops max per session",
+        "Never apply undiluted oils directly to hot stones (fire hazard)",
+        "Reduce by half when children present",
+        "Choose organic oils with minimal additives",
+        "Undiluted oils can cause respiratory irritation"
+      ]
+    },
+    "saunaHats": {
+      "description": "Wool and felt hats to protect head from extreme heat",
+      "products": [
+        {
+          "name": "by itu Sauna Hats",
+          "brand": "by itu (Finland)",
+          "material": "Hand-felted wool",
+          "whatItDoes": "Protects head and hair from overheating, extends sauna session comfort",
+          "whyPeopleLikeIt": "60+ models, Finnish-made, seamless design prevents bacteria growth, antibacterial wool",
+          "priceRange": "$30-50",
+          "redditSentiment": "Authentic Finnish option",
+          "notes": "Designer Itu creates all models, including 'Damn Good Steam' novelty"
+        },
+        {
+          "name": "Schvitzin Sauna Hat",
+          "brand": "Schvitzin",
+          "material": "100% wool",
+          "whatItDoes": "Heat retention and temperature regulation for head",
+          "whyPeopleLikeIt": "Made in Brooklyn, high-quality construction, reliable comfort",
+          "priceRange": "$35-50"
+        },
+        {
+          "name": "Scandihoo Wool Sauna Hat",
+          "brand": "Scandihoo",
+          "material": "100% natural felted wool",
+          "whatItDoes": "Protects head from heat, preserves hair moisture",
+          "whyPeopleLikeIt": "Made in Poland, roomy fit, cute design, hanging loop",
+          "priceRange": "$30-45"
+        },
+        {
+          "name": "Superior's Original Sauna Hat",
+          "brand": "Superior Saunas",
+          "material": "One-piece real wool (no seams)",
+          "whatItDoes": "Seamless protection from sauna heat",
+          "whyPeopleLikeIt": "Seamless construction, authentic design",
+          "priceRange": "$35-50",
+          "notes": "Made in Poland"
+        },
+        {
+          "name": "Sweat Tent Wool Sauna Hat",
+          "brand": "Sweat Tent",
+          "material": "Wool",
+          "whatItDoes": "Heat protection for ultimate sauna experience",
+          "whyPeopleLikeIt": "Quality construction, effective heat barrier",
+          "priceRange": "$30-40"
+        }
+      ],
+      "benefits": [
+        "Protects head and ears from 150-200°F heat",
+        "Protects colored/treated hair from damage",
+        "Prevents hair from drying out and split ends",
+        "Keeps body temperature constant",
+        "Prevents dizziness from overheating",
+        "Wool is naturally antibacterial and doesn't require washing (airing only)"
+      ],
+      "materialNotes": "Sheep and alpaca wool are best materials. Do NOT wet hat before use - loses insulating properties when wet."
+    },
+    "lighting": {
+      "description": "Heat-resistant sauna lighting options",
+      "products": [
+        {
+          "name": "IP68 LED Strip Lights",
+          "type": "LED strip",
+          "whatItDoes": "Waterproof, heat-resistant ambient lighting strips",
+          "whyPeopleLikeIt": "Fully submersible, high-grade housing, works in wet/hot environments",
+          "priceRange": "$50-150 depending on length",
+          "colorTemp": "2700K-3000K warm white recommended",
+          "notes": "Ideal for infrared saunas (lower temps), works 100-140°F"
+        },
+        {
+          "name": "Traditional Heat-Rated Sauna Lights",
+          "type": "Incandescent/specialized",
+          "whatItDoes": "High-temperature bulbs designed specifically for sauna use",
+          "whyPeopleLikeIt": "Can handle 200°F+ traditional sauna temps",
+          "priceRange": "$20-80 per fixture",
+          "notes": "More suitable for traditional saunas than LEDs"
+        },
+        {
+          "name": "Himalayan Salt Lamps (Color-changing)",
+          "type": "Salt lamp",
+          "whatItDoes": "Decorative lighting that purportedly improves air quality",
+          "whyPeopleLikeIt": "Aesthetic appeal, claimed health benefits, mood lighting",
+          "priceRange": "$30-100",
+          "notes": "Color-changing options available"
+        },
+        {
+          "name": "Warm White LED Strips (2700K-3000K)",
+          "type": "LED strip",
+          "whatItDoes": "Creates cozy amber ambiance in sauna",
+          "whyPeopleLikeIt": "Energy efficient, low heat output, relaxing atmosphere",
+          "priceRange": "$40-120"
+        }
+      ],
+      "notes": "LEDs work best in infrared saunas (lower temps). Traditional saunas need heat-rated incandescent. Warm CCT (2700-3000K) creates best ambiance."
+    },
+    "coldPlungeIceBath": {
+      "description": "Cold therapy tubs, chillers, and ice bath equipment",
+      "products": [
+        {
+          "name": "Plunge Cold Tub",
+          "brand": "Plunge",
+          "whatItDoes": "High-end cold plunge tub with built-in chiller",
+          "whyPeopleLikeIt": "Spacious, durable, versatile, reliable performance, stylish design",
+          "priceRange": "$5,000-7,000",
+          "redditSentiment": "Best overall (Garage Gym Reviews Nov 2025)",
+          "notes": "High price point limits accessibility"
+        },
+        {
+          "name": "Morozko Forge Ice Bath",
+          "brand": "Morozko",
+          "whatItDoes": "Coldest available ice bath option",
+          "whyPeopleLikeIt": "Extreme cold capability, ideal for hardcore cold therapy",
+          "priceRange": "$7,000+",
+          "redditSentiment": "Premium choice for serious users"
+        },
+        {
+          "name": "Michael Phelps Chilly GOAT",
+          "brand": "Michael Phelps",
+          "whatItDoes": "Luxury cold tub with exceptional cooling",
+          "whyPeopleLikeIt": "Quality design, effective cooling, brand credibility",
+          "priceRange": "$6,000-8,000"
+        },
+        {
+          "name": "Sun Home Cold Plunge Pro",
+          "brand": "Sun Home",
+          "whatItDoes": "Professional-grade cold plunge tub",
+          "whyPeopleLikeIt": "Excellent cooling abilities, quality construction",
+          "priceRange": "$4,000-6,000"
+        },
+        {
+          "name": "Ice Barrel",
+          "brand": "Ice Barrel",
+          "whatItDoes": "Portable vertical ice bath",
+          "whyPeopleLikeIt": "Unique vertical design, space-efficient, no chiller needed",
+          "priceRange": "$1,000-1,500",
+          "redditSentiment": "Popular budget-friendly option"
+        },
+        {
+          "name": "Penguin Chillers Cold Therapy Chiller + Tub",
+          "brand": "Penguin Chillers",
+          "whatItDoes": "Complete cold plunge setup with 3/4HP chiller and insulated tub",
+          "whyPeopleLikeIt": "Cools to 37°F, affordable operation ($18-28/month), made in USA, ultra-quiet (56 dBA)",
+          "priceRange": "$1,500-2,500 for complete setup",
+          "redditSentiment": "Great value, 'little gem' per Reddit",
+          "specs": "7,500 BTU/hr, 110V, 450W, 1-year warranty"
+        },
+        {
+          "name": "Grizzly Cooler + Chiller Combo",
+          "brand": "Various (DIY setup)",
+          "whatItDoes": "Budget cold plunge using large cooler + aftermarket chiller",
+          "whyPeopleLikeIt": "Customizable, good results without breaking bank",
+          "priceRange": "$800-1,500 total"
+        },
+        {
+          "name": "100-Gallon Stock Tank (DIY)",
+          "brand": "Tractor Supply / Farm stores",
+          "whatItDoes": "Galvanized stock tank used as DIY ice bath",
+          "whyPeopleLikeIt": "Ultra budget-friendly, widely available, just add ice",
+          "priceRange": "$150-300",
+          "redditSentiment": "Popular DIY hack on Reddit",
+          "notes": "Add bags of ice, no chiller needed for occasional use"
+        },
+        {
+          "name": "AS ColdPlunge Ice Bath Chiller",
+          "brand": "AS ColdPlunge",
+          "whatItDoes": "1/3 HP chiller with filter pump for DIY cold plunge setup",
+          "whyPeopleLikeIt": "Complete kit, good for up to 79 gallons, 1-year warranty",
+          "priceRange": "$800-1,200",
+          "notes": "Recommended temp 45-52°F"
+        },
+        {
+          "name": "Lumi Cold Plunge Setup",
+          "brand": "Lumi",
+          "whatItDoes": "Affordable pre-made cold plunge solution",
+          "whyPeopleLikeIt": "Good balance of price and features",
+          "priceRange": "$2,000-3,000"
+        }
+      ],
+      "usageTips": [
+        "Beginners: Start with 30 seconds to 2 minutes at 50-60°F",
+        "Any temp below 66.2°F (19°C) activates brown fat and insulin sensitivity",
+        "Soberg Principle: Don't warm up with hot shower after - let body rewarm naturally",
+        "Nordic Cycle: 15 min sauna (125°F+) → cold plunge → repeat 2-3 times"
+      ]
+    },
+    "recoveryTools": {
+      "description": "Massage guns and recovery devices used with sauna therapy",
+      "products": [
+        {
+          "name": "Theragun Prime",
+          "brand": "Theragun",
+          "whatItDoes": "Percussive therapy massage gun for muscle recovery",
+          "whyPeopleLikeIt": "Best overall massage gun, powerful 16mm depth, 30 lbs force, deep-tissue relief",
+          "priceRange": "$300",
+          "redditSentiment": "Top choice for serious recovery",
+          "notes": "Can be used before or after sauna for enhanced recovery"
+        },
+        {
+          "name": "Theragun Pro Plus",
+          "brand": "Theragun",
+          "whatItDoes": "Professional-grade percussive therapy with heat and red light",
+          "whyPeopleLikeIt": "Combines heat, red light, and percussion, professional-level",
+          "priceRange": "$600+",
+          "notes": "Studies show heat boosts blood flow by 200%"
+        },
+        {
+          "name": "Hypervolt",
+          "brand": "Hyperice",
+          "whatItDoes": "Quiet percussion massage gun",
+          "whyPeopleLikeIt": "Quieter than Theragun, effective recovery, good battery life",
+          "priceRange": "$200-300"
+        },
+        {
+          "name": "Budget Massage Guns",
+          "brand": "Various (Amazon)",
+          "whatItDoes": "Affordable percussion therapy devices",
+          "whyPeopleLikeIt": "Get 80% of results for fraction of cost",
+          "priceRange": "$50-100",
+          "notes": "Look for reliability, low noise, good battery life"
+        }
+      ],
+      "benefits": [
+        "Increases range of motion acutely",
+        "Enhances muscle strength and explosiveness",
+        "Improves flexibility",
+        "Decreases pain perception",
+        "Boosts blood flow and oxygen to muscles"
+      ]
+    },
+    "appsTrackers": {
+      "description": "Apps and wearables for tracking sauna sessions",
+      "products": [
+        {
+          "name": "Sauna Tracker: Sauna Log",
+          "platform": "Apple Watch + iPhone",
+          "whatItDoes": "Tracks sauna sessions with heart rate, calories, temp, duration, and Sauna Benefit Zones",
+          "whyPeopleLikeIt": "#1 sauna app, real-time HR monitoring, tracks warm-up/detox/HSP zones, syncs to Health apps",
+          "priceRange": "Free - $10/month",
+          "redditSentiment": "Trusted by thousands"
+        },
+        {
+          "name": "Sessions App (We Sauna)",
+          "platform": "iOS/Android",
+          "whatItDoes": "Sauna session and cold exposure habit tracker",
+          "whyPeopleLikeIt": "Tracks both hot and cold therapy, builds habits",
+          "priceRange": "Free - $5/month"
+        },
+        {
+          "name": "Athlytic",
+          "platform": "Apple Watch",
+          "whatItDoes": "Turns Apple Watch into Whoop-like recovery tracker, includes sauna journaling",
+          "whyPeopleLikeIt": "Reads HRV, RHR, sleep, respiratory rate, wrist temp, blood O2; includes sauna tags",
+          "priceRange": "$10/month or $60/year",
+          "redditSentiment": "Popular Whoop alternative"
+        },
+        {
+          "name": "Oura Ring 4",
+          "brand": "Oura",
+          "whatItDoes": "Sleep and recovery tracking ring, water/sauna-resistant",
+          "whyPeopleLikeIt": "99.3% accurate resting HR, excellent sleep tracking, sauna-safe",
+          "priceRange": "$350 + $6/month subscription",
+          "redditSentiment": "Premium choice for 24/7 tracking",
+          "notes": "Water-resistant, suitable for sauna but not diving"
+        },
+        {
+          "name": "Whoop 4.0",
+          "brand": "Whoop",
+          "whatItDoes": "24/7 strain, recovery, and sleep tracking wearable",
+          "whyPeopleLikeIt": "99.7% accurate HR, 99% accurate HRV, heat/water-resistant, no removal needed for sauna",
+          "priceRange": "$30/month (includes hardware)",
+          "redditSentiment": "Top tier for serious biohackers",
+          "notes": "Safe in sauna, swimming, showering"
+        },
+        {
+          "name": "Apple Watch (with sauna apps)",
+          "brand": "Apple",
+          "whatItDoes": "General fitness tracking adapted for sauna use",
+          "whyPeopleLikeIt": "Widely owned, many sauna apps available, tracks HR during sessions",
+          "priceRange": "$250-800 depending on model",
+          "notes": "Not officially recommended by Apple for sauna use, but many users do it"
+        }
+      ],
+      "notes": "Most users prefer dedicated apps like Sauna Tracker with their existing wearables. Whoop and Oura are explicitly sauna-safe."
+    },
+    "saunaHeaters": {
+      "description": "Electric and wood-burning sauna heaters",
+      "products": [
+        {
+          "name": "Harvia Legend Series (Wood-Burning)",
+          "brand": "Harvia",
+          "type": "Wood-burning",
+          "whatItDoes": "Traditional wood-fired sauna heater with large stone capacity",
+          "whyPeopleLikeIt": "Finnish brand 60+ years, exceptional quality, timeless design, best water vaporization (84-100%), fewer failures",
+          "priceRange": "$1,500-3,000",
+          "redditSentiment": "Most trusted Finnish brand, 'looks like a work of art'"
+        },
+        {
+          "name": "Harvia Electric Heaters (Various Models)",
+          "brand": "Harvia",
+          "type": "Electric",
+          "whatItDoes": "Efficient electric sauna heating",
+          "whyPeopleLikeIt": "Best water vaporization in independent tests, user-friendly controls, remote control box stays outside hot room",
+          "priceRange": "$500-2,000",
+          "redditSentiment": "Better value than Tylo"
+        },
+        {
+          "name": "Tylo Pure Combi",
+          "brand": "Tylo",
+          "type": "Electric combo",
+          "whatItDoes": "Electric heater with humidity control",
+          "whyPeopleLikeIt": "Twin side chambers maximize airflow, minimizes heating time, saves energy, elegant design",
+          "priceRange": "$1,500-2,500",
+          "notes": "Electronics inside heater (potential wear concern vs Harvia's external box)"
+        },
+        {
+          "name": "Tylo Electric Heaters",
+          "brand": "Tylo",
+          "type": "Electric",
+          "whatItDoes": "Swedish-engineered efficient sauna heaters",
+          "whyPeopleLikeIt": "Fastest heating, lowest energy use, 50+ years refinement, award-winning",
+          "priceRange": "$800-2,500",
+          "redditSentiment": "Premium but more expensive than equivalent competitors",
+          "notes": "Best for those prioritizing energy efficiency"
+        }
+      ],
+      "stoneRecommendations": [
+        {
+          "type": "Peridotite/Olivine Diabase",
+          "why": "Dense, heat-tolerant, excellent heat retention",
+          "price": "$50-100 per 40 lbs"
+        },
+        {
+          "type": "Vulcanite/Gabbro/Basalt",
+          "why": "Dark igneous rocks with high heat capacity",
+          "price": "$40-80 per 40 lbs"
+        },
+        {
+          "type": "Lava Rocks",
+          "why": "Recommended by major brands, effective heat retention, consistent heat",
+          "price": "$30-60 per bag"
+        }
+      ],
+      "stonesAvoid": "River rocks, granite with cracks, sedimentary rocks (sandstone, slate), sulfur-containing rusty rocks, any porous or shiny stones (explosion risk)",
+      "maintenance": "Replace stones every 1-2 years or after ~300 hours, vacuum heater annually, restack loosely"
+    },
+    "saunaKitsBarrelSaunas": {
+      "description": "Pre-fabricated sauna kits and barrel saunas",
+      "products": [
+        {
+          "name": "Almost Heaven Barrel Saunas",
+          "brand": "Almost Heaven",
+          "whatItDoes": "Pre-fab barrel saunas in various sizes",
+          "whyPeopleLikeIt": "Excellent heat retention, unique barrel design, modern aesthetic, made in West Virginia since 1977",
+          "priceRange": "$3,000-8,000",
+          "redditSentiment": "Popular at Costco, quality may have slipped slightly but still good cedar options",
+          "notes": "Owned by Harvia, now available at Costco"
+        },
+        {
+          "name": "Dundalk Leisurecraft Barrel Saunas",
+          "brand": "Dundalk",
+          "whatItDoes": "Canadian cedar barrel saunas with eco-friendly materials",
+          "whyPeopleLikeIt": "Canadian cedar, sustainably managed forests, rustic aesthetic, 5-year warranty, acrylic bubble window",
+          "priceRange": "$4,000-10,000",
+          "redditSentiment": "Premium Canadian option, some models criticized for ventilation",
+          "notes": "Traditional focus, excellent for natural settings"
+        },
+        {
+          "name": "Costco Barrel Saunas (Almost Heaven/Dynamic)",
+          "brand": "Almost Heaven / Dynamic",
+          "whatItDoes": "Budget-friendly pre-fab saunas sold at Costco",
+          "whyPeopleLikeIt": "Easy assembly, affordable entry point, quality materials (hemlock/cedar)",
+          "priceRange": "$1,000-4,000",
+          "redditSentiment": "Great value for money, good for beginners"
+        },
+        {
+          "name": "Dynamic Santiago 2-Person Infrared Sauna",
+          "brand": "Dynamic",
+          "whatItDoes": "Compact infrared sauna for 2 people",
+          "whyPeopleLikeIt": "Affordable, available at Costco, easy setup",
+          "priceRange": "$1,799",
+          "redditSentiment": "Popular Costco find"
+        },
+        {
+          "name": "SaunaLife Kits",
+          "brand": "SaunaLife",
+          "whatItDoes": "DIY sauna kits with all materials included",
+          "whyPeopleLikeIt": "Customizable, comprehensive kits, quality materials",
+          "priceRange": "$3,000-7,000"
+        },
+        {
+          "name": "Finnleo Sauna Kits",
+          "brand": "Finnleo",
+          "whatItDoes": "Premium Finnish sauna kits",
+          "whyPeopleLikeIt": "Authentic Finnish design, high quality",
+          "priceRange": "$5,000-12,000"
+        },
+        {
+          "name": "Auroom Sauna Kits",
+          "brand": "Auroom",
+          "whatItDoes": "Modern designer sauna kits",
+          "whyPeopleLikeIt": "Contemporary aesthetics, quality construction",
+          "priceRange": "$8,000-15,000"
+        }
+      ]
+    },
+    "redLightTherapy": {
+      "description": "Red light therapy panels often used with sauna",
+      "products": [
+        {
+          "name": "MitoPRO 1500+",
+          "brand": "Mito Red Light",
+          "whatItDoes": "Full-spectrum red light therapy panel (all 4 bioactive wavelengths)",
+          "whyPeopleLikeIt": "#1 rated for power output and cost-effectiveness, 68+ mW/cm², 4 wavelengths vs Joovv's 2",
+          "priceRange": "$1,200-1,800",
+          "redditSentiment": "Best value and performance"
+        },
+        {
+          "name": "Joovv Solo/Panels",
+          "brand": "Joovv",
+          "whatItDoes": "Premium red light therapy with mobile app control",
+          "whyPeopleLikeIt": "Best mobile app, recommended by Andrew Huberman, reliable brand",
+          "priceRange": "$1,000+ (Solo)",
+          "redditSentiment": "Premium brand but expensive with lower irradiance than competitors",
+          "notes": "59 mW/cm², only 2 wavelengths, great app"
+        },
+        {
+          "name": "Mito Light Biohacker 4.0",
+          "brand": "Mito Red Light",
+          "whatItDoes": "Mid-range red light panel",
+          "whyPeopleLikeIt": "Good power output, affordable",
+          "priceRange": "$600-900",
+          "notes": "66 mW/cm²"
+        },
+        {
+          "name": "Hooga HG300",
+          "brand": "Hooga",
+          "whatItDoes": "Budget red light therapy panel",
+          "whyPeopleLikeIt": "1/5 the price of Joovv Mini with nearly identical specs",
+          "priceRange": "$189",
+          "redditSentiment": "Best budget option"
+        },
+        {
+          "name": "PlantiumLED Panels",
+          "brand": "PlantiumLED",
+          "whatItDoes": "High-quality red light panels",
+          "whyPeopleLikeIt": "Good balance of quality and price",
+          "priceRange": "$500-1,500"
+        }
+      ],
+      "usageNotes": [
+        "Red light therapy uses different mechanism than sauna (no heat, affects mitochondria)",
+        "Can be used simultaneously with sauna to reduce treatment duration",
+        "Increasing trend to combine both therapies",
+        "Light energy doesn't generate heat or raise core body temperature"
+      ]
+    },
+    "comfortAccessories": {
+      "description": "Backrests, cushions, pillows, and comfort items",
+      "products": [
+        {
+          "name": "S-Shaped Cedar Backrest",
+          "material": "Red cedar or hemlock",
+          "whatItDoes": "Ergonomic lumbar support following natural spine curve",
+          "whyPeopleLikeIt": "Excellent lower back support, reduces restlessness, aromatic cedar scent",
+          "priceRange": "$40-80",
+          "notes": "Withstands 200°F"
+        },
+        {
+          "name": "Cedar Contoured Backrest",
+          "material": "Cedar",
+          "whatItDoes": "Curved backrest for natural spine support",
+          "whyPeopleLikeIt": "Ergonomic, adjustable positioning, natural antimicrobial properties",
+          "priceRange": "$50-90"
+        },
+        {
+          "name": "Bamboo Backrest",
+          "material": "Bamboo",
+          "whatItDoes": "Sustainable ergonomic backrest",
+          "whyPeopleLikeIt": "Strong, lightweight, antimicrobial, cooler surface than wood, sustainable",
+          "priceRange": "$35-70"
+        },
+        {
+          "name": "Sauna Seat Cushions",
+          "material": "Polyester fabric with moisture-resistant foam",
+          "whatItDoes": "Adds comfort to hard wooden benches",
+          "whyPeopleLikeIt": "Washable covers with zippers, moisture-resistant, extra comfort for long sessions",
+          "priceRange": "$25-50"
+        },
+        {
+          "name": "Cedar Headrest Pillow (Curved)",
+          "material": "Red cedar",
+          "whatItDoes": "Curved headrest for neck and head support",
+          "whyPeopleLikeIt": "Elegant design, aromatic cedar, provides gentle neck support, 14x14 inches typical",
+          "priceRange": "$40-70"
+        },
+        {
+          "name": "HaLu Cedar Rectangular Pillow",
+          "brand": "HaLu",
+          "material": "Cedar with patented cupped pads",
+          "whatItDoes": "Four pivoting cupped pads conform to head shape",
+          "whyPeopleLikeIt": "Patented design, evenly dissipates pressure, highly comfortable",
+          "priceRange": "$50-80"
+        },
+        {
+          "name": "RUVARO Ergonomic Headrest",
+          "brand": "RUVARO",
+          "material": "Canadian red cedar",
+          "whatItDoes": "Curved neck and head support",
+          "whyPeopleLikeIt": "Relieves tension, stable, elegant, works seated or reclined",
+          "priceRange": "$45-75"
+        },
+        {
+          "name": "Mänty Sauna Pillow",
+          "brand": "Vappu Collection",
+          "material": "Cedar with recycled fiber stuffing",
+          "whatItDoes": "Cushioned neck/shoulder support pillow",
+          "whyPeopleLikeIt": "Nature-inspired design, dust/fire-resistant stuffing, maintains loft",
+          "priceRange": "$30-50"
+        },
+        {
+          "name": "Northwood Cedar Headrest",
+          "brand": "Northwood",
+          "material": "Canadian red cedar",
+          "whatItDoes": "Handmade ergonomic headrest",
+          "whyPeopleLikeIt": "Superior craftsmanship, attention to detail, classic look",
+          "priceRange": "$50-80"
+        }
+      ]
+    },
+    "towelsRobes": {
+      "description": "Quick-dry towels and post-sauna robes",
+      "products": [
+        {
+          "name": "Turkish Cotton Peshtemal Towels",
+          "material": "Turkish cotton",
+          "whatItDoes": "Lightweight, quick-drying sauna towel",
+          "whyPeopleLikeIt": "Gets softer with each wash, highly absorbent, 25+ min dry time, luxury feel",
+          "priceRange": "$20-40 each",
+          "redditSentiment": "Premium natural fiber choice"
+        },
+        {
+          "name": "Limonaa Turkish Cotton Towel",
+          "brand": "Limonaa",
+          "material": "Turkish cotton",
+          "whatItDoes": "Traditional Turkish towel with modern functionality",
+          "whyPeopleLikeIt": "Softer than microfiber, naturally mildew-resistant",
+          "priceRange": "$25-35"
+        },
+        {
+          "name": "PackTowl Personal Towel (Original/Adventurer)",
+          "brand": "PackTowl",
+          "material": "Microfiber",
+          "whatItDoes": "Ultra-lightweight travel/sauna towel with antimicrobial treatment",
+          "whyPeopleLikeIt": "Dries 50% faster than cotton (~10 min), antimicrobial prevents odor, ultra-packable",
+          "priceRange": "$20-35",
+          "redditSentiment": "Top microfiber choice"
+        },
+        {
+          "name": "Rainleaf Quick-Dry Microfiber Towel",
+          "brand": "Rainleaf",
+          "material": "Microfiber",
+          "whatItDoes": "Budget microfiber towel",
+          "whyPeopleLikeIt": "90% of PackTowl performance at $15 less, Amazon favorite, 10-min dry time",
+          "priceRange": "$10-20",
+          "redditSentiment": "Best value, can't tell difference from PackTowl"
+        },
+        {
+          "name": "Waffle Weave Spa Robe",
+          "material": "Cotton waffle weave",
+          "whatItDoes": "Lightweight, breathable post-sauna robe",
+          "whyPeopleLikeIt": "Air pockets for breathability, quick-drying, classic elegant look",
+          "priceRange": "$50-90",
+          "notes": "Most popular pattern for saunas"
+        },
+        {
+          "name": "Terry Cloth Bathrobe",
+          "material": "Turkish cotton terry",
+          "whatItDoes": "Plush, absorbent post-sauna robe",
+          "whyPeopleLikeIt": "Cloud-like softness, superior absorbency, excellent insulation, keeps you warm",
+          "priceRange": "$60-120"
+        },
+        {
+          "name": "Rento Kenno Bath Robe",
+          "brand": "Rento",
+          "material": "Recycled cotton",
+          "whatItDoes": "Eco-friendly Finnish bathrobe",
+          "whyPeopleLikeIt": "Soft, quick-drying, sustainable",
+          "priceRange": "$80-120"
+        },
+        {
+          "name": "Linen Sauna Robe",
+          "material": "Linen",
+          "whatItDoes": "Ultra-breathable lightweight robe",
+          "whyPeopleLikeIt": "Best breathability, perfect for hot climates",
+          "priceRange": "$70-150",
+          "notes": "Best for steam rooms per recommendations"
+        }
+      ],
+      "materialsAvoid": "PVC, synthetic fabrics, polyester (don't breathe well, feel sticky in heat)"
+    },
+    "timers": {
+      "description": "Sand timers and hourglasses for session tracking",
+      "products": [
+        {
+          "name": "15-Minute Cedar Sand Timer",
+          "material": "Red cedar/pine with glass",
+          "whatItDoes": "Traditional 15-minute hourglass with 5-min interval marks",
+          "whyPeopleLikeIt": "Most common session length, wall-mountable, aromatic wood, heat-proof",
+          "priceRange": "$20-55",
+          "notes": "15 minutes is most popular sauna session time"
+        },
+        {
+          "name": "Northwood Sauna Sand Timer",
+          "brand": "Northwood",
+          "material": "Canadian red cedar or Finnish pine",
+          "whatItDoes": "Handmade 15-minute timer",
+          "whyPeopleLikeIt": "Sustainable certified wood, polished perfection, beautiful aroma",
+          "priceRange": "$40-55"
+        },
+        {
+          "name": "Saffro Cedar Sand Timer",
+          "brand": "Saffro",
+          "material": "Red cedar",
+          "whatItDoes": "15-minute timer with pivot mount (flips for 30-min total)",
+          "whyPeopleLikeIt": "Can extend to 30 min by flipping, interval markings, wall-mounted convenience",
+          "priceRange": "$25-40"
+        },
+        {
+          "name": "ALEKO Pine Wood Sand Timer",
+          "brand": "ALEKO",
+          "material": "Pine",
+          "whatItDoes": "15-minute timer with pink sand for visibility",
+          "whyPeopleLikeIt": "Natural wood contrasts with pink sand, very visible, follows safety guidelines",
+          "priceRange": "$15-30"
+        },
+        {
+          "name": "30-Minute Sand Timer",
+          "material": "Cedar/pine",
+          "whatItDoes": "Half-hour timer for longer sessions",
+          "whyPeopleLikeIt": "For extended sauna bathing, wall-mounted pivot design",
+          "priceRange": "$40-55",
+          "notes": "Less common than 15-min versions"
+        },
+        {
+          "name": "Cedarbrook 30-Minute Timer",
+          "brand": "Cedarbrook",
+          "material": "Cedar with red sand",
+          "whatItDoes": "Pivot-mounted 30-minute timer",
+          "whyPeopleLikeIt": "Very visible red sand, reliable, wall-mounted",
+          "priceRange": "$42-55"
+        },
+        {
+          "name": "Budget Sand Timers",
+          "brand": "Various (Amazon)",
+          "material": "Basic wood and glass",
+          "whatItDoes": "Functional 15-minute timing",
+          "whyPeopleLikeIt": "Affordable, gets the job done",
+          "priceRange": "$5-15"
+        }
+      ],
+      "notes": "Unaffected by heat, moisture, or power outages. Straightforward drill-and-mount installation. 15 minutes aligns with recommended session times."
+    },
+    "saunaWhisks": {
+      "description": "Vihta/vasta whisks for traditional Finnish sauna beating",
+      "products": [
+        {
+          "name": "Birch Vihta (Fresh or Dried)",
+          "brand": "Various (Rento, HaLu, Touch of Finland)",
+          "material": "20-40 birch branches",
+          "whatItDoes": "Traditional Finnish sauna whisk for gentle beating to stimulate circulation",
+          "whyPeopleLikeIt": "King of sauna whisks, contains saponin (anti-inflammatory), relieves muscle/joint pain, cleansing properties",
+          "priceRange": "$20-25 per whisk",
+          "redditSentiment": "Most authentic and traditional"
+        },
+        {
+          "name": "Eucalyptus Vihta",
+          "material": "Eucalyptus branches",
+          "whatItDoes": "Aromatic whisk for circulation and respiratory benefits",
+          "whyPeopleLikeIt": "Anti-inflammatory, antiseptic, clears sinuses, fresh scent",
+          "priceRange": "$20-30 per whisk"
+        },
+        {
+          "name": "Birch + Eucalyptus Blend Whisk",
+          "material": "Birch branches enhanced with eucalyptus leaves",
+          "whatItDoes": "Combination whisk with dual benefits",
+          "whyPeopleLikeIt": "Traditional birch benefits plus eucalyptus aroma",
+          "priceRange": "$25-35"
+        },
+        {
+          "name": "Oak Vihta",
+          "material": "Oak branches",
+          "whatItDoes": "Durable whisk alternative to birch",
+          "whyPeopleLikeIt": "Lasts longer than birch, firmer leaves",
+          "priceRange": "$20-25"
+        },
+        {
+          "name": "Linden Vihta",
+          "material": "Linden tree branches",
+          "whatItDoes": "Softer whisk option",
+          "whyPeopleLikeIt": "Gentler on skin, pleasant aroma",
+          "priceRange": "$20-25"
+        }
+      ],
+      "whereToTuy": [
+        "Touch of Finland (touchoffinland.com) - Free shipping $99+, otherwise $5.95 flat rate",
+        "Finnmark Sauna (finnmarksauna.com) - Rento dried birch whisks",
+        "FinnStyle (finnstyle.com) - Finnish goods retailer",
+        "Sauna-store.com - Finnish online specialty store",
+        "Amazon - Various brands, $20-25 range"
+      ],
+      "howToUse": "Re-hydrate freeze-dried vihta in warm water for 15 minutes within green netting. Remove from net and gently whip yourself during sauna for cleansing and circulation."
+    },
+    "bluetoothSpeakers": {
+      "description": "Heat and waterproof speakers for sauna music",
+      "products": [
+        {
+          "name": "Ultimate Ears WONDERBOOM 2",
+          "brand": "Ultimate Ears",
+          "whatItDoes": "Portable 360-degree waterproof Bluetooth speaker",
+          "whyPeopleLikeIt": "IPX7 rating, 360-degree sound, compact, powerful audio, sauna-safe",
+          "priceRange": "$80-100",
+          "specs": "IPX7 waterproof",
+          "placement": "Low placement recommended (on/under bench)"
+        },
+        {
+          "name": "Turtlebox",
+          "brand": "Turtlebox",
+          "whatItDoes": "Rugged loud portable speaker",
+          "whyPeopleLikeIt": "IP67 rating, extremely loud (120 dB), durable construction",
+          "priceRange": "$350-400",
+          "specs": "IP67, 120 dB loudness"
+        },
+        {
+          "name": "Bose SoundLink Micro",
+          "brand": "Bose",
+          "whatItDoes": "Compact Bluetooth speaker",
+          "whyPeopleLikeIt": "IPX7 rating, Bose sound quality, durable",
+          "priceRange": "$100-120",
+          "specs": "IPX7 waterproof"
+        },
+        {
+          "name": "AquaSound Jazz Extreme",
+          "brand": "AquaSound",
+          "type": "Installed sauna speaker",
+          "whatItDoes": "Permanent installation speaker for extreme conditions",
+          "whyPeopleLikeIt": "Handles -25°C to +100°C, IPX6 rated, designed specifically for saunas",
+          "priceRange": "$150-250",
+          "specs": "IPX6, -25°C to +100°C range"
+        },
+        {
+          "name": "AquaSound Sauna Speaker",
+          "brand": "AquaSound",
+          "type": "Installed",
+          "whatItDoes": "Sauna-specific installed speaker",
+          "whyPeopleLikeIt": "Suitable for temps up to 212°F (100°C)",
+          "priceRange": "$100-200"
+        },
+        {
+          "name": "Oceanic High-Temperature Speakers",
+          "brand": "Oceanic",
+          "type": "Installed",
+          "whatItDoes": "Extreme heat-rated ceiling speakers",
+          "whyPeopleLikeIt": "IP66 rating, handles up to 250°F, professional installation",
+          "priceRange": "$200-350",
+          "specs": "IP66, up to 250°F"
+        },
+        {
+          "name": "Jive Eco",
+          "brand": "AquaSound",
+          "type": "Portable/installed",
+          "whatItDoes": "Budget steam/wet sauna speaker",
+          "whyPeipleLikeIt": "IPX6, handles up to 60°C (140°F), affordable",
+          "priceRange": "$80-120",
+          "notes": "Good for wet saunas and steam rooms (~50°C)"
+        },
+        {
+          "name": "SaunaLife SaunaZone Bucket Speaker",
+          "brand": "SaunaLife",
+          "type": "Combo accessory",
+          "whatItDoes": "Bluetooth speaker integrated into sauna bucket with lights",
+          "whyPeopleLikeIt": "Multi-functional, unique design, ambient lighting",
+          "priceRange": "$150-200"
+        }
+      ],
+      "requirements": "IPX7+ rating for waterproofing, heat resistance to 200°F minimum, placement low in sauna (heat rises)",
+      "safetyNotes": "Even waterproof speakers not designed for prolonged high heat. Remove portable speakers after session. Installed speakers should be rated for sauna use."
+    },
+    "infraredSaunaBlankets": {
+      "description": "Portable infrared sauna blankets",
+      "products": [
+        {
+          "name": "HigherDOSE Infrared Sauna Blanket",
+          "brand": "HigherDOSE",
+          "whatItDoes": "Portable infrared sauna blanket for at-home use",
+          "whyPeopleLikeIt": "World's top infrared blanket since 2017, waterproof/fireproof, heats in 10 min, can multitask (head/arms out)",
+          "priceRange": "$699 + $100-300 for inserts",
+          "redditSentiment": "Best infrared blanket, favored by Miranda Kerr, Gwyneth Paltrow, Amy Schumer",
+          "cons": "Only far infrared (not full spectrum), lower temps than cabin saunas, 1-year warranty vs typical 3-year",
+          "notes": "Good for small spaces or budget constraints vs $7k cabin sauna"
+        },
+        {
+          "name": "Heat Healer Infrared Blanket",
+          "brand": "Heat Healer",
+          "whatItDoes": "Alternative infrared sauna blanket",
+          "whyPeopleLikeIt": "Competitor to HigherDOSE with similar features",
+          "priceRange": "$500-700"
+        },
+        {
+          "name": "Sunlighten Solo System",
+          "brand": "Sunlighten",
+          "whatItDoes": "Portable collapsible infrared sauna tent",
+          "whyPeopleLikeIt": "Same far-infrared tech as Sunlighten cabins, lightweight, collapsible, lower EMF than HigherDOSE",
+          "priceRange": "$2,500-3,500",
+          "notes": "Middle ground between blanket and full cabin"
+        }
+      ],
+      "vsFullSauna": "Blankets offer far infrared only vs full spectrum. Lower max temps. Less immersive (head out). But 1/10th the price and no space needed."
+    },
+    "cleaningMaintenance": {
+      "description": "Natural cleaners and wood treatments for sauna care",
+      "products": [
+        {
+          "name": "White Vinegar Solution (DIY)",
+          "type": "Natural cleaner",
+          "whatItDoes": "Natural disinfectant for sauna surfaces",
+          "whyPeopleLikeIt": "Safe, non-toxic, effective, inexpensive",
+          "priceRange": "$5-10",
+          "recipe": "1 part vinegar to 3 parts water"
+        },
+        {
+          "name": "Baking Soda Paste (DIY)",
+          "type": "Natural cleaner",
+          "whatItDoes": "Removes stains from sweat and body oils",
+          "whyPeopleLikeIt": "Gentle abrasive, natural, safe",
+          "priceRange": "$3-5",
+          "usage": "Mix with water to create paste, gently scrub stained areas"
+        },
+        {
+          "name": "BioZap Sauna Cleaner & Deodorizer",
+          "brand": "RadonSeal",
+          "whatItDoes": "All-natural cleaner with tea tree oil",
+          "whyPeopleLikeIt": "Tea tree oil formula, works on traditional/infrared/steam saunas, refreshes and preserves wood",
+          "priceRange": "$20-35 per bottle"
+        },
+        {
+          "name": "Premium All-Natural Sauna Cleaner with Eucalyptus",
+          "brand": "Various (Amazon)",
+          "whatItDoes": "Plant-based sauna wood cleaner and conditioner",
+          "whyPeopleLikeIt": "100% natural essential oils, doesn't degrade wood fibers, gentle, eco-friendly",
+          "priceRange": "$15-25"
+        },
+        {
+          "name": "Sunlighten Natural Wood Cleaner",
+          "brand": "Sunlighten",
+          "whatItDoes": "Non-toxic wood cleaner for interior/exterior sauna wood",
+          "whyPeopleLikeIt": "Safe technology, gentle, better air quality, safe for treated/untreated wood",
+          "priceRange": "$20-30"
+        },
+        {
+          "name": "Saunatec Sauna Clean",
+          "brand": "Saunatec",
+          "whatItDoes": "Professional sauna cleaning solution",
+          "whyPeopleLikeIt": "Trusted commercial formula",
+          "priceRange": "1L for $34.95, 5L for $67.95"
+        },
+        {
+          "name": "Paraffin Sauna Wood Oil Treatment",
+          "brand": "Saunatec/Various",
+          "type": "Wood protection oil",
+          "whatItDoes": "Protects and enhances sauna wood, prevents moisture damage",
+          "whyPeopleLikeIt": "Extends wood lifespan, reduces staining, enhances grain, creates dirt-resistant surface, dermatologically safe",
+          "priceRange": "1L for $111.95, kits $299-302",
+          "frequency": "Apply 1-2 times annually",
+          "notes": "White mineral oil (baby oil base), highly stable, skin-safe"
+        },
+        {
+          "name": "Orana Essential Sauna Cleaning Solution",
+          "brand": "Orana Essential",
+          "whatItDoes": "Specialized sauna cleaning formula",
+          "whyPeopleLikeIt": "Purpose-built for sauna environments",
+          "priceRange": "$18-28"
+        }
+      ],
+      "avoidProducts": [
+        "Never use: high-pressure cleaners, yard hoses (damages wood)",
+        "Never use: chemical-grade disinfectants (pollutes air, causes allergies)",
+        "Never use: varnish, stain, or paint on interior (impairs wood, causes warping, toxic fumes)",
+        "If sealing: only breathable oil or wax treatments"
+      ]
+    },
+    "flooringMats": {
+      "description": "Non-slip mats and flooring for sauna safety",
+      "products": [
+        {
+          "name": "Bamboo Foldable Floor Mat",
+          "brand": "SaunaBox/Various",
+          "material": "Moso bamboo",
+          "whatItDoes": "Non-slip, quick-draining sauna floor mat",
+          "whyPeopleLikeIt": "Eco-friendly, lattice design for drainage, non-slip rubber feet, water-resistant, rolls for storage",
+          "priceRange": "$25-40",
+          "sizes": "23.6x16\" to 47.2x15.7\""
+        },
+        {
+          "name": "Cedar Floor Tiles/Duckboards",
+          "material": "Cedar wood",
+          "whatItDoes": "Raised flooring that stays cool underfoot",
+          "whyPeopleLikeIt": "Natural material, doesn't get too hot, aromatic, non-slippery",
+          "priceRange": "$40-100 depending on size"
+        },
+        {
+          "name": "Felt Sauna Cushion Mats",
+          "brand": "Various",
+          "material": "Heat-resistant felt",
+          "whatItDoes": "Insulating floor cushion",
+          "whyPeopleLikeIt": "Heat insulation, soft underfoot",
+          "priceRange": "$20-35"
+        },
+        {
+          "name": "Bamboo Bath Mat (Target/Walmart)",
+          "brand": "Various retailers",
+          "material": "Bamboo slats",
+          "whatItDoes": "Multi-use bamboo mat for spa/sauna/pool",
+          "whyPeopleLikeIt": "Affordable, quick-drying, non-slip, versatile",
+          "priceRange": "$25-35",
+          "size": "24x18\" typical"
+        }
+      ],
+      "cleaning": "Use 1:4 apple cider vinegar to water solution. Avoid abrasive cleaners, flammable products, steel wool."
+    }
+  },
+  "keyInsights": {
+    "mostRecommendedBrands": [
+      "Harvia (heaters, accessories) - Finnish, 60+ years, most trusted",
+      "Rento (buckets, ladles, textiles) - Finnish design leader",
+      "SensorPush (thermometers) - Reddit favorite for accuracy",
+      "Penguin Chillers (ice baths) - Great value, made in USA",
+      "Mito Red Light (red light therapy) - Best performance per dollar",
+      "HigherDOSE (infrared blankets) - Industry leader since 2017",
+      "Almost Heaven (barrel saunas) - American-made since 1977",
+      "Dundalk (barrel saunas) - Canadian cedar quality"
+    ],
+    "budgetRecommendations": [
+      "Thermometer: TOPINCN at $16",
+      "Ice bath: 100-gal stock tank ($150-300) + ice",
+      "Red light: Hooga HG300 ($189 vs Joovv $1000)",
+      "Towel: Rainleaf microfiber ($10-20)",
+      "Timer: Basic sand timers ($5-15)",
+      "Sauna: Costco barrel saunas ($1,000-4,000)"
+    ],
+    "premiumChoices": [
+      "Heater: Harvia Legend wood-burning ($1,500-3,000)",
+      "Cold plunge: Plunge or Morozko ($5,000-8,000)",
+      "Red light: MitoPRO 1500+ ($1,200-1,800)",
+      "Tracker: Whoop 4.0 ($30/mo) or Oura Ring 4 ($350 + $6/mo)",
+      "Sauna: Sunlighten mPulse cabin ($7,000+)",
+      "Recovery: Theragun Pro Plus ($600+)"
+    ],
+    "essentialFirstPurchases": [
+      "Wooden bucket and ladle ($40-120) - Required for löyly",
+      "Thermometer ($16-90) - Safety essential",
+      "Sand timer ($5-55) - Track session length",
+      "Towels ($10-40) - Hygiene and comfort",
+      "Sauna stones ($30-100) - If not included with heater"
+    ],
+    "niceToHaveUpgrades": [
+      "Sauna hat ($30-50) - Extends comfort in high heat",
+      "Backrest ($40-90) - Ergonomic comfort",
+      "Essential oils ($10-25) - Aromatherapy enhancement",
+      "Bluetooth speaker ($80-350) - Music/podcasts",
+      "Headrest pillow ($30-80) - Additional comfort",
+      "Bamboo floor mat ($25-40) - Safety and comfort"
+    ],
+    "biohackerEssentials": [
+      "Sauna + cold plunge combo (contrast therapy)",
+      "Oura Ring or Whoop for HRV/recovery tracking",
+      "Red light therapy panel for stacking benefits",
+      "Theragun for pre/post-sauna recovery",
+      "Sauna tracking app (Sauna Tracker, Sessions)",
+      "HigherDOSE infrared blanket if no room for cabin"
+    ],
+    "affiliateOpportunities": [
+      "Amazon: Thermometers, timers, towels, mats, speakers, massage guns",
+      "Specialized retailers: Touch of Finland, Finnmark, Saunas.com",
+      "High-ticket: Sunlighten saunas, Plunge tubs, Harvia heaters",
+      "Subscriptions: Whoop, Oura Ring, sauna tracking apps",
+      "Consumables: Essential oils, cleaning products (recurring revenue)"
+    ],
+    "contentOpportunities": [
+      "'Budget Sauna Setup: Everything Under $500'",
+      "'Sauna Hat: Scam or Essential? We Tested 5 Brands'",
+      "'SensorPush vs Analog: Which Thermometer is Actually Accurate?'",
+      "'The Only 7 Sauna Accessories You Actually Need'",
+      "'How to Build a DIY Cold Plunge for Under $300'",
+      "'Sauna Stones 101: Why Your Heater Keeps Failing'",
+      "'HigherDOSE vs Sunlighten: Is the $6,500 Upgrade Worth It?'",
+      "'Red Light + Sauna: Biohacking Trend or Real Science?'",
+      "'Essential Oil Safety: What Reddit Gets Wrong About Sauna Aromatherapy'",
+      "'The Costco Sauna: Is Almost Heaven Still Worth It?'"
+    ]
+  },
+  "trendingTopics": [
+    "Contrast therapy (sauna + cold plunge) is exploding in popularity",
+    "Red light therapy integration with sauna sessions",
+    "Affordable Costco barrel saunas democratizing access",
+    "DIY cold plunge setups using stock tanks + chillers",
+    "Wearable tracking (Whoop, Oura) for sauna optimization",
+    "Concern about Almost Heaven quality since Costco partnership",
+    "Debate: Are sauna hats necessary or just marketing?",
+    "Growing interest in authentic Finnish accessories (by itu, Rento)",
+    "Infrared blankets as apartment-friendly alternative",
+    "Safety concerns about essential oil concentration"
+  ],
+  "priceRanges": {
+    "completeBeginnerSetup": "$100-500 (bucket, ladle, thermometer, timer, towels, mat)",
+    "midRangeEnthusiast": "$500-2000 (add quality heater, backrest, hat, speaker, oils, whisks)",
+    "seriousBiohacker": "$2,000-10,000 (premium heater, cold plunge chiller, red light panel, wearables)",
+    "ultimateSetup": "$10,000-25,000+ (custom sauna cabin, full cold plunge, commercial red light, all accessories)"
+  }
+}
