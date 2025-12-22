@@ -9,7 +9,11 @@ import fs from 'fs';
 import path from 'path';
 import https from 'https';
 
-const FIRECRAWL_API_KEY = process.env.FIRECRAWL_API_KEY || 'fc-bc24f10a07104dc9a7eb377a19ee8fad';
+const FIRECRAWL_API_KEY = process.env.FIRECRAWL_API_KEY;
+if (!FIRECRAWL_API_KEY) {
+  console.error('Error: FIRECRAWL_API_KEY environment variable is required');
+  process.exit(1);
+}
 const OUTPUT_DIR = 'public/images/gear/products';
 
 // Product URLs from manufacturers (not Amazon)
