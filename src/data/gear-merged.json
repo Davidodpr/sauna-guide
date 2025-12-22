@@ -19,7 +19,7 @@
           "specs": {
             "material": "Painted aluminum and bamboo"
           },
-          "image": "/images/gear/essentials.jpg",
+          "image": "/images/gear/essentials.png",
           "link": "https://www.amazon.com/s?k=KOLO%20Bucket%20and%20Ladle%20Set%20KOLO",
           "rating": 4.5
         },
@@ -35,7 +35,7 @@
           "specs": {
             "material": "Biocomposite"
           },
-          "image": "/images/gear/essentials.jpg",
+          "image": "/images/gear/essentials.png",
           "link": "https://www.amazon.com/s?k=Rento%20Pisara%20Bucket%20and%20Ladle%20Rento",
           "rating": 4.5
         },
@@ -49,7 +49,7 @@
           "whyPeopleLikeIt": "Most accurate digital option, stores months of data, Reddit favorite",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/essentials.jpg",
+          "image": "/images/gear/essentials.png",
           "link": "https://www.amazon.com/s?k=SensorPush%20HT1%20Thermometer%20SensorPush",
           "rating": 4
         },
@@ -63,7 +63,7 @@
           "whyPeopleLikeIt": "Beautiful design, durable, professional-grade accuracy",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/essentials.jpg",
+          "image": "/images/gear/essentials.png",
           "link": "https://www.amazon.com/s?k=Fischer%20German%20Thermometer%20Fischer",
           "rating": 4
         },
@@ -78,7 +78,7 @@
           "specs": {
             "material": "Red cedar/pine with glass"
           },
-          "image": "/images/gear/essentials.jpg",
+          "image": "/images/gear/essentials.png",
           "link": "https://www.amazon.com/s?k=15-Minute%20Cedar%20Sand%20Timer%20Various",
           "rating": 4
         },
@@ -92,7 +92,7 @@
           "whyPeopleLikeIt": "Best steam quality, lasts years, handles thermal shock",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/essentials.jpg",
+          "image": "/images/gear/essentials.png",
           "link": "https://www.amazon.com/s?k=Olivine%20Diabase%20Sauna%20Stones%20HUUM%2FHarvia",
           "rating": 4
         }
@@ -115,7 +115,7 @@
           "specs": {
             "material": "Hand-felted wool"
           },
-          "image": "/images/gear/comfort.jpg",
+          "image": "/images/gear/comfort.png",
           "link": "https://www.amazon.com/s?k=by%20itu%20Sauna%20Hat%20by%20itu",
           "rating": 4.5
         },
@@ -130,7 +130,7 @@
           "specs": {
             "material": "Red cedar or hemlock"
           },
-          "image": "/images/gear/comfort.jpg",
+          "image": "/images/gear/comfort.png",
           "link": "https://www.amazon.com/s?k=S-Shaped%20Cedar%20Backrest%20Various",
           "rating": 4
         },
@@ -145,7 +145,7 @@
           "specs": {
             "material": "Red cedar"
           },
-          "image": "/images/gear/comfort.jpg",
+          "image": "/images/gear/comfort.png",
           "link": "https://www.amazon.com/s?k=Cedar%20Headrest%20Pillow%20Various",
           "rating": 4
         },
@@ -159,7 +159,7 @@
           "whyPeopleLikeIt": "Safe footing, eco-friendly, rolls for storage",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/comfort.jpg",
+          "image": "/images/gear/comfort.png",
           "link": "https://www.amazon.com/s?k=Bamboo%20Floor%20Mat%20SaunaBox",
           "rating": 4
         },
@@ -175,7 +175,7 @@
           "specs": {
             "material": "Turkish cotton"
           },
-          "image": "/images/gear/comfort.jpg",
+          "image": "/images/gear/comfort.png",
           "link": "https://www.amazon.com/s?k=Turkish%20Cotton%20Peshtemal%20Various",
           "rating": 4.5
         },
@@ -190,7 +190,7 @@
           "specs": {
             "material": "Cotton waffle weave"
           },
-          "image": "/images/gear/comfort.jpg",
+          "image": "/images/gear/comfort.png",
           "link": "https://www.amazon.com/s?k=Waffle%20Weave%20Spa%20Robe%20Various",
           "rating": 4
         }
@@ -210,7 +210,7 @@
           "richDescription": "Refreshing aromatherapy oil that clears airways and sinuses",
           "whyPeopleLikeIt": "Most popular sauna oil, stress-relieving, helps with colds, fresh penetrating scent",
           "specs": null,
-          "image": "/images/gear/aromatherapy.jpg",
+          "image": "/images/gear/aromatherapy.png",
           "link": "https://www.amazon.com/s?k=Eucalyptus%20Essential%20Oil%20Stillpoint%2FEdens%20Garden",
           "rating": 4
         },
@@ -224,7 +224,7 @@
           "whyPeopleLikeIt": "Detoxifying, improves circulation, authentic",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/aromatherapy.jpg",
+          "image": "/images/gear/aromatherapy.png",
           "link": "https://www.amazon.com/s?k=Birch%20Essential%20Oil%20Rento%2FHarvia",
           "rating": 4
         },
@@ -237,7 +237,7 @@
           "richDescription": "Calming aromatherapy for relaxation and stress relief",
           "whyPeopleLikeIt": "Soothing properties, helps with sleep, reduces stress, calms headaches",
           "specs": null,
-          "image": "/images/gear/aromatherapy.jpg",
+          "image": "/images/gear/aromatherapy.png",
           "link": "https://www.amazon.com/s?k=Lavender%20Essential%20Oil%20Various",
           "rating": 4
         },
@@ -251,7 +251,7 @@
           "whyPeopleLikeIt": "Stimulates circulation, anti-inflammatory, authentic ritual",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/aromatherapy.jpg",
+          "image": "/images/gear/aromatherapy.png",
           "link": "https://www.amazon.com/s?k=Birch%20Vihta%20Whisk%20Touch%20of%20Finland",
           "rating": 4
         },
@@ -266,7 +266,7 @@
           "specs": {
             "material": "Eucalyptus branches"
           },
-          "image": "/images/gear/aromatherapy.jpg",
+          "image": "/images/gear/aromatherapy.png",
           "link": "https://www.amazon.com/s?k=Eucalyptus%20Vihta%20Whisk%20Various",
           "rating": 4
         }
@@ -287,7 +287,7 @@
           "whyPeopleLikeIt": "Spacious, durable, versatile, reliable performance, stylish design",
           "redditSentiment": "Best overall (Garage Gym Reviews Nov 2025)",
           "specs": null,
-          "image": "/images/gear/cold-therapy.jpg",
+          "image": "/images/gear/products/plunge-cold-tub.png",
           "link": "https://www.amazon.com/s?k=Plunge%20Cold%20Tub%20Plunge",
           "rating": 4.5
         },
@@ -301,7 +301,7 @@
           "whyPeopleLikeIt": "Unique vertical design, space-efficient, no chiller needed",
           "redditSentiment": "Popular budget-friendly option",
           "specs": null,
-          "image": "/images/gear/cold-therapy.jpg",
+          "image": "/images/gear/products/ice-barrel.png",
           "link": "https://www.amazon.com/s?k=Ice%20Barrel%20Ice%20Barrel",
           "rating": 4.5
         },
@@ -315,7 +315,7 @@
           "whyPeopleLikeIt": "Best value, made in USA, quiet operation",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/cold-therapy.jpg",
+          "image": "/images/gear/cold-therapy.png",
           "link": "https://www.amazon.com/s?k=Penguin%20Chillers%20Setup%20Penguin%20Chillers",
           "rating": 4
         },
@@ -329,7 +329,7 @@
           "whyPeopleLikeIt": "Ultra budget-friendly, widely available, just add ice",
           "redditSentiment": "Popular DIY hack on Reddit",
           "specs": null,
-          "image": "/images/gear/cold-therapy.jpg",
+          "image": "/images/gear/cold-therapy.png",
           "link": "https://www.amazon.com/s?k=100-Gallon%20Stock%20Tank%20Tractor%20Supply",
           "rating": 4.5
         },
@@ -343,7 +343,7 @@
           "whyPeopleLikeIt": "Extreme cold capability, ideal for hardcore cold therapy",
           "redditSentiment": "Premium choice for serious users",
           "specs": null,
-          "image": "/images/gear/cold-therapy.jpg",
+          "image": "/images/gear/cold-therapy.png",
           "link": "https://www.amazon.com/s?k=Morozko%20Forge%20Morozko",
           "rating": 4.5
         }
@@ -364,7 +364,7 @@
           "whyPeopleLikeIt": "99.3% accurate resting HR, excellent sleep tracking, sauna-safe",
           "redditSentiment": "Premium choice for 24/7 tracking",
           "specs": null,
-          "image": "/images/gear/tracking.jpg",
+          "image": "/images/gear/products/oura-ring-gen-3.png",
           "link": "https://www.amazon.com/s?k=Oura%20Ring%204%20Oura",
           "rating": 4.5
         },
@@ -378,7 +378,7 @@
           "whyPeopleLikeIt": "99.7% accurate HR, 99% accurate HRV, heat/water-resistant, no removal needed for sauna",
           "redditSentiment": "Top tier for serious biohackers",
           "specs": null,
-          "image": "/images/gear/tracking.jpg",
+          "image": "/images/gear/tracking.png",
           "link": "https://www.amazon.com/s?k=Whoop%204.0%20Whoop",
           "rating": 4.5
         },
@@ -392,7 +392,7 @@
           "whyPeopleLikeIt": "#1 rated sauna app, real-time monitoring",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/tracking.jpg",
+          "image": "/images/gear/tracking.png",
           "link": "https://www.amazon.com/s?k=Sauna%20Tracker%20App%20Apple%20Watch",
           "rating": 4
         },
@@ -406,7 +406,7 @@
           "whyPeopleLikeIt": "Reads HRV, RHR, sleep, respiratory rate, wrist temp, blood O2; includes sauna tags",
           "redditSentiment": "Popular Whoop alternative",
           "specs": null,
-          "image": "/images/gear/tracking.jpg",
+          "image": "/images/gear/tracking.png",
           "link": "https://www.amazon.com/s?k=Athlytic%20App%20Apple%20Watch",
           "rating": 4.5
         }
@@ -427,7 +427,7 @@
           "whyPeopleLikeIt": "Best overall massage gun, powerful 16mm depth, 30 lbs force, deep-tissue relief",
           "redditSentiment": "Top choice for serious recovery",
           "specs": null,
-          "image": "/images/gear/recovery.jpg",
+          "image": "/images/gear/recovery.png",
           "link": "https://www.amazon.com/s?k=Theragun%20Prime%20Therabody",
           "rating": 4.5
         },
@@ -440,7 +440,7 @@
           "richDescription": "Professional-grade percussive therapy with heat and red light",
           "whyPeopleLikeIt": "Combines heat, red light, and percussion, professional-level",
           "specs": null,
-          "image": "/images/gear/recovery.jpg",
+          "image": "/images/gear/products/theragun-pro.jpg",
           "link": "https://www.amazon.com/s?k=Theragun%20Pro%20Plus%20Therabody",
           "rating": 4
         },
@@ -453,7 +453,7 @@
           "richDescription": "Quiet percussion massage gun",
           "whyPeopleLikeIt": "Quieter than Theragun, effective recovery, good battery life",
           "specs": null,
-          "image": "/images/gear/recovery.jpg",
+          "image": "/images/gear/recovery.png",
           "link": "https://www.amazon.com/s?k=Hypervolt%20Hyperice",
           "rating": 4
         },
@@ -467,7 +467,7 @@
           "whyPeopleLikeIt": "Replaces sweat loss, keto-friendly, Huberman-approved",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/recovery.jpg",
+          "image": "/images/gear/recovery.png",
           "link": "https://www.amazon.com/s?k=LMNT%20Electrolytes%20LMNT",
           "rating": 4
         },
@@ -481,7 +481,7 @@
           "whyPeopleLikeIt": "Fastest rehydration, isotonic formula",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/recovery.jpg",
+          "image": "/images/gear/recovery.png",
           "link": "https://www.amazon.com/s?k=Drip%20Drop%20Drip%20Drop",
           "rating": 4
         }
@@ -502,7 +502,7 @@
           "whyPeopleLikeIt": "#1 rated for power output and cost-effectiveness, 68+ mW/cm², 4 wavelengths vs Joovv's 2",
           "redditSentiment": "Best value and performance",
           "specs": null,
-          "image": "/images/gear/red-light.jpg",
+          "image": "/images/gear/products/mito-red-light-mitopro.png",
           "link": "https://www.amazon.com/s?k=MitoPRO%201500%2B%20Mito%20Red%20Light",
           "rating": 4.5
         },
@@ -516,7 +516,7 @@
           "whyPeopleLikeIt": "Best mobile app, recommended by Andrew Huberman, reliable brand",
           "redditSentiment": "Premium brand but expensive with lower irradiance than competitors",
           "specs": null,
-          "image": "/images/gear/red-light.jpg",
+          "image": "/images/gear/red-light.png",
           "link": "https://www.amazon.com/s?k=Joovv%20Solo%20Joovv",
           "rating": 4.5
         },
@@ -530,7 +530,7 @@
           "whyPeopleLikeIt": "1/5 the price of Joovv Mini with nearly identical specs",
           "redditSentiment": "Best budget option",
           "specs": null,
-          "image": "/images/gear/red-light.jpg",
+          "image": "/images/gear/red-light.png",
           "link": "https://www.amazon.com/s?k=Hooga%20HG300%20Hooga",
           "rating": 4.5
         }
@@ -551,7 +551,7 @@
           "whyPeopleLikeIt": "Industry leader, celebrity-favorite, heats in 10 min",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/infrared.jpg",
+          "image": "/images/gear/infrared.png",
           "link": "https://www.amazon.com/s?k=HigherDOSE%20Infrared%20Blanket%20HigherDOSE",
           "rating": 4
         },
@@ -565,7 +565,7 @@
           "whyPeopleLikeIt": "Best value, 30-day trial, travel-friendly",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/infrared.jpg",
+          "image": "/images/gear/infrared.png",
           "link": "https://www.amazon.com/s?k=MiHigh%20Infrared%20Blanket%20MiHigh",
           "rating": 4
         },
@@ -578,7 +578,7 @@
           "richDescription": "Portable collapsible infrared sauna tent",
           "whyPeopleLikeIt": "Same far-infrared tech as Sunlighten cabins, lightweight, collapsible, lower EMF than HigherDOSE",
           "specs": null,
-          "image": "/images/gear/infrared.jpg",
+          "image": "/images/gear/infrared.png",
           "link": "https://www.amazon.com/s?k=Sunlighten%20Solo%20System%20Sunlighten",
           "rating": 4
         }
@@ -600,7 +600,7 @@
           "specs": {
             "material": "Wool"
           },
-          "image": "/images/gear/portable-saunas.jpg",
+          "image": "/images/gear/products/sweattent.png",
           "link": "https://www.amazon.com/s?k=Sweat%20Tent%20SweatTent",
           "rating": 4
         },
@@ -614,7 +614,7 @@
           "whyPeopleLikeIt": "Affordable, collapsible, easy setup",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/portable-saunas.jpg",
+          "image": "/images/gear/portable-saunas.png",
           "link": "https://www.amazon.com/s?k=SereneLife%20Portable%20Sauna%20SereneLife",
           "rating": 4
         },
@@ -628,7 +628,7 @@
           "whyPeopleLikeIt": "Steam sauna experience, folds down, one-person",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/portable-saunas.jpg",
+          "image": "/images/gear/portable-saunas.png",
           "link": "https://www.amazon.com/s?k=SaunaBox%20SmartSteam%20Kit%20SaunaBox",
           "rating": 4
         }
@@ -649,7 +649,7 @@
           "whyPeopleLikeIt": "Excellent heat retention, unique barrel design, modern aesthetic, made in West Virginia since 1977",
           "redditSentiment": "Popular at Costco, quality may have slipped slightly but still good cedar options",
           "specs": null,
-          "image": "/images/gear/barrel-saunas.jpg",
+          "image": "/images/gear/barrel-saunas.png",
           "link": "https://www.amazon.com/s?k=Almost%20Heaven%20Barrel%20Sauna%20Almost%20Heaven",
           "rating": 4.5
         },
@@ -663,7 +663,7 @@
           "whyPeopleLikeIt": "Canadian cedar, sustainably managed forests, rustic aesthetic, 5-year warranty, acrylic bubble window",
           "redditSentiment": "Premium Canadian option, some models criticized for ventilation",
           "specs": null,
-          "image": "/images/gear/barrel-saunas.jpg",
+          "image": "/images/gear/barrel-saunas.png",
           "link": "https://www.amazon.com/s?k=Dundalk%20Leisurecraft%20Dundalk",
           "rating": 4.5
         },
@@ -677,7 +677,7 @@
           "whyPeopleLikeIt": "Affordable entry point, easy assembly",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/barrel-saunas.jpg",
+          "image": "/images/gear/barrel-saunas.png",
           "link": "https://www.amazon.com/s?k=Dynamic%20Santiago%20Infrared%20Dynamic",
           "rating": 4
         }
@@ -698,7 +698,7 @@
           "whyPeopleLikeIt": "60+ years Finnish quality, best steam, works of art",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/heaters.jpg",
+          "image": "/images/gear/heaters.png",
           "link": "https://www.amazon.com/s?k=Harvia%20Legend%20Wood-Burning%20Harvia",
           "rating": 4
         },
@@ -712,7 +712,7 @@
           "whyPeopleLikeIt": "Best water vaporization in independent tests, user-friendly controls, remote control box stays outside hot room",
           "redditSentiment": "Better value than Tylo",
           "specs": null,
-          "image": "/images/gear/heaters.jpg",
+          "image": "/images/gear/products/harvia-cilindro.jpg",
           "link": "https://www.amazon.com/s?k=Harvia%20Electric%20Heater%20Harvia",
           "rating": 4.5
         },
@@ -725,7 +725,7 @@
           "richDescription": "Electric heater with humidity control",
           "whyPeopleLikeIt": "Twin side chambers maximize airflow, minimizes heating time, saves energy, elegant design",
           "specs": null,
-          "image": "/images/gear/heaters.jpg",
+          "image": "/images/gear/heaters.png",
           "link": "https://www.amazon.com/s?k=Tylo%20Pure%20Combi%20Tylo",
           "rating": 4
         }
@@ -747,7 +747,7 @@
           "specs": {
             "details": "IPX7 waterproof"
           },
-          "image": "/images/gear/tech.jpg",
+          "image": "/images/gear/tech.png",
           "link": "https://www.amazon.com/s?k=Ultimate%20Ears%20WONDERBOOM%202%20Ultimate%20Ears",
           "rating": 4
         },
@@ -762,7 +762,7 @@
           "specs": {
             "details": "IPX7 waterproof"
           },
-          "image": "/images/gear/tech.jpg",
+          "image": "/images/gear/tech.png",
           "link": "https://www.amazon.com/s?k=Bose%20SoundLink%20Micro%20Bose",
           "rating": 4
         },
@@ -775,7 +775,7 @@
           "richDescription": "Waterproof, heat-resistant ambient lighting strips",
           "whyPeopleLikeIt": "Fully submersible, high-grade housing, works in wet/hot environments",
           "specs": null,
-          "image": "/images/gear/tech.jpg",
+          "image": "/images/gear/tech.png",
           "link": "https://www.amazon.com/s?k=IP68%20LED%20Strip%20Lights%20Various",
           "rating": 4
         },
@@ -788,7 +788,7 @@
           "richDescription": "Decorative lighting that purportedly improves air quality",
           "whyPeopleLikeIt": "Aesthetic appeal, claimed health benefits, mood lighting",
           "specs": null,
-          "image": "/images/gear/tech.jpg",
+          "image": "/images/gear/tech.png",
           "link": "https://www.amazon.com/s?k=Himalayan%20Salt%20Lamp%20Various",
           "rating": 4
         }
@@ -808,7 +808,7 @@
           "richDescription": "All-natural cleaner with tea tree oil",
           "whyPeopleLikeIt": "Tea tree oil formula, works on traditional/infrared/steam saunas, refreshes and preserves wood",
           "specs": null,
-          "image": "/images/gear/maintenance.jpg",
+          "image": "/images/gear/maintenance.png",
           "link": "https://www.amazon.com/s?k=BioZap%20Sauna%20Cleaner%20RadonSeal",
           "rating": 4
         },
@@ -822,7 +822,7 @@
           "whyPeopleLikeIt": "Extends wood life, prevents staining, skin-safe",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/maintenance.jpg",
+          "image": "/images/gear/maintenance.png",
           "link": "https://www.amazon.com/s?k=Paraffin%20Wood%20Oil%20Treatment%20Saunatec",
           "rating": 4
         },
@@ -836,7 +836,7 @@
           "whyPeopleLikeIt": "90% of premium performance, Amazon favorite",
           "redditSentiment": null,
           "specs": null,
-          "image": "/images/gear/maintenance.jpg",
+          "image": "/images/gear/maintenance.png",
           "link": "https://www.amazon.com/s?k=Rainleaf%20Microfiber%20Towel%20Rainleaf",
           "rating": 4
         }

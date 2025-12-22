@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg-portable-saunas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C19A6B"/>
+      <stop offset="100%" style="stop-color:#B18A5B"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="3" result="noise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" in2="noise" mode="multiply" result="blend"/>
+      <feComposite in="blend" in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg-portable-saunas)"/>
+  <g transform="translate(0, 0)">
+    <path d="M240 280 L240 160 Q240 120 280 120 L320 120 Q360 120 360 160 L360 280" stroke="white" stroke-width="3" fill="none" opacity="0.4"/>
+           <ellipse cx="300" cy="280" rx="80" ry="20" stroke="white" stroke-width="2" fill="none" opacity="0.3"/>
+           <circle cx="300" cy="100" r="15" stroke="white" stroke-width="2" fill="none" opacity="0.3"/>
+  </g>
+  <text x="300" y="340" font-family="Georgia, serif" font-size="18" font-weight="400" fill="white" fill-opacity="0.6" text-anchor="middle" letter-spacing="3">PORTABLE</text>
+</svg>
