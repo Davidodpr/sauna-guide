@@ -51,8 +51,42 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
       ? `/images/gear/products/${product.image}`
       : null
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    description: product.description,
+    image: imageSrc ? `https://sauna-guide.com${imageSrc}` : undefined,
+    brand: {
+      '@type': 'Brand',
+      name: product.brand
+    },
+    offers: {
+      '@type': 'Offer',
+      price: product.price.replace(/[^0-9.]/g, '').split('-')[0], // Handle ranges like "$50-100" by taking the first number
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock'
+    },
+    review: product.rating ? {
+      '@type': 'Review',
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: product.rating,
+        bestRating: '5'
+      },
+      author: {
+        '@type': 'Organization',
+        name: 'Sauna Guide'
+      }
+    } : undefined
+  }
+
   return (
     <div className="min-h-screen bg-sauna-paper flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Navigation />
 
       <main className="max-w-7xl mx-auto px-6 py-32 flex-grow">
