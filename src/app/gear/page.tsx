@@ -46,33 +46,6 @@ export default function GearPage() {
           </div>
         </nav>
 
-        {/* Starter Kits */}
-        <section className="mb-20">
-          <h2 className="font-display text-2xl font-medium text-sauna-ink mb-8">
-            Quick Start Kits
-          </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <KitCard
-              name={gadgetsData.starterKits.budget.name}
-              total={gadgetsData.starterKits.budget.total}
-              items={gadgetsData.starterKits.budget.items}
-              tier="Essential"
-            />
-            <KitCard
-              name={gadgetsData.starterKits.enthusiast.name}
-              total={gadgetsData.starterKits.enthusiast.total}
-              items={gadgetsData.starterKits.enthusiast.items}
-              tier="Enthusiast"
-            />
-            <KitCard
-              name={gadgetsData.starterKits.biohacker.name}
-              total={gadgetsData.starterKits.biohacker.total}
-              items={gadgetsData.starterKits.biohacker.items}
-              tier="Premium"
-            />
-          </div>
-        </section>
-
         {/* Categories */}
         {gadgetsData.categories.map((category) => (
           <section
@@ -113,40 +86,6 @@ export default function GearPage() {
   )
 }
 
-function KitCard({
-  name,
-  total,
-  items,
-  tier,
-}: {
-  name: string
-  total: string
-  items: string[]
-  tier: string
-}) {
-  return (
-    <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 p-6
-                    hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300">
-      <div className="flex items-center gap-2 text-xs font-medium text-sauna-oak uppercase tracking-wider mb-3">
-        <span>{tier}</span>
-        <span>•</span>
-        <span>{total}</span>
-      </div>
-      <h3 className="text-lg font-medium text-sauna-ink mb-4">{name}</h3>
-      <ul className="space-y-2">
-        {items.map((item, i) => (
-          <li key={i} className="text-sm text-sauna-slate flex items-start gap-2">
-            <svg className="w-4 h-4 text-sauna-oak mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
-            {item}
-          </li>
-        ))}
-      </ul>
-    </div>
-  )
-}
-
 function ProductCard({
   name,
   brand,
@@ -174,22 +113,23 @@ function ProductCard({
     <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 overflow-hidden
                     hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
       {/* Image Area */}
-      <div className="aspect-video bg-sauna-linen relative overflow-hidden">
+      <div className="aspect-[4/3] bg-gradient-to-br from-sauna-linen to-sauna-ash/20 relative overflow-hidden">
         {image ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img 
-            src={image} 
+          <img
+            src={image}
             alt={name}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-sauna-stone/20">
-            <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
+          <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center">
+            <div className="w-16 h-16 rounded-full bg-sauna-oak/10 flex items-center justify-center mb-3">
+              <span className="text-2xl font-display text-sauna-oak/60">{brand.charAt(0)}</span>
+            </div>
+            <span className="text-sm text-sauna-stone/60 font-medium line-clamp-2">{name}</span>
           </div>
         )}
-        <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-medium text-sauna-ink shadow-sm">
+        <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-lg text-xs font-semibold text-sauna-ink shadow-sm">
           {price}
         </div>
       </div>
