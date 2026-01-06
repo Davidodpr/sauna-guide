@@ -51,7 +51,7 @@ export default function ChallengePage() {
             </p>
 
             <div className="bg-sauna-charcoal/40 backdrop-blur-md p-1 rounded-xl border border-sauna-paper/10 inline-block w-full max-w-md">
-                <NewsletterSignup variant="minimal" className="w-full" />
+                <NewsletterSignup variant="minimal" className="w-full" source="challenge" />
                 <p className="text-xs text-center text-sauna-paper/40 mt-3 pb-2">
                     Free guided protocol. Sent to your inbox.
                 </p>

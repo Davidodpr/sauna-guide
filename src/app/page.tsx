@@ -30,18 +30,29 @@ export default function HomePage() {
           <div className="bg-sauna-charcoal/40 backdrop-blur-sm rounded-2xl p-8 md:p-12">
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-sauna-paper mb-6
                           leading-[1.1] tracking-tight animate-fade-up drop-shadow-lg">
-              Close the door.<br />
-              <span className="text-sauna-sand">Let everything go.</span>
+              Restore your<br />
+              <span className="text-sauna-sand">baseline.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-sauna-paper/90 mb-10 animate-fade-up max-w-2xl mx-auto leading-relaxed"
                style={{ animationDelay: '0.1s' }}>
-              Every Thursday: why heat heals, where to find it,<br />
-              and five minutes of stillness.
+              Modern life is stressful. Heat is the antidote. <br className="hidden md:block" />
+              Join the guided 4-week protocol to build resilience.
             </p>
 
-            <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
-              <NewsletterSignup />
+            <div className="animate-fade-up flex flex-col sm:flex-row gap-4 justify-center" style={{ animationDelay: '0.2s' }}>
+              <Link 
+                href="/challenge" 
+                className="px-8 py-4 bg-sauna-sand text-sauna-charcoal font-medium text-lg rounded-xl hover:bg-white transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200"
+              >
+                Start the 30-Day Reset
+              </Link>
+              <Link 
+                href="#newsletter" 
+                className="px-8 py-4 bg-sauna-paper/10 backdrop-blur-sm border border-sauna-paper/20 text-sauna-paper font-medium text-lg rounded-xl hover:bg-sauna-paper/20 transition-colors"
+              >
+                Read the Newsletter
+              </Link>
             </div>
           </div>
         </div>

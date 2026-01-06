@@ -3,7 +3,7 @@ import { subscribeToNewsletter } from '@/lib/beehiiv'
 
 export async function POST(request: NextRequest) {
   try {
-    const { email } = await request.json()
+    const { email, source } = await request.json()
 
     if (!email || !email.includes('@')) {
       return NextResponse.json(
@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
 
     const result = await subscribeToNewsletter({
       email,
-      utm_source: 'website',
+      utm_source: source || 'website',
       utm_medium: 'homepage',
     })
 

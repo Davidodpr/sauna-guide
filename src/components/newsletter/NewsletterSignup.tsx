@@ -7,12 +7,19 @@ interface NewsletterSignupProps {
   variant?: 'hero' | 'inline' | 'minimal'
   className?: string
   redirectOnSuccess?: boolean
+  source?: string
 }
 
-export function NewsletterSignup({ variant = 'hero', className = '', redirectOnSuccess = true }: NewsletterSignupProps) {
+export function NewsletterSignup({
+  variant = 'hero',
+  className = '',
+  redirectOnSuccess = true,
+  source = 'newsletter'
+}: NewsletterSignupProps) {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [message, setMessage] = useState('')
+  const [showInvite, setShowInvite] = useState(false)
   const router = useRouter()
 
   async function handleSubmit(e: React.FormEvent) {
@@ -23,7 +30,7 @@ export function NewsletterSignup({ variant = 'hero', className = '', redirectOnS
       const response = await fetch('/api/newsletter/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, source }),
       })
 
       const data = await response.json()
@@ -31,6 +38,13 @@ export function NewsletterSignup({ variant = 'hero', className = '', redirectOnS
       if (response.ok) {
         setStatus('success')
         setEmail('')
+
+        if (source === 'challenge') {
+            setShowInvite(true)
+            setMessage('') // Clear any previous messages
+            return
+        }
+
         if (redirectOnSuccess) {
           router.push('/welcome')
         } else {
@@ -44,6 +58,48 @@ export function NewsletterSignup({ variant = 'hero', className = '', redirectOnS
       setStatus('error')
       setMessage('Network error. Please try again.')
     }
+  }
+
+  // Invite View - Overrides form when active
+  if (showInvite) {
+    return (
+        <div className={`bg-sauna-paper p-8 rounded-xl border border-sauna-ash shadow-lg text-center max-w-md mx-auto ${className}`}>
+            <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+            </div>
+            <h3 className="text-2xl font-display font-medium text-sauna-ink mb-3">You're on the list.</h3>
+            <p className="text-sauna-slate mb-8 text-lg leading-relaxed">
+                Research shows you are <strong>80% more likely</strong> to finish the protocol if you do it with a friend.
+            </p>
+            
+            <button 
+              onClick={() => {
+                  const url = typeof window !== 'undefined' ? window.location.href : 'https://saunaguide.se/challenge';
+                  navigator.clipboard.writeText(`Join me for the 30-Day Sauna Reset: ${url}`);
+                  setMessage("Link copied to clipboard!");
+                  // Optional: Redirect after a delay or just let them stay
+                  // setTimeout(() => router.push('/welcome'), 3000); 
+              }}
+              className="w-full py-4 bg-sauna-ink text-sauna-paper font-medium rounded-xl hover:bg-sauna-charcoal transition-colors mb-4 flex items-center justify-center gap-3 shadow-md hover:shadow-lg"
+            >
+               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012 2v-8a2 2 0 01-2-2h-8a2 2 0 012 2v8a2 2 0 012 2z" />
+               </svg>
+               Copy Invite Link
+            </button>
+            
+            {message && <p className="text-green-600 font-medium mb-4 animate-pulse">{message}</p>}
+
+            <button 
+              onClick={() => router.push('/welcome')}
+              className="text-sauna-slate/60 hover:text-sauna-ink transition-colors text-sm font-medium"
+            >
+                I'll do it alone →
+            </button>
+        </div>
+    )
   }
 
   if (variant === 'minimal') {
